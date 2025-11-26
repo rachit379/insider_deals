@@ -273,6 +273,22 @@ def parse_form4_xml_transactions(xml_text: str) -> List[Dict[str, Any]]:
 
 
 def collect_form4_transactions(days_back: int, max_filings: int) -> List[Dict[str, Any]]:
+    """
+    Collect recent Form 4 insider transactions.
+
+    - Uses the EDGAR daily master index for the last `days_back` days
+    - Filters for Form 4 / 4/A
+    - For each filing, finds the ownership XML in the accession folder via index.json
+    - Parses non-derivative (Table I) transactions into a flat list of rows
+
+    Depends on:
+      - iter_daily_indexes
+      - parse_idx_for_forms
+      - find_ownership_xml_url(file_name: str)
+      - parse_form4_xml_transactions
+      - SEC_HEADERS, REQUEST_DELAY_SEC
+    """
+    # 1) Get all Form 4 filings from the last N days
     idx_days = iter_daily_indexes(days_back)
 
     def is_form4(ft: str) -> bool:
@@ -282,84 +298,53 @@ def collect_form4_transactions(days_back: int, max_filings: int) -> List[Dict[st
     for d in idx_days:
         filings.extend(parse_idx_for_forms(d["text"], is_form4))
 
+    # Sort by filed_date (string YYYYMMDD) descending and limit
     filings = sorted(filings, key=lambda x: x["filed_date"], reverse=True)[:max_filings]
 
+    # 2) For each filing, fetch & parse the ownership XML
     all_txs: List[Dict[str, Any]] = []
+
     for f in filings:
-    filing_url = f["filing_url"]
-    file_name = f["file_name"]  # from master.idx
+        filing_url = f["filing_url"]   # for the link in UI
+        file_name = f["file_name"]     # edgar/data/CIK/ACC.txt (from master.idx)
 
-    try:
-        xml_url = find_ownership_xml_url(file_name)
-        if not xml_url:
-            print("No ownership XML for", filing_url)
-            continue
+        try:
+            # Find XML in accession folder via index.json
+            xml_url = find_ownership_xml_url(file_name)
+            if not xml_url:
+                print("No ownership XML for", filing_url)
+                continue
 
-        resp = requests.get(xml_url, headers=SEC_HEADERS, timeout=30)
-        time.sleep(REQUEST_DELAY_SEC)
-        if resp.status_code != 200:
-            print("XML fetch failed", xml_url, resp.status_code)
-            continue
+            resp = requests.get(xml_url, headers=SEC_HEADERS, timeout=30)
+            time.sleep(REQUEST_DELAY_SEC)
+            if resp.status_code != 200:
+                print("XML fetch failed", xml_url, resp.status_code)
+                continue
 
-        txs = parse_form4_xml_transactions(resp.text)
-        for tx in txs:
-            tx["filing_url"] = filing_url
-            tx["filed_date"] = f["filed_date"]
-        all_txs.extend(txs)
+            txs = parse_form4_xml_transactions(resp.text)
+            if not txs:
+                # Useful debug if you want to see filings with only derivative/etc.
+                # print("No non-derivative transactions in", filing_url)
+                pass
 
-    except Exception as e:
-        print("Error parsing Form 4:", filing_url, e)
+            # Attach filing metadata to each transaction row
+            for tx in txs:
+                tx["filing_url"] = filing_url
+                tx["filed_date"] = f["filed_date"]
 
+            all_txs.extend(txs)
+
+        except Exception as e:
+            print("Error parsing Form 4:", filing_url, e)
+
+    # 3) Sort transactions by transaction_date then filed_date (both strings)
     all_txs = sorted(
         all_txs,
         key=lambda x: (x.get("transaction_date") or "", x.get("filed_date") or ""),
         reverse=True,
     )
+
     return all_txs
-
-
-def parse_13d_13g_header(raw_text: str) -> Dict[str, Any]:
-    header_block = _extract_sec_header_block(raw_text)
-    if header_block is None:
-        return {}
-    lines = header_block.splitlines()
-    section = None
-    subj: Dict[str, Any] = {}
-    filer: Dict[str, Any] = {}
-    common: Dict[str, Any] = {}
-    for raw_line in lines:
-        line = raw_line.rstrip("\n")
-        s = line.strip()
-        if s.startswith("SUBJECT COMPANY"):
-            section = "subject"
-            continue
-        if s.startswith("FILED BY"):
-            section = "filer"
-            continue
-        kv = _parse_key_value_line(line)
-        if not kv:
-            continue
-        key, value = kv
-        if key in {"FILED AS OF DATE", "CONFORMED PERIOD OF REPORT"}:
-            common[key] = value
-        if section == "subject":
-            if key == "COMPANY CONFORMED NAME":
-                subj["subject_company_name"] = value
-            elif key == "CENTRAL INDEX KEY":
-                subj["subject_company_cik"] = value
-        elif section == "filer":
-            if key == "COMPANY CONFORMED NAME":
-                filer["filer_name"] = value
-            elif key == "CENTRAL INDEX KEY":
-                filer["filer_cik"] = value
-    out: Dict[str, Any] = {}
-    out.update(subj)
-    out.update(filer)
-    if "FILED AS OF DATE" in common:
-        out["filed_as_of_date"] = common["FILED AS OF DATE"]
-    if "CONFORMED PERIOD OF REPORT" in common:
-        out["period_of_report"] = common["CONFORMED PERIOD OF REPORT"]
-    return out
 
 
 def collect_schedule_13d_13g(days_back: int, max_filings: int) -> List[Dict[str, Any]]:
