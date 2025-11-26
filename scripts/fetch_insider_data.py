@@ -1,414 +1,400 @@
+import os
 import json
 import re
 import time
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
-from urllib.parse import urljoin
 
 import requests
+from xml.etree import ElementTree as ET
 
-# ---------- CONFIG ----------
+# ----------------- config -----------------
 
-SEC_HEADERS = {
-    # TODO: change to your name + email before running
-    "User-Agent": "Rachit Aggarwal rachit@example.com",
-}
+# Be polite to SEC (2 req/sec)
+REQUEST_DELAY_SEC = 0.5
 
-BASE_DAILY_INDEX_URL = (
-    "https://www.sec.gov/Archives/edgar/daily-index/{year}/QTR{q}/master.{ymd}.idx"
-)
+# Form 4 lookback
+FORM4_DAYS_BACK = 3        # last 3 calendar days
+FORM4_MAX_FILINGS = 400    # safety cap
 
-FORM4_DAYS_BACK = 3
-FORM4_MAX_FILINGS = 150
-
-SCHED13_DAYS_BACK = 7
+# Schedule 13D/13G lookback
+SCHED13_DAYS_BACK = 30     # last 30 days to ensure some data
 SCHED13_MAX_FILINGS = 200
 
-REQUEST_DELAY_SEC = 0.2
+# IMPORTANT: put your real email here
+SEC_HEADERS = {
+    "User-Agent": "Rachit Aggarwal (insider_deals; contact: rachitagg406@gmail.com)",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+}
 
 
-def quarter_of_month(m: int) -> int:
+# ----------------- daily index helpers -----------------
+
+def quarter_for_month(m: int) -> int:
     return (m - 1) // 3 + 1
 
 
-def fetch_master_idx(day: date) -> Optional[str]:
-    q = quarter_of_month(day.month)
-    url = BASE_DAILY_INDEX_URL.format(year=day.year, q=q, ymd=day.strftime("%Y%m%d"))
-    resp = requests.get(url, headers=SEC_HEADERS, timeout=30)
-    time.sleep(REQUEST_DELAY_SEC)
-    if resp.status_code == 200:
-        return resp.text
-    return None
+def fetch_daily_index(d: date) -> Optional[str]:
+    """
+    Fetch master.YYYYMMDD.idx for given date.
+    Returns text, or None if index not found (e.g. weekend/holiday/403).
+    """
+    year = d.year
+    q = quarter_for_month(d.month)
+    yyyymmdd = d.strftime("%Y%m%d")
+    url = f"https://www.sec.gov/Archives/edgar/daily-index/{year}/QTR{q}/master.{yyyymmdd}.idx"
+
+    try:
+        resp = requests.get(url, headers=SEC_HEADERS, timeout=30)
+        time.sleep(REQUEST_DELAY_SEC)
+    except Exception as e:
+        print(f"Error fetching index for {d}: {e}")
+        return None
+
+    if resp.status_code != 200:
+        print(f"No index for {d} (HTTP {resp.status_code})")
+        return None
+
+    return resp.text
 
 
-def iter_daily_indexes(days_back: int) -> List[Dict[str, Any]]:
+def iter_daily_indexes(days_back: int):
+    """
+    Yield {"date": date, "text": index_text} for the last `days_back` days
+    where an index exists.
+    """
     today = date.today()
-    out: List[Dict[str, Any]] = []
-    for offset in range(days_back):
-        d = today - timedelta(days=offset)
-        txt = fetch_master_idx(d)
-        if not txt:
-            continue
-        out.append({"date": d, "text": txt})
-    return out
+    for i in range(days_back):
+        d = today - timedelta(days=i)
+        text = fetch_daily_index(d)
+        if text:
+            yield {"date": d, "text": text}
 
 
-def parse_idx_for_forms(idx_text: str, form_predicate) -> List[Dict[str, Any]]:
-    lines = idx_text.splitlines()
-    start = None
+def parse_idx_for_forms(text: str, predicate) -> List[Dict[str, Any]]:
+    """
+    Parse a master.idx text and return filings where predicate(form_type) is True.
+    """
+    lines = text.splitlines()
+    start_idx = None
+
     for i, line in enumerate(lines):
-        if line.startswith("-----"):
-            start = i + 1
+        if line.startswith("CIK|Company Name|Form Type|Date Filed|File Name"):
+            start_idx = i + 1
             break
-    if start is None:
+
+    if start_idx is None:
         return []
 
-    entries: List[Dict[str, Any]] = []
-    for line in lines[start:]:
+    filings: List[Dict[str, Any]] = []
+
+    for line in lines[start_idx:]:
         if not line.strip():
             continue
         parts = line.split("|")
-        if len(parts) != 5:
+        if len(parts) < 5:
             continue
-        cik, name, form_type, filed_date, file_name = parts
-        form_type = form_type.strip()
-        if not form_predicate(form_type):
+
+        cik, company, form, date_filed, file_name = parts[:5]
+        form = form.strip()
+        if not predicate(form):
             continue
-        entries.append(
+
+        fd_raw = date_filed.strip()
+        if len(fd_raw) == 8 and fd_raw.isdigit():
+            filed_date = f"{fd_raw[0:4]}-{fd_raw[4:6]}-{fd_raw[6:8]}"
+        else:
+            filed_date = fd_raw
+
+        file_name = file_name.strip().lstrip("/")
+        filing_url = f"https://www.sec.gov/Archives/{file_name}"
+
+        filings.append(
             {
                 "cik": cik.strip(),
-                "company_name": name.strip(),
-                "form_type": form_type,
-                "filed_date": filed_date.strip(),
-                "file_name": file_name.strip(),
-                "filing_url": f"https://www.sec.gov/Archives/{file_name.strip()}",
+                "company_name": company.strip(),
+                "form_type": form,
+                "filed_date": filed_date,
+                "raw_filed_date": fd_raw,
+                "file_name": file_name,
+                "filing_url": filing_url,
             }
         )
-    return entries
+
+    return filings
 
 
-def _extract_sec_header_block(text: str) -> Optional[str]:
+# ----------------- Form 4 XML helpers -----------------
+
+def extract_ownership_xml_from_txt(text: str) -> Optional[str]:
+    """
+    Extract the <ownershipDocument>...</ownershipDocument> XML block
+    from inside a .txt Form 4 filing.
+
+    Many Form 4 .txt filings embed the XML like:
+      <XML>
+        <?xml version="1.0"?>
+        <ownershipDocument>...</ownershipDocument>
+      </XML>
+    """
     m = re.search(
-        r"<SEC-HEADER>(.*?)(</SEC-HEADER>|<DOCUMENT>)",
+        r"<ownershipDocument[\s\S]*?</ownershipDocument>",
         text,
-        flags=re.DOTALL | re.IGNORECASE,
+        flags=re.IGNORECASE,
     )
-    if m:
-        return m.group(1).strip()
-    m = re.search(r"<SEC-HEADER>(.*)$", text, flags=re.DOTALL | re.IGNORECASE)
-    if m:
-        return m.group(1).strip()
-    return None
-
-
-def _parse_key_value_line(line: str) -> Optional[tuple]:
-    if ":" not in line:
+    if not m:
         return None
-    k, v = line.split(":", 1)
-    k = k.strip()
-    v = v.strip()
-    if not k:
+
+    xml_body = m.group(0)
+
+    # Look for XML declaration immediately before the ownershipDocument
+    prefix = text[: m.start()]
+    decl = re.search(r"<\?xml[^>]*\?>", prefix)
+    if decl:
+        return decl.group(0) + "\n" + xml_body
+
+    # Otherwise, add a basic declaration
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + xml_body
+
+
+def _text_or_none(parent: Optional[ET.Element], path: str) -> Optional[str]:
+    if parent is None:
         return None
-    return k, v
+    el = parent.find(path)
+    if el is None or el.text is None:
+        return None
+    return el.text.strip()
 
 
-def safe_float(x: Optional[str]) -> Optional[float]:
-    if x is None:
+def _to_float(s: Optional[str]) -> Optional[float]:
+    if s is None:
+        return None
+    s = s.replace(",", "").strip()
+    if not s:
         return None
     try:
-        return float(x.replace(",", ""))
-    except Exception:
+        return float(s)
+    except ValueError:
         return None
-
-
-def safe_int_from_float(x: Optional[str]) -> Optional[int]:
-    f = safe_float(x)
-    if f is None:
-        return None
-    return int(round(f))
-
-
-def get_accession_base_url(file_name: str) -> str:
-    """
-    Build the accession folder URL from the master.idx file_name, e.g.:
-
-    edgar/data/1009759/0001009759-25-000062.txt
-    edgar/data/1009759/0001009759-25-000062/0001009759-25-000062.txt
-    """
-    path = file_name
-
-    # strip .txt if present
-    if path.endswith(".txt"):
-        path = path[:-4]
-
-    parts = path.split("/")
-    # If path ends with ACCESSION/ACCESSION, drop the last segment
-    #   edgar/data/CIK/ACC/ACC  -> edgar/data/CIK/ACC
-    if len(parts) >= 2 and parts[-1] == parts[-2]:
-        parts = parts[:-1]
-
-    accession_dir = "/".join(parts)
-    return "https://www.sec.gov/Archives/" + accession_dir + "/"
-
-
-def find_ownership_xml_url(filing_url: str) -> Optional[str]:
-    base = get_accession_base_url(filing_url)
-    index_url = urljoin(base, "index.json")
-    resp = requests.get(index_url, headers=SEC_HEADERS, timeout=30)
-    time.sleep(REQUEST_DELAY_SEC)
-    if resp.status_code != 200:
-        return None
-    data = resp.json()
-    items = data.get("directory", {}).get("item", [])
-    xml_candidates = [it["name"] for it in items if it["name"].lower().endswith(".xml")]
-    if not xml_candidates:
-        return None
-    preferred = [n for n in xml_candidates if "doc4" in n.lower() or "ownership" in n.lower()]
-    name = (preferred or xml_candidates)[0]
-    return urljoin(base, name)
 
 
 def parse_form4_xml_transactions(xml_text: str) -> List[Dict[str, Any]]:
-    import xml.etree.ElementTree as ET
-
+    """
+    Parse a Form 4 ownershipDocument XML into a list of flat transaction rows.
+    Only Table I (non-derivative) is handled here.
+    """
     root = ET.fromstring(xml_text)
 
-    def get(node, path, default=None):
-        if node is None:
-            return default
-        el = node.find(path)
-        return el.text.strip() if el is not None and el.text is not None else default
+    issuer = root.find("issuer")
+    issuer_name = _text_or_none(issuer, "issuerName")
+    issuer_cik = _text_or_none(issuer, "issuerCik")
+    issuer_trading_symbol = _text_or_none(issuer, "issuerTradingSymbol")
 
-    issuer_node = root.find("issuer")
-    issuer_cik = get(issuer_node, "issuerCik")
-    issuer_name = get(issuer_node, "issuerName")
-    issuer_symbol = get(issuer_node, "issuerTradingSymbol")
+    reporting_owners = root.findall("reportingOwner")
+    if not reporting_owners:
+        return []
 
-    owners = []
-    for ro in root.findall("reportingOwner"):
-        name = get(ro, "reportingOwnerId/rptOwnerName")
-        cik = get(ro, "reportingOwnerId/rptOwnerCik")
-        rel_node = ro.find("reportingOwnerRelationship")
+    # Use first reporting owner
+    ro = reporting_owners[0]
+    ro_id = ro.find("reportingOwnerId")
+    ro_rel = ro.find("reportingOwnerRelationship")
 
-        def norm_bool(val: Optional[str]) -> bool:
-            if not val:
-                return False
-            return val.strip().upper() in {"1", "Y", "YES", "TRUE"}
+    owner_name = _text_or_none(ro_id, "rptOwnerName")
+    owner_cik = _text_or_none(ro_id, "rptOwnerCik")
+    is_director = _text_or_none(ro_rel, "isDirector") in ("1", "true", "True")
+    is_officer = _text_or_none(ro_rel, "isOfficer") in ("1", "true", "True")
+    is_ten_percent = _text_or_none(ro_rel, "isTenPercentOwner") in ("1", "true", "True")
+    officer_title = _text_or_none(ro_rel, "officerTitle")
 
-        is_dir = norm_bool(get(rel_node, "isDirector"))
-        is_off = norm_bool(get(rel_node, "isOfficer"))
-        is_10p = norm_bool(get(rel_node, "isTenPercentOwner"))
-        is_other = norm_bool(get(rel_node, "isOther"))
-        officer_title = get(rel_node, "officerTitle")
+    non_deriv_table = root.find("nonDerivativeTable")
+    if non_deriv_table is None:
+        return []
 
-        rel_parts = []
-        if is_off:
-            rel_parts.append("Officer")
-        if is_dir:
-            rel_parts.append("Director")
-        if is_10p:
-            rel_parts.append("10% Owner")
-        if is_other and not rel_parts:
-            rel_parts.append("Other")
-        relation = ", ".join(rel_parts) if rel_parts else "Other"
+    rows: List[Dict[str, Any]] = []
 
-        owners.append(
+    for txn in non_deriv_table.findall("nonDerivativeTransaction"):
+        security_title = _text_or_none(txn, "securityTitle/value")
+        transaction_date = _text_or_none(txn, "transactionDate/value")
+        transaction_code = _text_or_none(txn.find("transactionCoding"), "transactionCode")
+
+        amounts = txn.find("transactionAmounts")
+        txn_shares = _to_float(_text_or_none(amounts, "transactionShares/value"))
+        txn_price = _to_float(_text_or_none(amounts, "transactionPricePerShare/value"))
+
+        post_amounts = txn.find("postTransactionAmounts")
+        shares_after = _to_float(
+            _text_or_none(post_amounts, "sharesOwnedFollowingTransaction/value")
+        )
+
+        ownership_nature = txn.find("ownershipNature")
+        direct_or_indirect = _text_or_none(ownership_nature, "directOrIndirectOwnership")
+
+        rows.append(
             {
-                "insider_name": name,
-                "insider_cik": cik,
-                "relation": relation,
-                "officer_title": officer_title,
+                "issuer_cik": issuer_cik,
+                "issuer_name": issuer_name,
+                "issuer_trading_symbol": issuer_trading_symbol,
+                "owner_cik": owner_cik,
+                "owner_name": owner_name,
+                "owner_is_director": is_director,
+                "owner_is_officer": is_officer,
+                "owner_is_ten_percent": is_ten_percent,
+                "owner_officer_title": officer_title,
+                "security_title": security_title,
+                "transaction_date": transaction_date,
+                "transaction_code": transaction_code,
+                "transaction_shares": txn_shares,
+                "transaction_price": txn_price,
+                "shares_owned_after": shares_after,
+                "direct_or_indirect_ownership": direct_or_indirect,
             }
         )
 
-    txs: List[Dict[str, Any]] = []
+    return rows
 
-    for tx in root.findall("nonDerivativeTable/nonDerivativeTransaction"):
-        tx_date = get(tx, "transactionDate/value")
-        tx_code = get(tx, "transactionCoding/transactionCode")
-        tx_desc = get(tx, "transactionCoding/transactionDescription")
-        tx_shares = get(tx, "transactionAmounts/transactionShares/value")
-        tx_price = get(tx, "transactionAmounts/transactionPricePerShare/value")
-        tx_shares_after = get(
-            tx, "postTransactionAmounts/sharesOwnedFollowingTransaction/value"
-        )
-        ownership = get(tx, "ownershipNature/directOrIndirectOwnership/value")
-        timeliness = get(tx, "transactionTimeliness/value")
 
-        is_buy = tx_code == "P"
-        is_sale = tx_code == "S"
+# ----------------- Form 4 collector -----------------
 
-        if not tx_desc:
-            if is_buy:
-                tx_desc = "Purchase (Open Market)"
-            elif is_sale:
-                tx_desc = "Sale"
-            else:
-                tx_desc = f"Code {tx_code or '?'}"
+def collect_recent_form4_filings(days_back: int, max_filings: int) -> List[Dict[str, Any]]:
+    """
+    Use daily master index for the last N days and return a list of Form 4 filings.
+    """
+    filings: List[Dict[str, Any]] = []
 
-        base = {
-            "issuer_name": issuer_name,
-            "issuer_symbol": issuer_symbol,
-            "issuer_cik": issuer_cik,
-            "transaction_date": tx_date,
-            "transaction_code": tx_code,
-            "transaction_description": tx_desc,
-            "shares_traded": safe_int_from_float(tx_shares),
-            "price": safe_float(tx_price),
-            "shares_held_after": safe_int_from_float(tx_shares_after),
-            "owner_type": ownership,
-            "timeliness": timeliness,
-            "is_buy": is_buy,
-            "is_sale": is_sale,
-        }
+    def is_form4(ft: str) -> bool:
+        ft = ft.upper()
+        return ft in ("4", "4/A")
 
-        if not owners:
-            txs.append({**base, "insider_name": None, "insider_cik": None,
-                        "relation": None, "officer_title": None})
-        else:
-            for o in owners:
-                txs.append({**base, **o})
+    for d in iter_daily_indexes(days_back):
+        day_filings = parse_idx_for_forms(d["text"], is_form4)
+        filings.extend(day_filings)
 
-    return txs
+    filings.sort(key=lambda f: (f["raw_filed_date"], f["file_name"]), reverse=True)
+    return filings[:max_filings]
 
 
 def collect_form4_transactions(days_back: int, max_filings: int) -> List[Dict[str, Any]]:
     """
-    Collect recent Form 4 insider transactions.
-
-    - Uses the EDGAR daily master index for the last `days_back` days
-    - Filters for Form 4 / 4/A
-    - For each filing, finds the ownership XML in the accession folder via index.json
-    - Parses non-derivative (Table I) transactions into a flat list of rows
-
-    Depends on:
-      - iter_daily_indexes
-      - parse_idx_for_forms
-      - find_ownership_xml_url(file_name: str)
-      - parse_form4_xml_transactions
-      - SEC_HEADERS, REQUEST_DELAY_SEC
+    Fetch recent Form 4s and flatten into transaction rows.
     """
-    # 1) Get all Form 4 filings from the last N days
-    idx_days = iter_daily_indexes(days_back)
+    filings = collect_recent_form4_filings(days_back, max_filings)
+    print(f"Found {len(filings)} Form 4 filings in the last {days_back} days.")
 
-    def is_form4(ft: str) -> bool:
-        return ft in ("4", "4/A")
+    all_rows: List[Dict[str, Any]] = []
 
-    filings: List[Dict[str, Any]] = []
-    for d in idx_days:
-        filings.extend(parse_idx_for_forms(d["text"], is_form4))
-
-    # Sort by filed_date (string YYYYMMDD) descending and limit
-    filings = sorted(filings, key=lambda x: x["filed_date"], reverse=True)[:max_filings]
-
-    # 2) For each filing, fetch & parse the ownership XML
-    all_txs: List[Dict[str, Any]] = []
-
-    for f in filings:
-        filing_url = f["filing_url"]   # for the link in UI
-        file_name = f["file_name"]     # edgar/data/CIK/ACC.txt (from master.idx)
-
-        try:
-            # Find XML in accession folder via index.json
-            xml_url = find_ownership_xml_url(file_name)
-            if not xml_url:
-                print("No ownership XML for", filing_url)
-                continue
-
-            resp = requests.get(xml_url, headers=SEC_HEADERS, timeout=30)
-            time.sleep(REQUEST_DELAY_SEC)
-            if resp.status_code != 200:
-                print("XML fetch failed", xml_url, resp.status_code)
-                continue
-
-            txs = parse_form4_xml_transactions(resp.text)
-            if not txs:
-                # Useful debug if you want to see filings with only derivative/etc.
-                # print("No non-derivative transactions in", filing_url)
-                pass
-
-            # Attach filing metadata to each transaction row
-            for tx in txs:
-                tx["filing_url"] = filing_url
-                tx["filed_date"] = f["filed_date"]
-
-            all_txs.extend(txs)
-
-        except Exception as e:
-            print("Error parsing Form 4:", filing_url, e)
-
-    # 3) Sort transactions by transaction_date then filed_date (both strings)
-    all_txs = sorted(
-        all_txs,
-        key=lambda x: (x.get("transaction_date") or "", x.get("filed_date") or ""),
-        reverse=True,
-    )
-
-    return all_txs
-
-
-def collect_schedule_13d_13g(days_back: int, max_filings: int) -> List[Dict[str, Any]]:
-    idx_days = iter_daily_indexes(days_back)
-
-    def is_sched13(ft: str) -> bool:
-        ft = ft.upper()
-        return ft.startswith("SC 13D") or ft.startswith("SC 13G")
-
-    filings: List[Dict[str, Any]] = []
-    for d in idx_days:
-        filings.extend(parse_idx_for_forms(d["text"], is_sched13))
-
-    filings = sorted(filings, key=lambda x: x["filed_date"], reverse=True)[:max_filings]
-
-    results: List[Dict[str, Any]] = []
     for f in filings:
         filing_url = f["filing_url"]
+        filed_date = f["filed_date"]
+        form_type = f["form_type"]
+
         try:
             resp = requests.get(filing_url, headers=SEC_HEADERS, timeout=30)
             time.sleep(REQUEST_DELAY_SEC)
-            if resp.status_code != 200:
-                print("13D/G fetch failed", filing_url, resp.status_code)
-                continue
-            header = parse_13d_13g_header(resp.text)
-            row = {
-                "form_type": f["form_type"],
-                "filing_url": filing_url,
-                "filed_date": f["filed_date"],
-                "issuer_name": header.get("subject_company_name") or f["company_name"],
-                "issuer_cik": header.get("subject_company_cik") or f["cik"],
-                "filer_name": header.get("filer_name"),
-                "filer_cik": header.get("filer_cik"),
-                "period_of_report": header.get("period_of_report"),
-            }
-            results.append(row)
         except Exception as e:
-            print("Error parsing 13D/G:", filing_url, e)
-    results = sorted(results, key=lambda x: x["filed_date"], reverse=True)
-    return results
+            print(f"Error fetching Form 4 txt {filing_url}: {e}")
+            continue
+
+        if resp.status_code != 200:
+            print(f"Form 4 txt fetch failed ({resp.status_code}) for {filing_url}")
+            continue
+
+        txt = resp.text
+        xml_text = extract_ownership_xml_from_txt(txt)
+        if not xml_text:
+            print(f"No ownershipDocument XML found inside {filing_url}")
+            continue
+
+        try:
+            txs = parse_form4_xml_transactions(xml_text)
+        except Exception as e:
+            print(f"Error parsing ownership XML for {filing_url}: {e}")
+            continue
+
+        if not txs:
+            print(f"No non-derivative transactions parsed for {filing_url}")
+            continue
+
+        for row in txs:
+            row["filing_url"] = filing_url
+            row["filed_date"] = filed_date
+            row["form_type"] = form_type
+
+        all_rows.extend(txs)
+
+    all_rows.sort(
+        key=lambda r: (
+            r.get("transaction_date") or "",
+            r.get("filed_date") or "",
+        ),
+        reverse=True,
+    )
+    return all_rows
 
 
-def main():
+# ----------------- Schedule 13D/13G collector -----------------
+
+SCHED13_FORMS = {
+    "SC 13D",
+    "SC 13D/A",
+    "SC 13G",
+    "SC 13G/A",
+}
+
+
+def collect_recent_sched13_filings(days_back: int, max_filings: int) -> List[Dict[str, Any]]:
+    """
+    Use daily master index to collect recent Schedule 13D/13G filings.
+    We keep it filing-level (no deep XML parsing) for now.
+    """
+    filings: List[Dict[str, Any]] = []
+
+    def is_sched13(ft: str) -> bool:
+        return ft.upper() in SCHED13_FORMS
+
+    for d in iter_daily_indexes(days_back):
+        day_filings = parse_idx_for_forms(d["text"], is_sched13)
+        filings.extend(day_filings)
+
+    filings.sort(key=lambda f: (f["raw_filed_date"], f["file_name"]), reverse=True)
+    return filings[:max_filings]
+
+
+# ----------------- JSON writer -----------------
+
+def write_json(path: str, payload: Dict[str, Any]) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {len(payload.get('rows', []))} rows to {path}")
+
+
+def now_utc_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+# ----------------- main -----------------
+
+def main() -> None:
+    # Form 4
     print("Collecting Form 4 transactions...")
-    form4 = collect_form4_transactions(FORM4_DAYS_BACK, FORM4_MAX_FILINGS)
+    form4_rows = collect_form4_transactions(FORM4_DAYS_BACK, FORM4_MAX_FILINGS)
     form4_payload = {
-        "last_updated_utc": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "last_updated_utc": now_utc_iso(),
         "source": "SEC EDGAR (Form 4 XML + daily index)",
-        "rows": form4,
+        "rows": form4_rows,
     }
-    with open("data/form4_transactions.json", "w", encoding="utf-8") as f:
-        json.dump(form4_payload, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(form4)} Form 4 transactions.")
+    write_json(os.path.join("data", "form4_transactions.json"), form4_payload)
 
+    # Schedule 13D/13G
     print("Collecting Schedule 13D/13G filings...")
-    sched13 = collect_schedule_13d_13g(SCHED13_DAYS_BACK, SCHED13_MAX_FILINGS)
+    sched13_rows = collect_recent_sched13_filings(SCHED13_DAYS_BACK, SCHED13_MAX_FILINGS)
     sched13_payload = {
-        "last_updated_utc": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "last_updated_utc": now_utc_iso(),
         "source": "SEC EDGAR (Schedule 13D/13G + daily index)",
-        "rows": sched13,
+        "rows": sched13_rows,
     }
-    with open("data/schedule_13d13g.json", "w", encoding="utf-8") as f:
-        json.dump(sched13_payload, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(sched13)} Schedule 13D/13G filings.")
+    write_json(os.path.join("data", "schedule_13d13g.json"), sched13_payload)
 
 
 if __name__ == "__main__":
