@@ -128,8 +128,27 @@ def safe_int_from_float(x: Optional[str]) -> Optional[int]:
     return int(round(f))
 
 
-def get_accession_base_url(filing_url: str) -> str:
-    return filing_url.rsplit("/", 1)[0] + "/"
+def get_accession_base_url(file_name: str) -> str:
+    """
+    Build the accession folder URL from the master.idx file_name, e.g.:
+
+    edgar/data/1009759/0001009759-25-000062.txt
+    edgar/data/1009759/0001009759-25-000062/0001009759-25-000062.txt
+    """
+    path = file_name
+
+    # strip .txt if present
+    if path.endswith(".txt"):
+        path = path[:-4]
+
+    parts = path.split("/")
+    # If path ends with ACCESSION/ACCESSION, drop the last segment
+    #   edgar/data/CIK/ACC/ACC  -> edgar/data/CIK/ACC
+    if len(parts) >= 2 and parts[-1] == parts[-2]:
+        parts = parts[:-1]
+
+    accession_dir = "/".join(parts)
+    return "https://www.sec.gov/Archives/" + accession_dir + "/"
 
 
 def find_ownership_xml_url(filing_url: str) -> Optional[str]:
@@ -267,24 +286,29 @@ def collect_form4_transactions(days_back: int, max_filings: int) -> List[Dict[st
 
     all_txs: List[Dict[str, Any]] = []
     for f in filings:
-        filing_url = f["filing_url"]
-        try:
-            xml_url = find_ownership_xml_url(filing_url)
-            if not xml_url:
-                print("No ownership XML for", filing_url)
-                continue
-            resp = requests.get(xml_url, headers=SEC_HEADERS, timeout=30)
-            time.sleep(REQUEST_DELAY_SEC)
-            if resp.status_code != 200:
-                print("XML fetch failed", xml_url, resp.status_code)
-                continue
-            txs = parse_form4_xml_transactions(resp.text)
-            for tx in txs:
-                tx["filing_url"] = filing_url
-                tx["filed_date"] = f["filed_date"]
-            all_txs.extend(txs)
-        except Exception as e:
-            print("Error parsing Form 4:", filing_url, e)
+    filing_url = f["filing_url"]
+    file_name = f["file_name"]  # from master.idx
+
+    try:
+        xml_url = find_ownership_xml_url(file_name)
+        if not xml_url:
+            print("No ownership XML for", filing_url)
+            continue
+
+        resp = requests.get(xml_url, headers=SEC_HEADERS, timeout=30)
+        time.sleep(REQUEST_DELAY_SEC)
+        if resp.status_code != 200:
+            print("XML fetch failed", xml_url, resp.status_code)
+            continue
+
+        txs = parse_form4_xml_transactions(resp.text)
+        for tx in txs:
+            tx["filing_url"] = filing_url
+            tx["filed_date"] = f["filed_date"]
+        all_txs.extend(txs)
+
+    except Exception as e:
+        print("Error parsing Form 4:", filing_url, e)
 
     all_txs = sorted(
         all_txs,
