@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Insider Deal Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-title">Insider Deal Tracker</span>
+      <span class="brand-subtitle">Form 4 · Schedule 13D/13G</span>
+    </div>
+    <div class="last-updated" id="lastUpdated">
+      Loading…
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="tabs">
+      <button class="tab-button active" data-tab="form4">Form 4 – Insider Trades</button>
+      <button class="tab-button" data-tab="sched13">Schedule 13D / 13G</button>
+    </section>
+
+    <section id="tab-form4" class="tab-panel active">
+      <div class="panel-header">
+        <div class="sub-tabs">
+          <button class="subtab-button active" data-filter="all">All Trades</button>
+          <button class="subtab-button" data-filter="buys">Buys</button>
+          <button class="subtab-button" data-filter="sells">Sells</button>
+        </div>
+        <div class="filters">
+          <input
+            id="form4Search"
+            class="search-input"
+            placeholder="Filter by insider / ticker / company…"
+          />
+          <select id="form4PageSize" class="page-size">
+            <option value="10">Show 10</option>
+            <option value="25" selected>Show 25</option>
+            <option value="50">Show 50</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Insider</th>
+              <th>Relation</th>
+              <th>Last Date</th>
+              <th>Ticker</th>
+              <th>Company</th>
+              <th>Transaction</th>
+              <th>Owner Type</th>
+              <th class="num">Shares Traded</th>
+              <th class="num">Price</th>
+              <th class="num">Shares Held</th>
+              <th>Filing</th>
+            </tr>
+          </thead>
+          <tbody id="form4TableBody">
+            <!-- rows injected by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination">
+        <button id="form4Prev" class="page-btn">‹</button>
+        <span id="form4PageInfo" class="page-info">Page 1</span>
+        <button id="form4Next" class="page-btn">›</button>
+      </div>
+    </section>
+
+    <section id="tab-sched13" class="tab-panel">
+      <div class="panel-header">
+        <div class="sub-tabs">
+          <span class="subtab-label">Latest Schedule 13D / 13G filings</span>
+        </div>
+        <div class="filters">
+          <input
+            id="sched13Search"
+            class="search-input"
+            placeholder="Filter by filer / issuer / ticker…"
+          />
+          <select id="sched13PageSize" class="page-size">
+            <option value="10">Show 10</option>
+            <option value="25" selected>Show 25</option>
+            <option value="50">Show 50</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Form</th>
+              <th>Filed Date</th>
+              <th>Issuer</th>
+              <th>Issuer CIK</th>
+              <th>Filer</th>
+              <th>Filer CIK</th>
+              <th>Period of Report</th>
+              <th>Filing</th>
+            </tr>
+          </thead>
+          <tbody id="sched13TableBody">
+            <!-- rows injected by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination">
+        <button id="sched13Prev" class="page-btn">‹</button>
+        <span id="sched13PageInfo" class="page-info">Page 1</span>
+        <button id="sched13Next" class="page-btn">›</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Data from SEC EDGAR. This is an informal dashboard; always verify filings via SEC.
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
