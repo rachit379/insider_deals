@@ -4,6 +4,8 @@ import re
 import time
 from datetime import date, datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
+import pandas as pd
+import yfinance as yf
 
 import requests
 from xml.etree import ElementTree as ET
@@ -332,6 +334,93 @@ def collect_form4_transactions(days_back: int, max_filings: int) -> List[Dict[st
     return all_rows
 
 
+def enrich_with_price_metrics(form4_rows: List[Dict[str, Any]]) -> None:
+    """
+    For each Form 4 row (buy/sell), attach:
+      - ret_1m, ret_3m, ret_1y  : forward total returns from transaction date
+      - pct_from_52w_high       : (last_close / 52w_high - 1)
+      - pct_from_52w_low        : (last_close / 52w_low - 1)
+
+    Returns are decimals (0.12 = +12%). 52w metrics are as of today for each ticker.
+    """
+    # Group rows by ticker
+    by_symbol: Dict[str, List[Dict[str, Any]]] = {}
+    for row in form4_rows:
+        sym = (row.get("issuer_trading_symbol") or "").strip().upper()
+        if not sym:
+            continue
+        by_symbol.setdefault(sym, []).append(row)
+
+    if not by_symbol:
+        return
+
+    end = date.today() + timedelta(days=1)
+    start = end - timedelta(days=400)  # ~ >1 year of data
+
+    for sym, rows in by_symbol.items():
+        try:
+            data = yf.download(
+                sym, start=start, end=end, progress=False, auto_adjust=True
+            )
+        except Exception as e:
+            print(f"Price download failed for {sym}: {e}")
+            continue
+
+        if data.empty:
+            print(f"No price data for {sym}")
+            continue
+
+        closes = data["Close"]
+        closes.index = closes.index.tz_localize(None)
+
+        # 52-week metrics (last ~252 trading days)
+        last_close = float(closes.iloc[-1])
+        window_52 = closes[-252:] if len(closes) >= 252 else closes
+        hi_52 = float(window_52.max())
+        lo_52 = float(window_52.min())
+        pct_from_high = (last_close / hi_52 - 1.0) if hi_52 > 0 else None
+        pct_from_low = (last_close / lo_52 - 1.0) if lo_52 > 0 else None
+
+        def price_on_or_after(target_date: date) -> Optional[float]:
+            try:
+                series = closes[closes.index.date >= target_date]
+            except Exception:
+                return None
+            if series.empty:
+                return None
+            return float(series.iloc[0])
+
+        for row in rows:
+            # default values
+            row["ret_1m"] = None
+            row["ret_3m"] = None
+            row["ret_1y"] = None
+            row["pct_from_52w_high"] = pct_from_high
+            row["pct_from_52w_low"] = pct_from_low
+
+            tx_date_str = row.get("transaction_date")
+            if not tx_date_str:
+                continue
+            try:
+                tx_date = datetime.strptime(tx_date_str, "%Y-%m-%d").date()
+            except Exception:
+                continue
+
+            entry_price = price_on_or_after(tx_date)
+            if not entry_price:
+                continue
+
+            for delta_days, key in [
+                (30, "ret_1m"),
+                (90, "ret_3m"),
+                (365, "ret_1y"),
+            ]:
+                target = tx_date + timedelta(days=delta_days)
+                future_price = price_on_or_after(target)
+                if future_price:
+                    row[key] = future_price / entry_price - 1.0
+
+
 # ----------------- Schedule 13D/13G collector -----------------
 
 SCHED13_FORMS = {
@@ -379,11 +468,16 @@ def main() -> None:
     # Form 4
     print("Collecting Form 4 transactions...")
     form4_rows = collect_form4_transactions(FORM4_DAYS_BACK, FORM4_MAX_FILINGS)
+
+    print("Enriching Form 4 rows with price metrics...")
+    enrich_with_price_metrics(form4_rows)
+
     form4_payload = {
-        "last_updated_utc": now_utc_iso(),
-        "source": "SEC EDGAR (Form 4 XML + daily index)",
-        "rows": form4_rows,
-    }
+    "last_updated_utc": now_utc_iso(),
+    "source": "SEC EDGAR (Form 4 XML + daily index + Yahoo Finance)",
+    "rows": form4_rows,
+}
+    
     write_json(os.path.join("data", "form4_transactions.json"), form4_payload)
 
     # Schedule 13D/13G
