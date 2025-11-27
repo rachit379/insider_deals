@@ -24,6 +24,11 @@ function fmtMoney(n) {
   return "$" + Number(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+function fmtPct(x) {
+  if (x === null || x === undefined) return "";
+  return (x * 100).toFixed(1) + "%";
+}
+
 function codeToLabel(code) {
   if (!code) return "";
   const c = code.toUpperCase();
@@ -88,12 +93,11 @@ function applyForm4Filters() {
 
   let rows = allRows;
 
-  if (filterType === "buys") {
+  if (filterType === "buys" || filterType === "trader") {
     rows = rows.filter(isBuy);
   } else if (filterType === "sells") {
     rows = rows.filter(isSell);
   }
-
   if (searchTerm) {
     rows = rows.filter((r) => matchesSearch(r, searchTerm));
   }
@@ -103,7 +107,7 @@ function applyForm4Filters() {
   renderForm4Table();
 }
 
-function renderForm4Table() {
+function renderForm4Table() function renderForm4Table() {
   const tbody = document.getElementById("form4TableBody");
   const pageInfo = document.getElementById("form4PageInfo");
   const s = state.form4;
@@ -114,7 +118,7 @@ function renderForm4Table() {
   if (!filteredRows.length) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 10;
+    td.colSpan = 15; // total number of columns
     td.textContent = "No results.";
     tr.appendChild(td);
     tbody.appendChild(tr);
@@ -133,14 +137,14 @@ function renderForm4Table() {
   rows.forEach((row) => {
     const tr = document.createElement("tr");
 
-    // 1) Transaction Date + type
+    // 1) Transaction Date + type (Purchase/Sale/Award)
     const tdTransDate = document.createElement("td");
     tdTransDate.innerHTML =
       `<div class="cell-main">${fmtDate(row.transaction_date)}</div>` +
       `<div class="cell-sub">${codeToLabel(row.transaction_code)}</div>`;
     tr.appendChild(tdTransDate);
 
-    // 2) Reported date (filed date)
+    // 2) Reported Date (filed date)
     const tdReported = document.createElement("td");
     tdReported.textContent = fmtDate(row.filed_date);
     tr.appendChild(tdReported);
@@ -150,7 +154,7 @@ function renderForm4Table() {
     tdCompany.textContent = row.issuer_name || "";
     tr.appendChild(tdCompany);
 
-    // 4) Symbol
+    // 4) Symbol (link to Yahoo Finance)
     const tdSymbol = document.createElement("td");
     const sym = row.issuer_trading_symbol || "";
     if (sym) {
@@ -160,12 +164,10 @@ function renderForm4Table() {
       a.rel = "noopener noreferrer";
       a.textContent = sym;
       tdSymbol.appendChild(a);
-    } else {
-      tdSymbol.textContent = "";
     }
     tr.appendChild(tdSymbol);
 
-    // 5) Insider relationship (name + role)
+    // 5) Insider Relationship (name + role)
     const tdInsider = document.createElement("td");
     tdInsider.innerHTML =
       `<div class="cell-main">${row.owner_name || ""}</div>` +
@@ -194,7 +196,7 @@ function renderForm4Table() {
     tdAmount.textContent = fmtMoney(total);
     tr.appendChild(tdAmount);
 
-    // 9) Shares Owned (after) + ownership type
+    // 9) Shares Owned (after) + direct/indirect
     const tdOwned = document.createElement("td");
     tdOwned.className = "num";
     const owned = fmtNumber(row.shares_owned_after);
@@ -204,7 +206,57 @@ function renderForm4Table() {
       (dirInd ? `<div class="cell-sub">(${dirInd})</div>` : "");
     tr.appendChild(tdOwned);
 
-    // 10) Filing link
+    // 10) 1M Return
+    const td1m = document.createElement("td");
+    td1m.className = "num";
+    if (row.ret_1m !== null && row.ret_1m !== undefined) {
+      td1m.textContent = fmtPct(row.ret_1m);
+      if (row.ret_1m > 0.001) td1m.classList.add("pos");
+      else if (row.ret_1m < -0.001) td1m.classList.add("neg");
+    }
+    tr.appendChild(td1m);
+
+    // 11) 3M Return
+    const td3m = document.createElement("td");
+    td3m.className = "num";
+    if (row.ret_3m !== null && row.ret_3m !== undefined) {
+      td3m.textContent = fmtPct(row.ret_3m);
+      if (row.ret_3m > 0.001) td3m.classList.add("pos");
+      else if (row.ret_3m < -0.001) td3m.classList.add("neg");
+    }
+    tr.appendChild(td3m);
+
+    // 12) 1Y Return
+    const td1y = document.createElement("td");
+    td1y.className = "num";
+    if (row.ret_1y !== null && row.ret_1y !== undefined) {
+      td1y.textContent = fmtPct(row.ret_1y);
+      if (row.ret_1y > 0.001) td1y.classList.add("pos");
+      else if (row.ret_1y < -0.001) td1y.classList.add("neg");
+    }
+    tr.appendChild(td1y);
+
+    // 13) From 52W High
+    const tdHi = document.createElement("td");
+    tdHi.className = "num";
+    if (row.pct_from_52w_high !== null && row.pct_from_52w_high !== undefined) {
+      tdHi.textContent = fmtPct(row.pct_from_52w_high);
+      if (row.pct_from_52w_high > 0.001) tdHi.classList.add("pos");
+      else if (row.pct_from_52w_high < -0.001) tdHi.classList.add("neg");
+    }
+    tr.appendChild(tdHi);
+
+    // 14) From 52W Low
+    const tdLo = document.createElement("td");
+    tdLo.className = "num";
+    if (row.pct_from_52w_low !== null && row.pct_from_52w_low !== undefined) {
+      tdLo.textContent = fmtPct(row.pct_from_52w_low);
+      if (row.pct_from_52w_low > 0.001) tdLo.classList.add("pos");
+      else if (row.pct_from_52w_low < -0.001) tdLo.classList.add("neg");
+    }
+    tr.appendChild(tdLo);
+
+    // 15) Filing link
     const tdFiling = document.createElement("td");
     if (row.filing_url) {
       const a = document.createElement("a");
@@ -219,9 +271,13 @@ function renderForm4Table() {
     tbody.appendChild(tr);
   });
 
-  const totalPagesText = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+  const totalPagesText = Math.max(
+    1,
+    Math.ceil(filteredRows.length / pageSize)
+  );
   pageInfo.textContent = `Page ${s.currentPage} of ${totalPagesText}`;
 }
+
 
 // ---------- Schedule 13D/13G rendering ----------
 
