@@ -204,8 +204,10 @@ body {
   background: var(--bg-elevated);
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--border-soft);
-  /* fix: allow horizontal scroll instead of cutting off */
+
+  /* important: wrapper stays at viewport width and scrolls */
   width: 100%;
+  max-width: 100%;
   overflow-x: auto;
   overflow-y: visible;
 }
