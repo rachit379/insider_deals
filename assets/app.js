@@ -1,186 +1,329 @@
+// assets/app.js
+
+// ---------- Helpers ----------
+
+const BUY_CODES = new Set(["P", "A"]); // P = Purchase, A = grant/award (treat as buy-ish)
+const SELL_CODES = new Set(["S"]);
+
+function fmtDate(isoStr) {
+  if (!isoStr) return "";
+  // Expecting YYYY-MM-DD
+  const parts = isoStr.split("-");
+  if (parts.length !== 3) return isoStr;
+  const [y, m, d] = parts;
+  return `${y}-${m}-${d}`; // simple; tweak if you want fancy format
+}
+
+function fmtNumber(n) {
+  if (n === null || n === undefined) return "";
+  return Number(n).toLocaleString("en-US");
+}
+
+function fmtMoney(n) {
+  if (n === null || n === undefined) return "";
+  return "$" + Number(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function codeToLabel(code) {
+  if (!code) return "";
+  const c = code.toUpperCase();
+  if (c === "P") return "Purchase";
+  if (c === "S") return "Sale";
+  if (c === "A") return "Award";
+  return c;
+}
+
+function buildRelation(row) {
+  const rel = [];
+  if (row.owner_is_officer) rel.push("Officer");
+  if (row.owner_is_director) rel.push("Director");
+  if (row.owner_is_ten_percent) rel.push("10% Owner");
+  if (row.owner_officer_title) rel.push(row.owner_officer_title);
+  return rel.join(" · ") || "—";
+}
+
+function isBuy(row) {
+  return BUY_CODES.has((row.transaction_code || "").toUpperCase());
+}
+
+function isSell(row) {
+  return SELL_CODES.has((row.transaction_code || "").toUpperCase());
+}
+
+function matchesSearch(row, term) {
+  if (!term) return true;
+  const t = term.toLowerCase();
+  return (
+    (row.issuer_trading_symbol || "").toLowerCase().includes(t) ||
+    (row.issuer_name || "").toLowerCase().includes(t) ||
+    (row.owner_name || "").toLowerCase().includes(t)
+  );
+}
+
+// ---------- Global state ----------
+
 const state = {
   form4: {
-    rows: [],
-    filter: "all",
-    search: "",
-    page: 1,
+    allRows: [],
+    filteredRows: [],
+    currentPage: 1,
     pageSize: 25,
+    filterType: "all", // all | buys | sells
+    searchTerm: ""
   },
   sched13: {
-    rows: [],
-    search: "",
-    page: 1,
+    allRows: [],
+    filteredRows: [],
+    currentPage: 1,
     pageSize: 25,
-  },
+    searchTerm: ""
+  }
 };
 
-function fmtNumber(x) {
-  if (x === null || x === undefined) return "";
-  return x.toLocaleString("en-US");
-}
+// ---------- Form 4 rendering ----------
 
-function fmtPrice(x) {
-  if (x === null || x === undefined) return "";
-  return "$" + x.toFixed(2);
-}
+function applyForm4Filters() {
+  const s = state.form4;
+  const { allRows, filterType, searchTerm } = s;
 
-function fmtDate(s) {
-  if (!s) return "";
-  if (s.length === 8 && /^\d+$/.test(s)) {
-    const y = s.slice(0, 4);
-    const m = s.slice(4, 6);
-    const d = s.slice(6, 8);
-    return `${m}/${d}/${y}`;
+  let rows = allRows;
+
+  if (filterType === "buys") {
+    rows = rows.filter(isBuy);
+  } else if (filterType === "sells") {
+    rows = rows.filter(isSell);
   }
-  return s;
+
+  if (searchTerm) {
+    rows = rows.filter((r) => matchesSearch(r, searchTerm));
+  }
+
+  s.filteredRows = rows;
+  s.currentPage = 1;
+  renderForm4Table();
 }
 
-async function loadData() {
-  const [form4Res, sched13Res] = await Promise.all([
-    fetch("data/form4_transactions.json", { cache: "no-store" }),
-    fetch("data/schedule_13d13g.json", { cache: "no-store" }),
-  ]);
-
-  const form4Json = await form4Res.json();
-  const sched13Json = await sched13Res.json();
-
-  state.form4.rows = form4Json.rows || [];
-  state.sched13.rows = sched13Json.rows || [];
-
-  const last = document.getElementById("lastUpdated");
-  last.textContent = `Last updated: ${form4Json.last_updated_utc || "n/a"}`;
-
-  renderForm4();
-  renderSched13();
-}
-
-function getFilteredForm4Rows() {
-  const { rows, filter, search } = state.form4;
-  const query = (search || "").trim().toLowerCase();
-
-  return rows.filter((r) => {
-    if (filter === "buys" && !r.is_buy) return false;
-    if (filter === "sells" && !r.is_sale) return false;
-
-    if (!query) return true;
-
-    const haystack = [
-      r.insider_name,
-      r.issuer_symbol,
-      r.issuer_name,
-      r.relation,
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
-
-    return haystack.includes(query);
-  });
-}
-
-function renderForm4() {
-  const allRows = getFilteredForm4Rows();
-  const { pageSize } = state.form4;
-  const totalPages = Math.max(1, Math.ceil(allRows.length / pageSize));
-  state.form4.page = Math.min(state.form4.page, totalPages);
-
-  const start = (state.form4.page - 1) * pageSize;
-  const pageRows = allRows.slice(start, start + pageSize);
-
+function renderForm4Table() {
   const tbody = document.getElementById("form4TableBody");
-  tbody.innerHTML = pageRows
-    .map((r) => {
-      const ownerType =
-        (r.owner_type || "").toUpperCase() === "I" ? "Indirect" : "Direct";
-      const ownerClass =
-        ownerType === "Direct" ? "badge-owner-type direct" : "badge-owner-type indirect";
+  const pageInfo = document.getElementById("form4PageInfo");
+  const s = state.form4;
+  const { filteredRows, currentPage, pageSize } = s;
 
-      const txClass = r.is_buy
-        ? "badge-buy"
-        : r.is_sale
-        ? "badge-sell"
-        : "";
+  tbody.innerHTML = "";
 
-      return `<tr>
-        <td>${r.insider_name || ""}</td>
-        <td>${r.relation || ""}</td>
-        <td>${fmtDate(r.transaction_date)}</td>
-        <td>${r.issuer_symbol || ""}</td>
-        <td>${r.issuer_name || ""}</td>
-        <td><span class="${txClass}">${r.transaction_description || ""}</span></td>
-        <td><span class="${ownerClass}">${ownerType}</span></td>
-        <td class="num">${fmtNumber(r.shares_traded)}</td>
-        <td class="num">${r.price != null ? fmtPrice(r.price) : ""}</td>
-        <td class="num">${fmtNumber(r.shares_held_after)}</td>
-        <td><a class="link-pill" href="${r.filing_url}" target="_blank" rel="noopener">View</a></td>
-      </tr>`;
-    })
-    .join("");
+  if (!filteredRows.length) {
+    const tr = document.createElement("tr");
+    const td = document.createElement("td");
+    td.colSpan = 10;
+    td.textContent = "No results.";
+    tr.appendChild(td);
+    tbody.appendChild(tr);
+    pageInfo.textContent = "Page 0 of 0";
+    return;
+  }
 
-  const info = document.getElementById("form4PageInfo");
-  info.textContent = `Page ${state.form4.page} of ${totalPages}`;
+  const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+  const page = Math.min(currentPage, totalPages);
+  s.currentPage = page;
 
-  const prevBtn = document.getElementById("form4Prev");
-  const nextBtn = document.getElementById("form4Next");
-  prevBtn.disabled = state.form4.page <= 1;
-  nextBtn.disabled = state.form4.page >= totalPages;
-}
+  const start = (page - 1) * pageSize;
+  const end = start + pageSize;
+  const rows = filteredRows.slice(start, end);
 
-function getFilteredSched13Rows() {
-  const { rows, search } = state.sched13;
-  const query = (search || "").trim().toLowerCase();
+  rows.forEach((row) => {
+    const tr = document.createElement("tr");
 
-  return rows.filter((r) => {
-    if (!query) return true;
+    // 1) Transaction Date + type
+    const tdTransDate = document.createElement("td");
+    tdTransDate.innerHTML =
+      `<div class="cell-main">${fmtDate(row.transaction_date)}</div>` +
+      `<div class="cell-sub">${codeToLabel(row.transaction_code)}</div>`;
+    tr.appendChild(tdTransDate);
 
-    const haystack = [
-      r.form_type,
-      r.issuer_name,
-      r.issuer_cik,
-      r.filer_name,
-      r.filer_cik,
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
+    // 2) Reported date (filed date)
+    const tdReported = document.createElement("td");
+    tdReported.textContent = fmtDate(row.filed_date);
+    tr.appendChild(tdReported);
 
-    return haystack.includes(query);
+    // 3) Company
+    const tdCompany = document.createElement("td");
+    tdCompany.textContent = row.issuer_name || "";
+    tr.appendChild(tdCompany);
+
+    // 4) Symbol
+    const tdSymbol = document.createElement("td");
+    const sym = row.issuer_trading_symbol || "";
+    if (sym) {
+      const a = document.createElement("a");
+      a.href = `https://finance.yahoo.com/quote/${encodeURIComponent(sym)}`;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = sym;
+      tdSymbol.appendChild(a);
+    } else {
+      tdSymbol.textContent = "";
+    }
+    tr.appendChild(tdSymbol);
+
+    // 5) Insider relationship (name + role)
+    const tdInsider = document.createElement("td");
+    tdInsider.innerHTML =
+      `<div class="cell-main">${row.owner_name || ""}</div>` +
+      `<div class="cell-sub">${buildRelation(row)}</div>`;
+    tr.appendChild(tdInsider);
+
+    // 6) Shares Traded
+    const tdSharesTraded = document.createElement("td");
+    tdSharesTraded.className = "num";
+    tdSharesTraded.textContent = fmtNumber(row.transaction_shares);
+    tr.appendChild(tdSharesTraded);
+
+    // 7) Average Price
+    const tdPrice = document.createElement("td");
+    tdPrice.className = "num";
+    tdPrice.textContent = fmtMoney(row.transaction_price);
+    tr.appendChild(tdPrice);
+
+    // 8) Total Amount (shares * price)
+    const tdAmount = document.createElement("td");
+    tdAmount.className = "num";
+    const total =
+      row.transaction_shares != null && row.transaction_price != null
+        ? row.transaction_shares * row.transaction_price
+        : null;
+    tdAmount.textContent = fmtMoney(total);
+    tr.appendChild(tdAmount);
+
+    // 9) Shares Owned (after) + ownership type
+    const tdOwned = document.createElement("td");
+    tdOwned.className = "num";
+    const owned = fmtNumber(row.shares_owned_after);
+    const dirInd = row.direct_or_indirect_ownership || "";
+    tdOwned.innerHTML =
+      `<div class="cell-main">${owned}</div>` +
+      (dirInd ? `<div class="cell-sub">(${dirInd})</div>` : "");
+    tr.appendChild(tdOwned);
+
+    // 10) Filing link
+    const tdFiling = document.createElement("td");
+    if (row.filing_url) {
+      const a = document.createElement("a");
+      a.href = row.filing_url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = "View";
+      tdFiling.appendChild(a);
+    }
+    tr.appendChild(tdFiling);
+
+    tbody.appendChild(tr);
   });
+
+  const totalPagesText = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+  pageInfo.textContent = `Page ${s.currentPage} of ${totalPagesText}`;
 }
 
-function renderSched13() {
-  const allRows = getFilteredSched13Rows();
-  const { pageSize } = state.sched13;
-  const totalPages = Math.max(1, Math.ceil(allRows.length / pageSize));
-  state.sched13.page = Math.min(state.sched13.page, totalPages);
+// ---------- Schedule 13D/13G rendering ----------
 
-  const start = (state.sched13.page - 1) * pageSize;
-  const pageRows = allRows.slice(start, start + pageSize);
+function applySched13Filters() {
+  const s = state.sched13;
+  const { allRows, searchTerm } = s;
+  let rows = allRows;
 
+  if (searchTerm) {
+    const t = searchTerm.toLowerCase();
+    rows = rows.filter((r) => {
+      return (
+        (r.company_name || "").toLowerCase().includes(t) ||
+        (r.cik || "").toLowerCase().includes(t) ||
+        (r.form_type || "").toLowerCase().includes(t)
+      );
+    });
+  }
+
+  s.filteredRows = rows;
+  s.currentPage = 1;
+  renderSched13Table();
+}
+
+function renderSched13Table() {
   const tbody = document.getElementById("sched13TableBody");
-  tbody.innerHTML = pageRows
-    .map((r) => {
-      return `<tr>
-        <td>${r.form_type}</td>
-        <td>${fmtDate(r.filed_date)}</td>
-        <td>${r.issuer_name || ""}</td>
-        <td>${r.issuer_cik || ""}</td>
-        <td>${r.filer_name || ""}</td>
-        <td>${r.filer_cik || ""}</td>
-        <td>${fmtDate(r.period_of_report)}</td>
-        <td><a class="link-pill" href="${r.filing_url}" target="_blank" rel="noopener">View</a></td>
-      </tr>`;
-    })
-    .join("");
+  const pageInfo = document.getElementById("sched13PageInfo");
+  const s = state.sched13;
+  const { filteredRows, currentPage, pageSize } = s;
 
-  const info = document.getElementById("sched13PageInfo");
-  info.textContent = `Page ${state.sched13.page} of ${totalPages}`;
+  tbody.innerHTML = "";
 
-  const prevBtn = document.getElementById("sched13Prev");
-  const nextBtn = document.getElementById("sched13Next");
-  prevBtn.disabled = state.sched13.page <= 1;
-  nextBtn.disabled = state.sched13.page >= totalPages;
+  if (!filteredRows.length) {
+    const tr = document.createElement("tr");
+    const td = document.createElement("td");
+    td.colSpan = 8;
+    td.textContent = "No results.";
+    tr.appendChild(td);
+    tbody.appendChild(tr);
+    pageInfo.textContent = "Page 0 of 0";
+    return;
+  }
+
+  const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+  const page = Math.min(currentPage, totalPages);
+  s.currentPage = page;
+
+  const start = (page - 1) * pageSize;
+  const end = start + pageSize;
+  const rows = filteredRows.slice(start, end);
+
+  rows.forEach((row) => {
+    const tr = document.createElement("tr");
+
+    const tdForm = document.createElement("td");
+    tdForm.textContent = row.form_type || "";
+    tr.appendChild(tdForm);
+
+    const tdFiled = document.createElement("td");
+    tdFiled.textContent = fmtDate(row.filed_date);
+    tr.appendChild(tdFiled);
+
+    const tdIssuer = document.createElement("td");
+    tdIssuer.textContent = row.company_name || "";
+    tr.appendChild(tdIssuer);
+
+    const tdIssuerCik = document.createElement("td");
+    tdIssuerCik.textContent = row.cik || "";
+    tr.appendChild(tdIssuerCik);
+
+    // We don't parse filer name/CIK from the actual 13D yet, so leave blanks / placeholders
+    const tdFiler = document.createElement("td");
+    tdFiler.textContent = "—";
+    tr.appendChild(tdFiler);
+
+    const tdFilerCik = document.createElement("td");
+    tdFilerCik.textContent = "—";
+    tr.appendChild(tdFilerCik);
+
+    const tdPeriod = document.createElement("td");
+    tdPeriod.textContent = "—";
+    tr.appendChild(tdPeriod);
+
+    const tdFiling = document.createElement("td");
+    if (row.filing_url) {
+      const a = document.createElement("a");
+      a.href = row.filing_url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = "View";
+      tdFiling.appendChild(a);
+    }
+    tr.appendChild(tdFiling);
+
+    tbody.appendChild(tr);
+  });
+
+  const totalPagesText = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+  pageInfo.textContent = `Page ${s.currentPage} of ${totalPagesText}`;
 }
+
+// ---------- Tab + UI wiring ----------
 
 function setupTabs() {
   const tabButtons = document.querySelectorAll(".tab-button");
@@ -188,88 +331,143 @@ function setupTabs() {
 
   tabButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      const tab = btn.dataset.tab;
-      tabButtons.forEach((b) => b.classList.toggle("active", b === btn));
-      tabPanels.forEach((p) =>
-        p.classList.toggle("active", p.id === `tab-${tab}`)
-      );
+      const target = btn.getAttribute("data-tab");
+
+      tabButtons.forEach((b) => b.classList.remove("active"));
+      tabPanels.forEach((p) => p.classList.remove("active"));
+
+      btn.classList.add("active");
+      document.getElementById(`tab-${target}`).classList.add("active");
     });
   });
 }
 
 function setupForm4Controls() {
-  document.querySelectorAll(".subtab-button").forEach((btn) => {
+  // Subtabs: All / Buys / Sells
+  const subtabButtons = document.querySelectorAll(
+    "#tab-form4 .subtab-button"
+  );
+  subtabButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      const filter = btn.dataset.filter;
-      state.form4.filter = filter;
-      state.form4.page = 1;
-      document
-        .querySelectorAll(".subtab-button")
-        .forEach((b) => b.classList.toggle("active", b === btn));
-      renderForm4();
+      subtabButtons.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      state.form4.filterType = btn.getAttribute("data-filter");
+      applyForm4Filters();
     });
   });
 
+  // Search
   const searchInput = document.getElementById("form4Search");
   searchInput.addEventListener("input", (e) => {
-    state.form4.search = e.target.value;
-    state.form4.page = 1;
-    renderForm4();
+    state.form4.searchTerm = e.target.value.trim();
+    applyForm4Filters();
   });
 
+  // Page size
   const pageSizeSelect = document.getElementById("form4PageSize");
   pageSizeSelect.addEventListener("change", (e) => {
     state.form4.pageSize = parseInt(e.target.value, 10) || 25;
-    state.form4.page = 1;
-    renderForm4();
+    state.form4.currentPage = 1;
+    renderForm4Table();
   });
 
+  // Pagination
   document.getElementById("form4Prev").addEventListener("click", () => {
-    if (state.form4.page > 1) {
-      state.form4.page -= 1;
-      renderForm4();
+    if (state.form4.currentPage > 1) {
+      state.form4.currentPage--;
+      renderForm4Table();
     }
   });
+
   document.getElementById("form4Next").addEventListener("click", () => {
-    state.form4.page += 1;
-    renderForm4();
+    const totalPages = Math.max(
+      1,
+      Math.ceil(state.form4.filteredRows.length / state.form4.pageSize)
+    );
+    if (state.form4.currentPage < totalPages) {
+      state.form4.currentPage++;
+      renderForm4Table();
+    }
   });
 }
 
 function setupSched13Controls() {
   const searchInput = document.getElementById("sched13Search");
   searchInput.addEventListener("input", (e) => {
-    state.sched13.search = e.target.value;
-    state.sched13.page = 1;
-    renderSched13();
+    state.sched13.searchTerm = e.target.value.trim();
+    applySched13Filters();
   });
 
   const pageSizeSelect = document.getElementById("sched13PageSize");
   pageSizeSelect.addEventListener("change", (e) => {
     state.sched13.pageSize = parseInt(e.target.value, 10) || 25;
-    state.sched13.page = 1;
-    renderSched13();
+    state.sched13.currentPage = 1;
+    renderSched13Table();
   });
 
   document.getElementById("sched13Prev").addEventListener("click", () => {
-    if (state.sched13.page > 1) {
-      state.sched13.page -= 1;
-      renderSched13();
+    if (state.sched13.currentPage > 1) {
+      state.sched13.currentPage--;
+      renderSched13Table();
     }
   });
+
   document.getElementById("sched13Next").addEventListener("click", () => {
-    state.sched13.page += 1;
-    renderSched13();
+    const totalPages = Math.max(
+      1,
+      Math.ceil(state.sched13.filteredRows.length / state.sched13.pageSize)
+    );
+    if (state.sched13.currentPage < totalPages) {
+      state.sched13.currentPage++;
+      renderSched13Table();
+    }
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+// ---------- Data loading ----------
+
+async function loadForm4Data() {
+  const res = await fetch("data/form4_transactions.json");
+  if (!res.ok) throw new Error("Failed to load Form 4 JSON");
+  const json = await res.json();
+
+  const last = document.getElementById("lastUpdated");
+  if (json.last_updated_utc) {
+    last.textContent = `Last updated: ${json.last_updated_utc}`;
+  } else {
+    last.textContent = "Last updated: –";
+  }
+
+  state.form4.allRows = json.rows || [];
+  applyForm4Filters();
+}
+
+async function loadSched13Data() {
+  const res = await fetch("data/schedule_13d13g.json");
+  if (!res.ok) {
+    console.warn("Schedule 13D/13G JSON not found");
+    return;
+  }
+  const json = await res.json();
+  state.sched13.allRows = json.rows || [];
+  applySched13Filters();
+}
+
+// ---------- init ----------
+
+async function init() {
   setupTabs();
   setupForm4Controls();
   setupSched13Controls();
-  loadData().catch((err) => {
+
+  try {
+    await loadForm4Data();
+    await loadSched13Data();
+  } catch (err) {
     console.error("Error loading data", err);
     document.getElementById("lastUpdated").textContent =
       "Error loading data – check console.";
-  });
-});
+  }
+}
+
+document.addEventListener("DOMContentLoaded", init);
