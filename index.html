@@ -29,6 +29,7 @@
           <button class="subtab-button active" data-filter="all">All Trades</button>
           <button class="subtab-button" data-filter="buys">Buys</button>
           <button class="subtab-button" data-filter="sells">Sells</button>
+          <button class="subtab-button subtab-trader" data-filter="trader">Trader Mode</button>
         </div>
         <div class="filters">
           <input
@@ -47,19 +48,25 @@
       <div class="table-wrapper">
         <table class="data-table">
          <thead>
-          <tr>
-            <th>Transaction Date</th>
-            <th>Reported Date</th>
-            <th>Company</th>
-            <th>Symbol</th>
-            <th>Insider Relationship</th>
-            <th class="num">Shares Traded</th>
-            <th class="num">Average Price</th>
-            <th class="num">Total Amount</th>
-            <th class="num">Shares Owned</th>
-            <th>Filing</th>
-          </tr>
-        </thead>
+            <tr>
+              <th>Transaction Date</th>
+              <th>Reported Date</th>
+              <th>Company</th>
+              <th>Symbol</th>
+              <th>Insider Relationship</th>
+              <th class="num">Shares Traded</th>
+              <th class="num">Average Price</th>
+              <th class="num">Total Amount</th>
+              <th class="num">Shares Owned</th>
+              <th class="num">1M Return</th>
+              <th class="num">3M Return</th>
+              <th class="num">1Y Return</th>
+              <th class="num">From 52W High</th>
+              <th class="num">From 52W Low</th>
+              <th>Filing</th>
+            </tr>
+          </thead>
+
           <tbody id="form4TableBody">
             <!-- rows injected by JS -->
           </tbody>
