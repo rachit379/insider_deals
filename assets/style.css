@@ -213,8 +213,10 @@ body {
 }
 
 .data-table {
-  width: 100%;
-  min-width: 1050px; /* wide enough for all columns */
+  /* let the table be as wide as its content (all columns) */
+  width: max-content;
+  min-width: 100%;         /* never smaller than the wrapper */
+
   border-collapse: collapse;
   font-size: 0.8rem;
 }
