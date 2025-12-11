@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-12-11T04:50:50Z",
+  "last_updated_utc": "2025-12-11T05:08:11Z",
   "source": "SEC EDGAR (Form 4 XML + daily index + Yahoo Finance)",
   "rows": [
     {
@@ -27,110 +27,6 @@
       "ret_1y": null,
       "pct_from_52w_high": -0.17804203316140244,
       "pct_from_52w_low": 0.22355467661390915
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-10",
-      "transaction_code": "S",
-      "transaction_shares": 2622.0,
-      "transaction_price": 24.88,
-      "shares_owned_after": 114279.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-10",
-      "transaction_code": "S",
-      "transaction_shares": 29735.0,
-      "transaction_price": 25.6,
-      "shares_owned_after": 84544.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-10",
-      "transaction_code": "S",
-      "transaction_shares": 31056.0,
-      "transaction_price": 25.87,
-      "shares_owned_after": 53488.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-10",
-      "transaction_code": "S",
-      "transaction_shares": 18203.0,
-      "transaction_price": 26.31,
-      "shares_owned_after": 35285.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
     },
     {
       "issuer_cik": "0000807882",
@@ -910,7 +806,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.6608608163496124
+      "pct_from_52w_low": 0.6608606633813967
     },
     {
       "issuer_cik": "0000050471",
@@ -989,32 +885,6 @@
       "ret_1y": null,
       "pct_from_52w_high": -0.2215619598400571,
       "pct_from_52w_low": 0.11157565734748864
-    },
-    {
-      "issuer_cik": "0000040417",
-      "issuer_name": "GENERAL AMERICAN INVESTORS CO INC",
-      "issuer_trading_symbol": "GAM",
-      "owner_cik": "0001317435",
-      "owner_name": "Priest Jeffrey W",
-      "owner_is_director": false,
-      "owner_is_officer": true,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": "President & CEO",
-      "security_title": "5.95% Preferred Stock",
-      "transaction_date": "2025-12-10",
-      "transaction_code": "P",
-      "transaction_shares": 16608.0,
-      "transaction_price": 25.0037,
-      "shares_owned_after": 34891.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/40417/0000040417-25-000063.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.005745186732588725,
-      "pct_from_52w_low": 0.44388313128680723
     },
     {
       "issuer_cik": "0000352825",
@@ -1452,7 +1322,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.6608608163496124
+      "pct_from_52w_low": 0.6608606633813967
     },
     {
       "issuer_cik": "0001066605",
@@ -1634,7 +1504,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -1660,7 +1530,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -1686,7 +1556,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -1712,7 +1582,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001132651",
@@ -1946,7 +1816,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -1972,7 +1842,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0000800240",
@@ -2050,7 +1920,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -2076,7 +1946,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -2102,7 +1972,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -2128,7 +1998,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001943896",
@@ -2830,7 +2700,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -2856,7 +2726,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -2882,7 +2752,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -2908,7 +2778,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001853145",
@@ -3142,7 +3012,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.6061094439260384
+      "pct_from_52w_low": 0.6061093240387989
     },
     {
       "issuer_cik": "0000896878",
@@ -3661,7 +3531,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.030163703725342494,
+      "pct_from_52w_high": -0.030163791710557053,
       "pct_from_52w_low": 0.5054582591534522
     },
     {
@@ -3740,7 +3610,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.6061094439260384
+      "pct_from_52w_low": 0.6061093240387989
     },
     {
       "issuer_cik": "0001072627",
@@ -4289,84 +4159,6 @@
       "pct_from_52w_low": 0.0
     },
     {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-09",
-      "transaction_code": "S",
-      "transaction_shares": 2451.0,
-      "transaction_price": 24.22,
-      "shares_owned_after": 37417.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-09",
-      "transaction_code": "S",
-      "transaction_shares": 11976.0,
-      "transaction_price": 24.22,
-      "shares_owned_after": 72538.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-09",
-      "transaction_code": "S",
-      "transaction_shares": 166668.0,
-      "transaction_price": 24.24,
-      "shares_owned_after": 116901.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
       "issuer_cik": "0000820313",
       "issuer_name": "AMPHENOL CORP /DE/",
       "issuer_trading_symbol": "APH",
@@ -4909,7 +4701,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -4935,7 +4727,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -4961,7 +4753,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -4987,7 +4779,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -5013,7 +4805,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -5039,7 +4831,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -5378,7 +5170,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.09121906963943283,
-      "pct_from_52w_low": 0.20664200109319086
+      "pct_from_52w_low": 0.20664207552553915
     },
     {
       "issuer_cik": "0000703351",
@@ -5638,7 +5430,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.16772725453507464,
-      "pct_from_52w_low": 0.08160073981961435
+      "pct_from_52w_low": 0.08160066694793033
     },
     {
       "issuer_cik": "0000050471",
@@ -5716,7 +5508,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.865194731450731
+      "pct_from_52w_low": 1.8651944560713187
     },
     {
       "issuer_cik": "0000039263",
@@ -5741,8 +5533,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07636633508095292,
-      "pct_from_52w_low": 0.2574691736407304
+      "pct_from_52w_high": -0.07636623490964356,
+      "pct_from_52w_low": 0.2574692664750431
     },
     {
       "issuer_cik": "0000039263",
@@ -5767,8 +5559,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07636633508095292,
-      "pct_from_52w_low": 0.2574691736407304
+      "pct_from_52w_high": -0.07636623490964356,
+      "pct_from_52w_low": 0.2574692664750431
     },
     {
       "issuer_cik": "0000352825",
@@ -5871,8 +5663,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.031469643651876655,
-      "pct_from_52w_low": 0.34026986263972536
+      "pct_from_52w_high": -0.03146957173907183,
+      "pct_from_52w_low": 0.34026972493013674
     },
     {
       "issuer_cik": "0000029644",
@@ -6027,7 +5819,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.030163703725342494,
+      "pct_from_52w_high": -0.030163791710557053,
       "pct_from_52w_low": 0.5054582591534522
     },
     {
@@ -6054,7 +5846,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.16772725453507464,
-      "pct_from_52w_low": 0.08160073981961435
+      "pct_from_52w_low": 0.08160066694793033
     },
     {
       "issuer_cik": "0001462120",
@@ -6678,7 +6470,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -6704,7 +6496,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -6730,7 +6522,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -6756,7 +6548,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -6782,7 +6574,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -6808,7 +6600,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001865506",
@@ -7015,7 +6807,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2414022225453536,
+      "pct_from_52w_high": -0.2414021317576649,
       "pct_from_52w_low": 0.07420336009587869
     },
     {
@@ -7067,7 +6859,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2414022225453536,
+      "pct_from_52w_high": -0.2414021317576649,
       "pct_from_52w_low": 0.07420336009587869
     },
     {
@@ -7120,7 +6912,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -7146,7 +6938,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -7172,7 +6964,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001601485",
@@ -7249,7 +7041,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19071674462533827,
+      "pct_from_52w_high": -0.1907168160999524,
       "pct_from_52w_low": 0.010698359299600169
     },
     {
@@ -7276,7 +7068,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -7302,7 +7094,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0000805928",
@@ -8211,8 +8003,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07636633508095292,
-      "pct_from_52w_low": 0.2574691736407304
+      "pct_from_52w_high": -0.07636623490964356,
+      "pct_from_52w_low": 0.2574692664750431
     },
     {
       "issuer_cik": "0000039263",
@@ -8237,8 +8029,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07636633508095292,
-      "pct_from_52w_low": 0.2574691736407304
+      "pct_from_52w_high": -0.07636623490964356,
+      "pct_from_52w_low": 0.2574692664750431
     },
     {
       "issuer_cik": "0001403568",
@@ -8420,7 +8212,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -8446,7 +8238,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001779128",
@@ -10191,58 +9983,6 @@
       "pct_from_52w_low": 0.5672792018919728
     },
     {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-08",
-      "transaction_code": "S",
-      "transaction_shares": 12133.0,
-      "transaction_price": 24.15,
-      "shares_owned_after": 39868.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
-      "issuer_cik": "0000835011",
-      "issuer_name": "MGP INGREDIENTS INC",
-      "issuer_trading_symbol": "MGPI",
-      "owner_cik": "0001471262",
-      "owner_name": "Seaberg Karen",
-      "owner_is_director": true,
-      "owner_is_officer": false,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": null,
-      "security_title": "common stock",
-      "transaction_date": "2025-12-08",
-      "transaction_code": "S",
-      "transaction_shares": 29691.0,
-      "transaction_price": 24.16,
-      "shares_owned_after": 84514.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/835011/0001471262-25-000010.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.42551461497804977,
-      "pct_from_52w_low": 0.2065018405390182
-    },
-    {
       "issuer_cik": "0000818479",
       "issuer_name": "DENTSPLY SIRONA Inc.",
       "issuer_trading_symbol": "XRAY",
@@ -10265,7 +10005,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.40693725402352054,
+      "pct_from_52w_high": -0.4069373116079963,
       "pct_from_52w_low": 0.1779574533984507
     },
     {
@@ -10733,7 +10473,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2139395273325969,
+      "pct_from_52w_high": -0.21393940476016904,
       "pct_from_52w_low": 0.32322897248422744
     },
     {
@@ -10786,7 +10526,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.00949099300287759,
-      "pct_from_52w_low": 0.11090457544785615
+      "pct_from_52w_low": 0.11090478048937147
     },
     {
       "issuer_cik": "0001074769",
@@ -10812,7 +10552,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.00949099300287759,
-      "pct_from_52w_low": 0.11090457544785615
+      "pct_from_52w_low": 0.11090478048937147
     },
     {
       "issuer_cik": "0001074769",
@@ -10838,7 +10578,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.00949099300287759,
-      "pct_from_52w_low": 0.11090457544785615
+      "pct_from_52w_low": 0.11090478048937147
     },
     {
       "issuer_cik": "0001074769",
@@ -10864,7 +10604,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.00949099300287759,
-      "pct_from_52w_low": 0.11090457544785615
+      "pct_from_52w_low": 0.11090478048937147
     },
     {
       "issuer_cik": "0000006951",
@@ -10890,7 +10630,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.184053981005925
+      "pct_from_52w_low": 1.1840541132716536
     },
     {
       "issuer_cik": "0000063330",
@@ -11020,7 +10760,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.336817380155509
+      "pct_from_52w_low": 0.33681751343356114
     },
     {
       "issuer_cik": "0000036270",
@@ -11046,7 +10786,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.336817380155509
+      "pct_from_52w_low": 0.33681751343356114
     },
     {
       "issuer_cik": "0000036270",
@@ -11072,7 +10812,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.336817380155509
+      "pct_from_52w_low": 0.33681751343356114
     },
     {
       "issuer_cik": "0000036029",
@@ -11227,8 +10967,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07674043897332972,
-      "pct_from_52w_low": 0.47378214726944257
+      "pct_from_52w_high": -0.07674034404070407,
+      "pct_from_52w_low": 0.47378226821904446
     },
     {
       "issuer_cik": "0000320121",
@@ -11279,7 +11019,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3306302249186466,
+      "pct_from_52w_high": -0.33063026775567483,
       "pct_from_52w_low": 0.07547178347489525
     },
     {
@@ -11463,32 +11203,6 @@
       "ret_1y": null,
       "pct_from_52w_high": -0.018218693413059706,
       "pct_from_52w_low": 0.5754760850382219
-    },
-    {
-      "issuer_cik": "0000029534",
-      "issuer_name": "DOLLAR GENERAL CORP",
-      "issuer_trading_symbol": "DG",
-      "owner_cik": "0002095958",
-      "owner_name": "Wheeler Bryan D",
-      "owner_is_director": false,
-      "owner_is_officer": true,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": "EVP & Chief Merchandising Ofc",
-      "security_title": "Common Stock",
-      "transaction_date": "2025-12-08",
-      "transaction_code": "A",
-      "transaction_shares": 820.0,
-      "transaction_price": 0.0,
-      "shares_owned_after": 22295.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/29534/0000029534-25-000017.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.048953659942363115,
-      "pct_from_52w_low": 0.8719859667879741
     },
     {
       "issuer_cik": "0000029534",
@@ -12050,7 +11764,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.03771427699497765,
-      "pct_from_52w_low": 1.044705090589666
+      "pct_from_52w_low": 1.0447049327456726
     },
     {
       "issuer_cik": "0001645590",
@@ -12076,7 +11790,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.03771427699497765,
-      "pct_from_52w_low": 1.044705090589666
+      "pct_from_52w_low": 1.0447049327456726
     },
     {
       "issuer_cik": "0001355096",
@@ -12908,7 +12622,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -12934,7 +12648,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001865506",
@@ -13093,32 +12807,6 @@
       "pct_from_52w_low": 5.595567910760385
     },
     {
-      "issuer_cik": "0001261654",
-      "issuer_name": "UNIVERSAL TECHNICAL INSTITUTE INC",
-      "issuer_trading_symbol": "UTI",
-      "owner_cik": "0002002128",
-      "owner_name": "Kline Christine",
-      "owner_is_director": false,
-      "owner_is_officer": true,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": "Senior Vice President and CAO",
-      "security_title": "Common Stock, $0.0001 par value",
-      "transaction_date": "2025-12-08",
-      "transaction_code": "A",
-      "transaction_shares": 5832.0,
-      "transaction_price": 0.0,
-      "shares_owned_after": 46483.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/2002128/0001193125-25-314583.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3119777238690592,
-      "pct_from_52w_low": 0.1345888949731684
-    },
-    {
       "issuer_cik": "0001980088",
       "issuer_name": "MACH NATURAL RESOURCES LP",
       "issuer_trading_symbol": "MNR",
@@ -13141,7 +12829,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2414022225453536,
+      "pct_from_52w_high": -0.2414021317576649,
       "pct_from_52w_low": 0.07420336009587869
     },
     {
@@ -13193,7 +12881,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2414022225453536,
+      "pct_from_52w_high": -0.2414021317576649,
       "pct_from_52w_low": 0.07420336009587869
     },
     {
@@ -13220,7 +12908,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -13246,7 +12934,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001640147",
@@ -13509,58 +13197,6 @@
       "pct_from_52w_low": 0.3527833858291287
     },
     {
-      "issuer_cik": "0001623526",
-      "issuer_name": "Stoke Therapeutics, Inc.",
-      "issuer_trading_symbol": "STOK",
-      "owner_cik": "0001966716",
-      "owner_name": "Allan Jonathan",
-      "owner_is_director": false,
-      "owner_is_officer": true,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": "GENERAL COUNSEL & CORP SEC",
-      "security_title": "Common Stock",
-      "transaction_date": "2025-12-08",
-      "transaction_code": "S",
-      "transaction_shares": 1300.0,
-      "transaction_price": 31.5956,
-      "shares_owned_after": 14509.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1966716/0001966716-25-000009.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.04073025310088829,
-      "pct_from_52w_low": 4.788135758284621
-    },
-    {
-      "issuer_cik": "0001623526",
-      "issuer_name": "Stoke Therapeutics, Inc.",
-      "issuer_trading_symbol": "STOK",
-      "owner_cik": "0001966716",
-      "owner_name": "Allan Jonathan",
-      "owner_is_director": false,
-      "owner_is_officer": true,
-      "owner_is_ten_percent": false,
-      "owner_officer_title": "GENERAL COUNSEL & CORP SEC",
-      "security_title": "Common Stock",
-      "transaction_date": "2025-12-08",
-      "transaction_code": "S",
-      "transaction_shares": 2678.0,
-      "transaction_price": 32.6128,
-      "shares_owned_after": 11831.0,
-      "direct_or_indirect_ownership": "",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1966716/0001966716-25-000009.txt",
-      "filed_date": "2025-12-10",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.04073025310088829,
-      "pct_from_52w_low": 4.788135758284621
-    },
-    {
       "issuer_cik": "0001819974",
       "issuer_name": "SkyWater Technology, Inc",
       "issuer_trading_symbol": "SKYT",
@@ -13610,7 +13246,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -13636,7 +13272,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001828318",
@@ -16132,7 +15768,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001024478",
@@ -16158,7 +15794,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.8955927707137887
+      "pct_from_52w_low": 0.8955926370595619
     },
     {
       "issuer_cik": "0001861560",
@@ -16704,7 +16340,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.42035266707850916
+      "pct_from_52w_low": 0.42035251254485395
     },
     {
       "issuer_cik": "0000356171",
@@ -16730,7 +16366,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.42035266707850916
+      "pct_from_52w_low": 0.42035251254485395
     },
     {
       "issuer_cik": "0001774675",
@@ -17353,7 +16989,7 @@
       "ret_1m": 0.022269370900327434,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2265831288900274,
+      "pct_from_52w_high": -0.22658319985414777,
       "pct_from_52w_low": 0.015955739868980467
     },
     {
@@ -17379,7 +17015,7 @@
       "ret_1m": 0.022269370900327434,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2265831288900274,
+      "pct_from_52w_high": -0.22658319985414777,
       "pct_from_52w_low": 0.015955739868980467
     },
     {
@@ -17405,7 +17041,7 @@
       "ret_1m": 0.022269370900327434,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2265831288900274,
+      "pct_from_52w_high": -0.22658319985414777,
       "pct_from_52w_low": 0.015955739868980467
     },
     {
@@ -17431,7 +17067,7 @@
       "ret_1m": 0.022269370900327434,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2265831288900274,
+      "pct_from_52w_high": -0.22658319985414777,
       "pct_from_52w_low": 0.015955739868980467
     },
     {
@@ -17457,7 +17093,7 @@
       "ret_1m": 0.022269370900327434,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2265831288900274,
+      "pct_from_52w_high": -0.22658319985414777,
       "pct_from_52w_low": 0.015955739868980467
     },
     {
@@ -17483,7 +17119,7 @@
       "ret_1m": 0.022269370900327434,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2265831288900274,
+      "pct_from_52w_high": -0.22658319985414777,
       "pct_from_52w_low": 0.015955739868980467
     },
     {
@@ -17562,7 +17198,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.42035266707850916
+      "pct_from_52w_low": 0.42035251254485395
     },
     {
       "issuer_cik": "0000356171",
@@ -17588,7 +17224,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.42035266707850916
+      "pct_from_52w_low": 0.42035251254485395
     },
     {
       "issuer_cik": "0001705012",
