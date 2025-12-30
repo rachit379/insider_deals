@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2025-12-30T20:05:12Z",
+  "last_updated_utc": "2025-12-30T20:34:22Z",
   "source": "SEC EDGAR (Form 4 XML + daily index + Yahoo Finance)",
   "rows": [
     {
@@ -25,8 +25,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16460361549420677,
-      "pct_from_52w_low": 0.09804382530369016
+      "pct_from_52w_high": -0.166851721981786,
+      "pct_from_52w_low": 0.09508891731857605
     },
     {
       "issuer_cik": "0001336917",
@@ -51,8 +51,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -77,8 +77,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -103,8 +103,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -129,8 +129,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001772720",
@@ -155,8 +155,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0001772720",
@@ -181,8 +181,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0000033533",
@@ -208,7 +208,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.07804111682433323,
-      "pct_from_52w_low": 0.9495111355678676
+      "pct_from_52w_low": 0.949510827654259
     },
     {
       "issuer_cik": "0000318306",
@@ -233,8 +233,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2814660915689585,
-      "pct_from_52w_low": 0.24580337568683985
+      "pct_from_52w_high": -0.2860304058543731,
+      "pct_from_52w_low": 0.2378897085964704
     },
     {
       "issuer_cik": "0001772720",
@@ -259,8 +259,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0001710350",
@@ -311,8 +311,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0018100909775451424,
-      "pct_from_52w_low": 12.425441128054485
+      "pct_from_52w_high": -0.001900616241585773,
+      "pct_from_52w_low": 12.424223582583435
     },
     {
       "issuer_cik": "0001661458",
@@ -379,8 +379,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8536023084518012,
-      "pct_from_52w_low": 2.135802349899262
+      "pct_from_52w_high": -0.835158503693255,
+      "pct_from_52w_low": 2.5308640868112193
     },
     {
       "issuer_cik": "0001808898",
@@ -405,8 +405,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808898",
@@ -431,8 +431,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001341766",
@@ -457,8 +457,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.28538393404326146,
-      "pct_from_52w_low": 1.1781013617733826
+      "pct_from_52w_high": -0.28831329921318194,
+      "pct_from_52w_low": 1.169172855167261
     },
     {
       "issuer_cik": "0001341766",
@@ -483,8 +483,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.28538393404326146,
-      "pct_from_52w_low": 1.1781013617733826
+      "pct_from_52w_high": -0.28831329921318194,
+      "pct_from_52w_low": 1.169172855167261
     },
     {
       "issuer_cik": "0001973266",
@@ -509,8 +509,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.018350307727318937,
-      "pct_from_52w_low": 0.5550814185342812
+      "pct_from_52w_high": -0.014817853889566801,
+      "pct_from_52w_low": 0.5606773590904288
     },
     {
       "issuer_cik": "0001973266",
@@ -535,8 +535,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.018350307727318937,
-      "pct_from_52w_low": 0.5550814185342812
+      "pct_from_52w_high": -0.014817853889566801,
+      "pct_from_52w_low": 0.5606773590904288
     },
     {
       "issuer_cik": "0001808898",
@@ -561,8 +561,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808898",
@@ -587,8 +587,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001639723",
@@ -613,8 +613,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -639,8 +639,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001595527",
@@ -795,8 +795,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -821,8 +821,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -847,8 +847,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001809987",
@@ -873,8 +873,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2006722458270418,
-      "pct_from_52w_low": 0.872441027069708
+      "pct_from_52w_high": -0.20201681441619612,
+      "pct_from_52w_low": 0.8692913486344247
     },
     {
       "issuer_cik": "0001809987",
@@ -899,8 +899,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2006722458270418,
-      "pct_from_52w_low": 0.872441027069708
+      "pct_from_52w_high": -0.20201681441619612,
+      "pct_from_52w_low": 0.8692913486344247
     },
     {
       "issuer_cik": "0000944695",
@@ -925,8 +925,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -951,8 +951,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -977,8 +977,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -1003,8 +1003,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -1029,8 +1029,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -1055,8 +1055,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -1081,8 +1081,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000944695",
@@ -1107,8 +1107,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000912615",
@@ -1133,8 +1133,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1159,8 +1159,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1185,8 +1185,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1211,8 +1211,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0001336917",
@@ -1237,8 +1237,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -1263,8 +1263,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0000038777",
@@ -1289,8 +1289,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0001098972",
@@ -1315,8 +1315,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.560906525530071,
-      "pct_from_52w_low": 1.0529800822591473
+      "pct_from_52w_high": -0.5630311525282534,
+      "pct_from_52w_low": 1.043046395782107
     },
     {
       "issuer_cik": "0000919567",
@@ -1523,8 +1523,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -1549,8 +1549,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001772720",
@@ -1575,8 +1575,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0000912615",
@@ -1601,8 +1601,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1627,8 +1627,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1653,8 +1653,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1679,8 +1679,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1705,8 +1705,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -1731,8 +1731,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0001415404",
@@ -1758,7 +1758,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 5.828330151436804
+      "pct_from_52w_low": 5.82551600699719
     },
     {
       "issuer_cik": "0000751978",
@@ -1784,7 +1784,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000751978",
@@ -1810,7 +1810,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0001412486",
@@ -1835,8 +1835,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6984615325927734,
-      "pct_from_52w_low": 0.0888889389273575
+      "pct_from_52w_high": -0.701538452735314,
+      "pct_from_52w_low": 0.07777783811828387
     },
     {
       "issuer_cik": "0000885307",
@@ -1887,8 +1887,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -1913,8 +1913,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -1939,8 +1939,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -1965,8 +1965,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -1991,8 +1991,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000763532",
@@ -2017,7 +2017,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.24214439073953975,
+      "pct_from_52w_high": -0.242144449826716,
       "pct_from_52w_low": 0.27574971114413693
     },
     {
@@ -2043,7 +2043,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.24214439073953975,
+      "pct_from_52w_high": -0.242144449826716,
       "pct_from_52w_low": 0.27574971114413693
     },
     {
@@ -2069,7 +2069,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.24214439073953975,
+      "pct_from_52w_high": -0.242144449826716,
       "pct_from_52w_low": 0.27574971114413693
     },
     {
@@ -2096,7 +2096,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000751978",
@@ -2122,7 +2122,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000730263",
@@ -2147,8 +2147,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0657469886235943,
-      "pct_from_52w_low": 0.6279318395795326
+      "pct_from_52w_high": -0.06556811153085695,
+      "pct_from_52w_low": 0.6282435321414968
     },
     {
       "issuer_cik": "0000720672",
@@ -2173,8 +2173,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03327254082137587,
-      "pct_from_52w_low": 0.6849603640597102
+      "pct_from_52w_high": -0.034184138718203805,
+      "pct_from_52w_low": 0.6833714919225515
     },
     {
       "issuer_cik": "0000720672",
@@ -2199,8 +2199,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03327254082137587,
-      "pct_from_52w_low": 0.6849603640597102
+      "pct_from_52w_high": -0.034184138718203805,
+      "pct_from_52w_low": 0.6833714919225515
     },
     {
       "issuer_cik": "0000712515",
@@ -2225,8 +2225,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0019287515338700656,
-      "pct_from_52w_low": 0.7624101566228672
+      "pct_from_52w_high": -0.001806705060391045,
+      "pct_from_52w_low": 0.7626256682356605
     },
     {
       "issuer_cik": "0001772720",
@@ -2251,8 +2251,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0000058492",
@@ -2277,8 +2277,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2303,8 +2303,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2329,8 +2329,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2355,8 +2355,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2381,8 +2381,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2407,8 +2407,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2433,8 +2433,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2459,8 +2459,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2485,8 +2485,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2511,8 +2511,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2537,8 +2537,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2563,8 +2563,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2589,8 +2589,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2615,8 +2615,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2641,8 +2641,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000038777",
@@ -2667,8 +2667,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0000038777",
@@ -2693,8 +2693,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0000038777",
@@ -2719,8 +2719,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0000038777",
@@ -2745,8 +2745,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0000038777",
@@ -2771,8 +2771,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0000038777",
@@ -2797,8 +2797,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0684974860976848,
-      "pct_from_52w_low": 0.4755120401288595
+      "pct_from_52w_high": -0.06810804594353725,
+      "pct_from_52w_low": 0.47612891837425164
     },
     {
       "issuer_cik": "0000003570",
@@ -2823,8 +2823,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.22952234322466591,
-      "pct_from_52w_low": 0.02552556277440554
+      "pct_from_52w_high": -0.22910453469777792,
+      "pct_from_52w_low": 0.026081676661551922
     },
     {
       "issuer_cik": "0000033533",
@@ -2850,7 +2850,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.07804111682433323,
-      "pct_from_52w_low": 0.9495111355678676
+      "pct_from_52w_low": 0.949510827654259
     },
     {
       "issuer_cik": "0001772720",
@@ -2875,8 +2875,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0001592782",
@@ -2901,8 +2901,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9,
-      "pct_from_52w_low": 0.13636364252114097
+      "pct_from_52w_high": -0.9000975012779235,
+      "pct_from_52w_low": 0.13525567344782385
     },
     {
       "issuer_cik": "0000058492",
@@ -2927,8 +2927,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -2953,8 +2953,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0002023658",
@@ -2979,8 +2979,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16431189131526602,
-      "pct_from_52w_low": 0.8335247068984377
+      "pct_from_52w_high": -0.15960235724728578,
+      "pct_from_52w_low": 0.843857565511458
     },
     {
       "issuer_cik": "0002023658",
@@ -3005,8 +3005,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16431189131526602,
-      "pct_from_52w_low": 0.8335247068984377
+      "pct_from_52w_high": -0.15960235724728578,
+      "pct_from_52w_low": 0.843857565511458
     },
     {
       "issuer_cik": "0000010795",
@@ -3031,8 +3031,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19710572652430203,
-      "pct_from_52w_low": 0.20544247372253333
+      "pct_from_52w_high": -0.19614179041938395,
+      "pct_from_52w_low": 0.2068896242567273
     },
     {
       "issuer_cik": "0002023658",
@@ -3057,8 +3057,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16431189131526602,
-      "pct_from_52w_low": 0.8335247068984377
+      "pct_from_52w_high": -0.15960235724728578,
+      "pct_from_52w_low": 0.843857565511458
     },
     {
       "issuer_cik": "0002023658",
@@ -3083,8 +3083,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16431189131526602,
-      "pct_from_52w_low": 0.8335247068984377
+      "pct_from_52w_high": -0.15960235724728578,
+      "pct_from_52w_low": 0.843857565511458
     },
     {
       "issuer_cik": "0001808898",
@@ -3109,8 +3109,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808898",
@@ -3135,8 +3135,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808377",
@@ -3161,7 +3161,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8296874973224476,
+      "pct_from_52w_high": -0.8327187473666855,
       "pct_from_52w_low": 0.0
     },
     {
@@ -3187,8 +3187,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -3213,8 +3213,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -3239,8 +3239,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001857816",
@@ -3265,8 +3265,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02504934299560113,
-      "pct_from_52w_low": 2.411485434230649
+      "pct_from_52w_high": -0.02665354933005082,
+      "pct_from_52w_low": 2.4058720972846634
     },
     {
       "issuer_cik": "0001857816",
@@ -3291,8 +3291,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02504934299560113,
-      "pct_from_52w_low": 2.411485434230649
+      "pct_from_52w_high": -0.02665354933005082,
+      "pct_from_52w_low": 2.4058720972846634
     },
     {
       "issuer_cik": "0000058492",
@@ -3317,8 +3317,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -3343,8 +3343,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -3369,8 +3369,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -3395,8 +3395,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000019745",
@@ -3421,8 +3421,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09183592191708767,
-      "pct_from_52w_low": 0.10142313043203677
+      "pct_from_52w_high": -0.09147439835064941,
+      "pct_from_52w_low": 0.10186158690469527
     },
     {
       "issuer_cik": "0001934245",
@@ -3473,8 +3473,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02504934299560113,
-      "pct_from_52w_low": 2.411485434230649
+      "pct_from_52w_high": -0.02665354933005082,
+      "pct_from_52w_low": 2.4058720972846634
     },
     {
       "issuer_cik": "0000944695",
@@ -3499,8 +3499,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.010739984893618715,
-      "pct_from_52w_low": 0.27838279474070093
+      "pct_from_52w_high": -0.009558580000154082,
+      "pct_from_52w_low": 0.27990975004854945
     },
     {
       "issuer_cik": "0000019584",
@@ -3525,8 +3525,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3008367025705725,
-      "pct_from_52w_low": 0.04911764531241647
+      "pct_from_52w_high": -0.30031795432893726,
+      "pct_from_52w_low": 0.04989594033714728
     },
     {
       "issuer_cik": "0001808898",
@@ -3551,8 +3551,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808898",
@@ -3577,8 +3577,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001820144",
@@ -3603,8 +3603,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.457274541438056,
-      "pct_from_52w_low": 0.1222073828585335
+      "pct_from_52w_high": -0.4567326862796304,
+      "pct_from_52w_low": 0.12332779069942679
     },
     {
       "issuer_cik": "0001936258",
@@ -3629,8 +3629,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -3655,8 +3655,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -3681,8 +3681,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001639723",
@@ -3707,8 +3707,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001934245",
@@ -3759,8 +3759,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001840856",
@@ -3785,8 +3785,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001595527",
@@ -3915,8 +3915,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2650908961440578,
-      "pct_from_52w_low": 0.10196293281855029
+      "pct_from_52w_high": -0.2663030450994318,
+      "pct_from_52w_low": 0.10014537033242976
     },
     {
       "issuer_cik": "0001134765",
@@ -3941,8 +3941,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19216215040668083,
-      "pct_from_52w_low": 7.540000197972569
+      "pct_from_52w_high": -0.18945948253503386,
+      "pct_from_52w_low": 7.568571258576549
     },
     {
       "issuer_cik": "0000058492",
@@ -3967,8 +3967,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0000058492",
@@ -3993,8 +3993,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08272623462967432,
-      "pct_from_52w_low": 0.6870504762031926
+      "pct_from_52w_high": -0.08482907688401675,
+      "pct_from_52w_low": 0.6831829274293142
     },
     {
       "issuer_cik": "0001595527",
@@ -4045,8 +4045,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08697180797646498,
-      "pct_from_52w_low": 1.6513293469485784
+      "pct_from_52w_high": -0.08732392871647054,
+      "pct_from_52w_low": 1.6503068286300837
     },
     {
       "issuer_cik": "0001813814",
@@ -4071,8 +4071,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.08697180797646498,
-      "pct_from_52w_low": 1.6513293469485784
+      "pct_from_52w_high": -0.08732392871647054,
+      "pct_from_52w_low": 1.6503068286300837
     },
     {
       "issuer_cik": "0001639723",
@@ -4097,8 +4097,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -4123,8 +4123,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -4149,8 +4149,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001645469",
@@ -4175,8 +4175,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.36178348549009565,
-      "pct_from_52w_low": 1.9604544206099077
+      "pct_from_52w_high": -0.35830476578095916,
+      "pct_from_52w_low": 1.976590936834162
     },
     {
       "issuer_cik": "0000899923",
@@ -4201,8 +4201,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5854472478027929,
-      "pct_from_52w_low": 0.6171875460810659
+      "pct_from_52w_high": -0.5874499320968587,
+      "pct_from_52w_low": 0.6093749912688506
     },
     {
       "issuer_cik": "0000899923",
@@ -4227,8 +4227,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5854472478027929,
-      "pct_from_52w_low": 0.6171875460810659
+      "pct_from_52w_high": -0.5874499320968587,
+      "pct_from_52w_low": 0.6093749912688506
     },
     {
       "issuer_cik": "0000912615",
@@ -4253,8 +4253,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4279,8 +4279,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4305,8 +4305,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4331,8 +4331,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0001336917",
@@ -4357,8 +4357,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -4383,8 +4383,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001860543",
@@ -4409,8 +4409,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07614722515660466,
-      "pct_from_52w_low": 0.4917600468849168
+      "pct_from_52w_high": -0.07769898072914072,
+      "pct_from_52w_low": 0.4892544020152212
     },
     {
       "issuer_cik": "0000930236",
@@ -4435,8 +4435,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07122882602480562,
-      "pct_from_52w_low": 0.23475397193671355
+      "pct_from_52w_high": -0.07012527196205731,
+      "pct_from_52w_low": 0.2362210908572906
     },
     {
       "issuer_cik": "0000930236",
@@ -4461,8 +4461,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07122882602480562,
-      "pct_from_52w_low": 0.23475397193671355
+      "pct_from_52w_high": -0.07012527196205731,
+      "pct_from_52w_low": 0.2362210908572906
     },
     {
       "issuer_cik": "0000930236",
@@ -4487,8 +4487,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07122882602480562,
-      "pct_from_52w_low": 0.23475397193671355
+      "pct_from_52w_high": -0.07012527196205731,
+      "pct_from_52w_low": 0.2362210908572906
     },
     {
       "issuer_cik": "0000930236",
@@ -4513,8 +4513,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07122882602480562,
-      "pct_from_52w_low": 0.23475397193671355
+      "pct_from_52w_high": -0.07012527196205731,
+      "pct_from_52w_low": 0.2362210908572906
     },
     {
       "issuer_cik": "0000930236",
@@ -4539,8 +4539,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07122882602480562,
-      "pct_from_52w_low": 0.23475397193671355
+      "pct_from_52w_high": -0.07012527196205731,
+      "pct_from_52w_low": 0.2362210908572906
     },
     {
       "issuer_cik": "0000813762",
@@ -4565,8 +4565,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.15291374131167224,
-      "pct_from_52w_low": 0.10666170400414199
+      "pct_from_52w_high": -0.15261280301065538,
+      "pct_from_52w_low": 0.10705473764860063
     },
     {
       "issuer_cik": "0000919567",
@@ -4773,8 +4773,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05652963948172829,
-      "pct_from_52w_low": 0.10318403118581432
+      "pct_from_52w_high": -0.05522984899546346,
+      "pct_from_52w_low": 0.10470409201374808
     },
     {
       "issuer_cik": "0001336917",
@@ -4799,8 +4799,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -4825,8 +4825,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001772720",
@@ -4851,8 +4851,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0000912615",
@@ -4877,8 +4877,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4903,8 +4903,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4929,8 +4929,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4955,8 +4955,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -4981,8 +4981,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -5007,8 +5007,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000911216",
@@ -5060,7 +5060,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000751978",
@@ -5086,7 +5086,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000899460",
@@ -5111,8 +5111,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1752199621089262,
-      "pct_from_52w_low": 0.6447368054141931
+      "pct_from_52w_high": -0.17302056825144163,
+      "pct_from_52w_low": 0.6491227311893322
     },
     {
       "issuer_cik": "0001412486",
@@ -5137,8 +5137,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6984615325927734,
-      "pct_from_52w_low": 0.0888889389273575
+      "pct_from_52w_high": -0.701538452735314,
+      "pct_from_52w_low": 0.07777783811828387
     },
     {
       "issuer_cik": "0000885639",
@@ -5163,8 +5163,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5189,8 +5189,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5215,8 +5215,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5241,8 +5241,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5267,8 +5267,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5293,8 +5293,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5319,8 +5319,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5345,8 +5345,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5371,8 +5371,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885639",
@@ -5397,8 +5397,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0000885550",
@@ -5423,8 +5423,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16813179930126232,
-      "pct_from_52w_low": 0.10042817711450458
+      "pct_from_52w_high": -0.16916169882796872,
+      "pct_from_52w_low": 0.0990657852622463
     },
     {
       "issuer_cik": "0000885307",
@@ -5501,8 +5501,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.15291374131167224,
-      "pct_from_52w_low": 0.10666170400414199
+      "pct_from_52w_high": -0.15261280301065538,
+      "pct_from_52w_low": 0.10705473764860063
     },
     {
       "issuer_cik": "0000813623",
@@ -5527,8 +5527,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -5553,8 +5553,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000811589",
@@ -5579,8 +5579,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.06869563052333261,
-      "pct_from_52w_low": 0.4438469331836348
+      "pct_from_52w_high": -0.06526037310421318,
+      "pct_from_52w_low": 0.4491727815870725
     },
     {
       "issuer_cik": "0000799167",
@@ -5605,8 +5605,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2846288263155474,
-      "pct_from_52w_low": 0.23603524682300336
+      "pct_from_52w_high": -0.28599490229356705,
+      "pct_from_52w_low": 0.23367476295080358
     },
     {
       "issuer_cik": "0000796343",
@@ -5631,8 +5631,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2383917339055952,
-      "pct_from_52w_low": 0.131466095155647
+      "pct_from_52w_high": -0.23893039932519533,
+      "pct_from_52w_low": 0.13066583905806572
     },
     {
       "issuer_cik": "0000751978",
@@ -5658,7 +5658,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000751978",
@@ -5684,7 +5684,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000723125",
@@ -5709,8 +5709,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.00016981279953087736,
-      "pct_from_52w_low": 3.5565609822876123
+      "pct_from_52w_high": -0.001222900966585283,
+      "pct_from_52w_low": 3.5517617068563068
     },
     {
       "issuer_cik": "0000723125",
@@ -5735,8 +5735,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.00016981279953087736,
-      "pct_from_52w_low": 3.5565609822876123
+      "pct_from_52w_high": -0.001222900966585283,
+      "pct_from_52w_low": 3.5517617068563068
     },
     {
       "issuer_cik": "0001772720",
@@ -5761,8 +5761,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0000704532",
@@ -5787,8 +5787,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.28474388887197244,
-      "pct_from_52w_low": 0.8144067451778778
+      "pct_from_52w_high": -0.2846324895166342,
+      "pct_from_52w_low": 0.8146893345030015
     },
     {
       "issuer_cik": "0000059478",
@@ -5813,8 +5813,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.025677064980553443,
-      "pct_from_52w_low": 0.7348466972010497
+      "pct_from_52w_high": -0.025776156244377346,
+      "pct_from_52w_low": 0.734670258624488
     },
     {
       "issuer_cik": "0000055135",
@@ -5839,8 +5839,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3914631035656052,
-      "pct_from_52w_low": 0.0928217830546707
+      "pct_from_52w_high": -0.3921522891035403,
+      "pct_from_52w_low": 0.09158413095364826
     },
     {
       "issuer_cik": "0000042888",
@@ -5865,8 +5865,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05772048157975174,
-      "pct_from_52w_low": 0.13447115050276692
+      "pct_from_52w_high": -0.05670048982884002,
+      "pct_from_52w_low": 0.13569928263008713
     },
     {
       "issuer_cik": "0000059478",
@@ -5891,8 +5891,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.025677064980553443,
-      "pct_from_52w_low": 0.7348466972010497
+      "pct_from_52w_high": -0.025776156244377346,
+      "pct_from_52w_low": 0.734670258624488
     },
     {
       "issuer_cik": "0000028917",
@@ -5917,8 +5917,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.11956008991318379,
-      "pct_from_52w_low": 1.1849673042943611
+      "pct_from_52w_high": -0.12120856797408641,
+      "pct_from_52w_low": 1.1808763145247538
     },
     {
       "issuer_cik": "0001947016",
@@ -5943,8 +5943,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5885301620241196,
-      "pct_from_52w_low": 0.9374140187414821
+      "pct_from_52w_high": -0.5920603313143291,
+      "pct_from_52w_low": 0.9207921455440993
     },
     {
       "issuer_cik": "0001947016",
@@ -5969,8 +5969,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5885301620241196,
-      "pct_from_52w_low": 0.9374140187414821
+      "pct_from_52w_high": -0.5920603313143291,
+      "pct_from_52w_low": 0.9207921455440993
     },
     {
       "issuer_cik": "0002085659",
@@ -6021,8 +6021,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13963211295714073,
-      "pct_from_52w_low": 3.435344938769072
+      "pct_from_52w_high": -0.1371237740879513,
+      "pct_from_52w_low": 3.448275858525289
     },
     {
       "issuer_cik": "0001527762",
@@ -6047,8 +6047,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8563844723385958,
-      "pct_from_52w_low": 1.5635908095291322
+      "pct_from_52w_high": -0.8594579468807416,
+      "pct_from_52w_low": 1.5087281410010962
     },
     {
       "issuer_cik": "0001341439",
@@ -6073,8 +6073,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3969695194979478,
-      "pct_from_52w_low": 0.6154836215336454
+      "pct_from_52w_high": -0.3973356248124432,
+      "pct_from_52w_low": 0.6145028466666251
     },
     {
       "issuer_cik": "0002085659",
@@ -6193,8 +6193,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8681726140373145,
-      "pct_from_52w_low": 0.10734999179840088
+      "pct_from_52w_high": -0.8680059480896881,
+      "pct_from_52w_low": 0.10874998569488525
     },
     {
       "issuer_cik": "0001029142",
@@ -6220,7 +6220,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.6436966659402032
+      "pct_from_52w_low": 0.6431624656598269
     },
     {
       "issuer_cik": "0001865631",
@@ -6245,8 +6245,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.06521739361561307,
-      "pct_from_52w_low": 0.7840426742895683
+      "pct_from_52w_high": -0.07107021073437492,
+      "pct_from_52w_low": 0.7728725097685676
     },
     {
       "issuer_cik": "0001769628",
@@ -6271,8 +6271,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5932018762375739,
-      "pct_from_52w_low": 1.108710952268622
+      "pct_from_52w_high": -0.594808795106748,
+      "pct_from_52w_low": 1.1003812004312876
     },
     {
       "issuer_cik": "0001769628",
@@ -6297,8 +6297,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5932018762375739,
-      "pct_from_52w_low": 1.108710952268622
+      "pct_from_52w_high": -0.594808795106748,
+      "pct_from_52w_low": 1.1003812004312876
     },
     {
       "issuer_cik": "0001769628",
@@ -6323,8 +6323,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5932018762375739,
-      "pct_from_52w_low": 1.108710952268622
+      "pct_from_52w_high": -0.594808795106748,
+      "pct_from_52w_low": 1.1003812004312876
     },
     {
       "issuer_cik": "0001769628",
@@ -6349,8 +6349,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5932018762375739,
-      "pct_from_52w_low": 1.108710952268622
+      "pct_from_52w_high": -0.594808795106748,
+      "pct_from_52w_low": 1.1003812004312876
     },
     {
       "issuer_cik": "0001592782",
@@ -6375,8 +6375,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9,
-      "pct_from_52w_low": 0.13636364252114097
+      "pct_from_52w_high": -0.9000975012779235,
+      "pct_from_52w_low": 0.13525567344782385
     },
     {
       "issuer_cik": "0001709628",
@@ -6401,8 +6401,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9769108280859311,
-      "pct_from_52w_low": 0.03942651359833316
+      "pct_from_52w_high": -0.9776008499192009,
+      "pct_from_52w_low": 0.00836316532704573
     },
     {
       "issuer_cik": "0002036042",
@@ -6427,8 +6427,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.06624611019936388,
-      "pct_from_52w_low": 4.409921599503591
+      "pct_from_52w_high": -0.06579544644807256,
+      "pct_from_52w_low": 4.412532625373315
     },
     {
       "issuer_cik": "0002036042",
@@ -6453,8 +6453,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.06624611019936388,
-      "pct_from_52w_low": 4.409921599503591
+      "pct_from_52w_high": -0.06579544644807256,
+      "pct_from_52w_low": 4.412532625373315
     },
     {
       "issuer_cik": "0000796343",
@@ -6479,8 +6479,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2383917339055952,
-      "pct_from_52w_low": 0.131466095155647
+      "pct_from_52w_high": -0.23893039932519533,
+      "pct_from_52w_low": 0.13066583905806572
     },
     {
       "issuer_cik": "0001849056",
@@ -6505,8 +6505,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5834099091351113,
-      "pct_from_52w_low": 2.663888937589431
+      "pct_from_52w_high": -0.5859653225747801,
+      "pct_from_52w_low": 2.641414204661599
     },
     {
       "issuer_cik": "0001849056",
@@ -6531,8 +6531,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5834099091351113,
-      "pct_from_52w_low": 2.663888937589431
+      "pct_from_52w_high": -0.5859653225747801,
+      "pct_from_52w_low": 2.641414204661599
     },
     {
       "issuer_cik": "0001849056",
@@ -6557,8 +6557,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5834099091351113,
-      "pct_from_52w_low": 2.663888937589431
+      "pct_from_52w_high": -0.5859653225747801,
+      "pct_from_52w_low": 2.641414204661599
     },
     {
       "issuer_cik": "0001849056",
@@ -6583,8 +6583,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5834099091351113,
-      "pct_from_52w_low": 2.663888937589431
+      "pct_from_52w_high": -0.5859653225747801,
+      "pct_from_52w_low": 2.641414204661599
     },
     {
       "issuer_cik": "0001808377",
@@ -6609,7 +6609,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8296874973224476,
+      "pct_from_52w_high": -0.8327187473666855,
       "pct_from_52w_low": 0.0
     },
     {
@@ -6635,8 +6635,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -6661,8 +6661,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001162896",
@@ -6687,8 +6687,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8172842075950221,
-      "pct_from_52w_low": 0.10560507634139871
+      "pct_from_52w_high": -0.8168421042592902,
+      "pct_from_52w_low": 0.10828022382492475
     },
     {
       "issuer_cik": "0001162896",
@@ -6713,8 +6713,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8172842075950221,
-      "pct_from_52w_low": 0.10560507634139871
+      "pct_from_52w_high": -0.8168421042592902,
+      "pct_from_52w_low": 0.10828022382492475
     },
     {
       "issuer_cik": "0001162896",
@@ -6739,8 +6739,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8172842075950221,
-      "pct_from_52w_low": 0.10560507634139871
+      "pct_from_52w_high": -0.8168421042592902,
+      "pct_from_52w_low": 0.10828022382492475
     },
     {
       "issuer_cik": "0001999001",
@@ -6765,8 +6765,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6917278005302026,
-      "pct_from_52w_low": 0.17926735809913308
+      "pct_from_52w_high": -0.6941727858823251,
+      "pct_from_52w_low": 0.16991428824155985
     },
     {
       "issuer_cik": "0001999001",
@@ -6791,8 +6791,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6917278005302026,
-      "pct_from_52w_low": 0.17926735809913308
+      "pct_from_52w_high": -0.6941727858823251,
+      "pct_from_52w_low": 0.16991428824155985
     },
     {
       "issuer_cik": "0000885639",
@@ -6817,8 +6817,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16877071049310954,
-      "pct_from_52w_low": 2.4215720723771215
+      "pct_from_52w_high": -0.16653292958703958,
+      "pct_from_52w_low": 2.430783404014449
     },
     {
       "issuer_cik": "0001341766",
@@ -6843,8 +6843,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.28538393404326146,
-      "pct_from_52w_low": 1.1781013617733826
+      "pct_from_52w_high": -0.28831329921318194,
+      "pct_from_52w_low": 1.169172855167261
     },
     {
       "issuer_cik": "0001341766",
@@ -6869,8 +6869,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.28538393404326146,
-      "pct_from_52w_low": 1.1781013617733826
+      "pct_from_52w_high": -0.28831329921318194,
+      "pct_from_52w_low": 1.169172855167261
     },
     {
       "issuer_cik": "0001506293",
@@ -6895,8 +6895,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3471075057983398,
-      "pct_from_52w_low": 0.07871543806938819
+      "pct_from_52w_high": -0.349875020980835,
+      "pct_from_52w_low": 0.07414292210548612
     },
     {
       "issuer_cik": "0001845437",
@@ -6921,8 +6921,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.80071173886564,
-      "pct_from_52w_low": 0.4933333396911621
+      "pct_from_52w_high": -0.798487531047445,
+      "pct_from_52w_low": 0.5100000699361165
     },
     {
       "issuer_cik": "0001845437",
@@ -6947,8 +6947,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.80071173886564,
-      "pct_from_52w_low": 0.4933333396911621
+      "pct_from_52w_high": -0.798487531047445,
+      "pct_from_52w_low": 0.5100000699361165
     },
     {
       "issuer_cik": "0001828318",
@@ -6973,8 +6973,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.526679233056686,
-      "pct_from_52w_low": 0.38095236431755963
+      "pct_from_52w_high": -0.5282486049894228,
+      "pct_from_52w_low": 0.3763735923042326
     },
     {
       "issuer_cik": "0001175535",
@@ -6999,8 +6999,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.024566675631300217,
-      "pct_from_52w_low": 0.21790358782725172
+      "pct_from_52w_high": -0.02388389297528848,
+      "pct_from_52w_low": 0.2187560127297239
     },
     {
       "issuer_cik": "0001845437",
@@ -7025,8 +7025,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.80071173886564,
-      "pct_from_52w_low": 0.4933333396911621
+      "pct_from_52w_high": -0.798487531047445,
+      "pct_from_52w_low": 0.5100000699361165
     },
     {
       "issuer_cik": "0001744489",
@@ -7051,8 +7051,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.06581286694013821,
-      "pct_from_52w_low": 0.4236731906789504
+      "pct_from_52w_high": -0.0673553874622762,
+      "pct_from_52w_low": 0.42132243563670646
     },
     {
       "issuer_cik": "0001506293",
@@ -7077,8 +7077,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3471075057983398,
-      "pct_from_52w_low": 0.07871543806938819
+      "pct_from_52w_high": -0.349875020980835,
+      "pct_from_52w_low": 0.07414292210548612
     },
     {
       "issuer_cik": "0001526119",
@@ -7103,8 +7103,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.30083566483228263,
-      "pct_from_52w_low": 1.051771131681372
+      "pct_from_52w_high": -0.3003714459473005,
+      "pct_from_52w_low": 1.0531334307276459
     },
     {
       "issuer_cik": "0001947016",
@@ -7129,8 +7129,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5885301620241196,
-      "pct_from_52w_low": 0.9374140187414821
+      "pct_from_52w_high": -0.5920603313143291,
+      "pct_from_52w_low": 0.9207921455440993
     },
     {
       "issuer_cik": "0001947016",
@@ -7155,8 +7155,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5885301620241196,
-      "pct_from_52w_low": 0.9374140187414821
+      "pct_from_52w_high": -0.5920603313143291,
+      "pct_from_52w_low": 0.9207921455440993
     },
     {
       "issuer_cik": "0001175535",
@@ -7181,8 +7181,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.024566675631300217,
-      "pct_from_52w_low": 0.21790358782725172
+      "pct_from_52w_high": -0.02388389297528848,
+      "pct_from_52w_low": 0.2187560127297239
     },
     {
       "issuer_cik": "0001936258",
@@ -7207,8 +7207,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -7233,8 +7233,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001639723",
@@ -7259,8 +7259,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -7285,8 +7285,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001630472",
@@ -7311,8 +7311,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05720823988255963,
-      "pct_from_52w_low": 0.3892633415272382
+      "pct_from_52w_high": -0.05775133510477193,
+      "pct_from_52w_low": 0.3884631623035881
     },
     {
       "issuer_cik": "0001535527",
@@ -7337,8 +7337,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14524785616666003,
-      "pct_from_52w_low": 0.5429321064382351
+      "pct_from_52w_high": -0.1455168890233719,
+      "pct_from_52w_low": 0.5424464692446904
     },
     {
       "issuer_cik": "0001840856",
@@ -7363,8 +7363,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001595527",
@@ -7493,8 +7493,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05720823988255963,
-      "pct_from_52w_low": 0.3892633415272382
+      "pct_from_52w_high": -0.05775133510477193,
+      "pct_from_52w_low": 0.3884631623035881
     },
     {
       "issuer_cik": "0001595527",
@@ -7545,8 +7545,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07000992503191539,
-      "pct_from_52w_low": 1.7768717361043853
+      "pct_from_52w_high": -0.070630523640138,
+      "pct_from_52w_low": 1.7750186811299025
     },
     {
       "issuer_cik": "0001438533",
@@ -7571,8 +7571,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07000992503191539,
-      "pct_from_52w_low": 1.7768717361043853
+      "pct_from_52w_high": -0.070630523640138,
+      "pct_from_52w_low": 1.7750186811299025
     },
     {
       "issuer_cik": "0001526243",
@@ -7597,8 +7597,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1509433851152866,
-      "pct_from_52w_low": 2.082191883316815
+      "pct_from_52w_high": -0.15055916723129203,
+      "pct_from_52w_low": 2.0835866468964315
     },
     {
       "issuer_cik": "0001813452",
@@ -7623,8 +7623,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5458598593520165,
-      "pct_from_52w_low": 0.37999998846361716
+      "pct_from_52w_high": -0.5645435116134465,
+      "pct_from_52w_low": 0.3232257956595128
     },
     {
       "issuer_cik": "0001639723",
@@ -7649,8 +7649,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -7675,8 +7675,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -7701,8 +7701,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001840780",
@@ -7753,8 +7753,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7779,8 +7779,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7805,8 +7805,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7831,8 +7831,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7857,8 +7857,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7883,8 +7883,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7909,8 +7909,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -7935,8 +7935,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000094049",
@@ -7961,8 +7961,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2546453039946365,
-      "pct_from_52w_low": 0.13156350231722436
+      "pct_from_52w_high": -0.25228954453659647,
+      "pct_from_52w_low": 0.13513990887539462
     },
     {
       "issuer_cik": "0000094049",
@@ -7987,8 +7987,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2546453039946365,
-      "pct_from_52w_low": 0.13156350231722436
+      "pct_from_52w_high": -0.25228954453659647,
+      "pct_from_52w_low": 0.13513990887539462
     },
     {
       "issuer_cik": "0001336917",
@@ -8013,8 +8013,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -8039,8 +8039,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001327811",
@@ -8195,8 +8195,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002057463",
@@ -8221,8 +8221,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002057463",
@@ -8247,8 +8247,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002057463",
@@ -8273,8 +8273,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0000922621",
@@ -8299,8 +8299,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.35087936293768995,
-      "pct_from_52w_low": 0.051221812855113624
+      "pct_from_52w_high": -0.34994975411552,
+      "pct_from_52w_low": 0.052727272727272734
     },
     {
       "issuer_cik": "0000919567",
@@ -8507,8 +8507,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -8533,8 +8533,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0000912615",
@@ -8559,8 +8559,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8585,8 +8585,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8611,8 +8611,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8637,8 +8637,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8663,8 +8663,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8689,8 +8689,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8715,8 +8715,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8741,8 +8741,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8767,8 +8767,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8793,8 +8793,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8819,8 +8819,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000912615",
@@ -8845,8 +8845,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09467949807253995,
-      "pct_from_52w_low": 0.7314986087030322
+      "pct_from_52w_high": -0.09455864550658166,
+      "pct_from_52w_low": 0.7317297490001637
     },
     {
       "issuer_cik": "0000910612",
@@ -8871,8 +8871,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02670158213068019,
-      "pct_from_52w_low": 0.7330247742261278
+      "pct_from_52w_high": -0.02931934318104401,
+      "pct_from_52w_low": 0.7283636706324157
     },
     {
       "issuer_cik": "0001067294",
@@ -8897,8 +8897,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6452381791784316,
-      "pct_from_52w_low": 0.00019736126260005982
+      "pct_from_52w_high": -0.6464284073633684,
+      "pct_from_52w_low": 0.0
     },
     {
       "issuer_cik": "0000898293",
@@ -8923,8 +8923,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.014992983257726578,
-      "pct_from_52w_low": 0.992295620924315
+      "pct_from_52w_high": -0.017237759153350796,
+      "pct_from_52w_low": 0.987755290641593
     },
     {
       "issuer_cik": "0000898293",
@@ -8949,8 +8949,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.014992983257726578,
-      "pct_from_52w_low": 0.992295620924315
+      "pct_from_52w_high": -0.017237759153350796,
+      "pct_from_52w_low": 0.987755290641593
     },
     {
       "issuer_cik": "0000885307",
@@ -9001,8 +9001,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.22207823229060275,
-      "pct_from_52w_low": 0.6039864745848829
+      "pct_from_52w_high": -0.2243616879617858,
+      "pct_from_52w_low": 0.5992781136434358
     },
     {
       "issuer_cik": "0000858706",
@@ -9053,8 +9053,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.7607986709863469,
-      "pct_from_52w_low": 0.006677869819470494
+      "pct_from_52w_high": -0.7600053190201502,
+      "pct_from_52w_low": 0.010016764926436439
     },
     {
       "issuer_cik": "0000814586",
@@ -9079,8 +9079,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.30283857694420413,
-      "pct_from_52w_low": 0.17537386553876377
+      "pct_from_52w_high": -0.30721465060327935,
+      "pct_from_52w_low": 0.16799605827283015
     },
     {
       "issuer_cik": "0000814586",
@@ -9105,8 +9105,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.30283857694420413,
-      "pct_from_52w_low": 0.17537386553876377
+      "pct_from_52w_high": -0.30721465060327935,
+      "pct_from_52w_low": 0.16799605827283015
     },
     {
       "issuer_cik": "0000813623",
@@ -9131,8 +9131,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -9157,8 +9157,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -9183,8 +9183,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000080661",
@@ -9209,8 +9209,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.21030772466922343,
-      "pct_from_52w_low": 0.1276878259955685
+      "pct_from_52w_high": -0.2087434982973717,
+      "pct_from_52w_low": 0.1299214370858095
     },
     {
       "issuer_cik": "0000798081",
@@ -9235,8 +9235,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6737310449960777,
-      "pct_from_52w_low": 0.08035264569852352
+      "pct_from_52w_high": -0.6753666056352516,
+      "pct_from_52w_low": 0.0749370007435417
     },
     {
       "issuer_cik": "0000783324",
@@ -9261,8 +9261,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1843220178456314,
-      "pct_from_52w_low": 2.564814584858633
+      "pct_from_52w_high": -0.18008473356267984,
+      "pct_from_52w_low": 2.583333084980657
     },
     {
       "issuer_cik": "0000751978",
@@ -9288,7 +9288,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000751978",
@@ -9314,7 +9314,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.897234223477763
+      "pct_from_52w_low": 1.8894950632048202
     },
     {
       "issuer_cik": "0000073309",
@@ -9339,8 +9339,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.003482030410947523,
-      "pct_from_52w_low": 0.6214298165407344
+      "pct_from_52w_high": -0.005463190382996808,
+      "pct_from_52w_low": 0.6182062802392843
     },
     {
       "issuer_cik": "0000073309",
@@ -9365,8 +9365,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.003482030410947523,
-      "pct_from_52w_low": 0.6214298165407344
+      "pct_from_52w_high": -0.005463190382996808,
+      "pct_from_52w_low": 0.6182062802392843
     },
     {
       "issuer_cik": "0000730349",
@@ -9391,8 +9391,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.18823531969195761,
-      "pct_from_52w_low": 0.32692312100935417
+      "pct_from_52w_high": -0.1294117779055265,
+      "pct_from_52w_low": 0.42307699361496676
     },
     {
       "issuer_cik": "0000723531",
@@ -9417,8 +9417,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.27781966158445537,
-      "pct_from_52w_low": 0.04577728203204412
+      "pct_from_52w_high": -0.27753322710607875,
+      "pct_from_52w_low": 0.04619216465536291
     },
     {
       "issuer_cik": "0000059478",
@@ -9443,8 +9443,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.025677064980553443,
-      "pct_from_52w_low": 0.7348466972010497
+      "pct_from_52w_high": -0.025776156244377346,
+      "pct_from_52w_low": 0.734670258624488
     },
     {
       "issuer_cik": "0000056679",
@@ -9469,8 +9469,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1040083693674353,
-      "pct_from_52w_low": 0.15922884001789006
+      "pct_from_52w_high": -0.10533436901658721,
+      "pct_from_52w_low": 0.15751319351308268
     },
     {
       "issuer_cik": "0000050471",
@@ -9495,7 +9495,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.46242031101116965,
+      "pct_from_52w_high": -0.4578274603919247,
       "pct_from_52w_low": 0.0
     },
     {
@@ -9521,8 +9521,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.040267747939670806,
-      "pct_from_52w_low": 0.07408331415087521
+      "pct_from_52w_high": -0.03924846263459991,
+      "pct_from_52w_low": 0.07522413083643364
     },
     {
       "issuer_cik": "0000354190",
@@ -9547,8 +9547,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2397348818352264,
-      "pct_from_52w_low": 0.10725238004385251
+      "pct_from_52w_high": -0.2414524376412539,
+      "pct_from_52w_low": 0.10475092665786412
     },
     {
       "issuer_cik": "0000354190",
@@ -9573,8 +9573,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2397348818352264,
-      "pct_from_52w_low": 0.10725238004385251
+      "pct_from_52w_high": -0.2414524376412539,
+      "pct_from_52w_low": 0.10475092665786412
     },
     {
       "issuer_cik": "0000354190",
@@ -9599,8 +9599,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2397348818352264,
-      "pct_from_52w_low": 0.10725238004385251
+      "pct_from_52w_high": -0.2414524376412539,
+      "pct_from_52w_low": 0.10475092665786412
     },
     {
       "issuer_cik": "0000316709",
@@ -9625,8 +9625,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012574311531190818,
-      "pct_from_52w_low": 0.4697929449476761
+      "pct_from_52w_high": -0.013200522413976734,
+      "pct_from_52w_low": 0.46886082382877414
     },
     {
       "issuer_cik": "0000316709",
@@ -9651,8 +9651,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012574311531190818,
-      "pct_from_52w_low": 0.4697929449476761
+      "pct_from_52w_high": -0.013200522413976734,
+      "pct_from_52w_low": 0.46886082382877414
     },
     {
       "issuer_cik": "0000059478",
@@ -9677,8 +9677,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.025677064980553443,
-      "pct_from_52w_low": 0.7348466972010497
+      "pct_from_52w_high": -0.025776156244377346,
+      "pct_from_52w_low": 0.734670258624488
     },
     {
       "issuer_cik": "0001844684",
@@ -9724,8 +9724,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07217259722906144,
-      "pct_from_52w_low": 0.9736241426842733
+      "pct_from_52w_high": -0.07021924412510105,
+      "pct_from_52w_low": 0.9777792094926581
     },
     {
       "issuer_cik": "0000025743",
@@ -9750,8 +9750,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1734694014088105,
-      "pct_from_52w_low": 1.2191780307409723
+      "pct_from_52w_high": -0.1683673655574689,
+      "pct_from_52w_low": 1.2328766474560084
     },
     {
       "issuer_cik": "0000849146",
@@ -9776,8 +9776,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.7607986709863469,
-      "pct_from_52w_low": 0.006677869819470494
+      "pct_from_52w_high": -0.7600053190201502,
+      "pct_from_52w_low": 0.010016764926436439
     },
     {
       "issuer_cik": "0001438472",
@@ -9802,8 +9802,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09831237071312537,
-      "pct_from_52w_low": 0.4947950912514931
+      "pct_from_52w_high": -0.09988226538525968,
+      "pct_from_52w_low": 0.49219255931751915
     },
     {
       "issuer_cik": "0001524566",
@@ -9828,8 +9828,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -9854,8 +9854,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -9880,8 +9880,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -9906,8 +9906,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001156041",
@@ -9932,8 +9932,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9160379776841827,
-      "pct_from_52w_low": 0.344527004931076
+      "pct_from_52w_high": -0.9159873464322844,
+      "pct_from_52w_low": 0.345337789183207
     },
     {
       "issuer_cik": "0001543151",
@@ -9958,8 +9958,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17866533153530628,
-      "pct_from_52w_low": 0.36299070749354034
+      "pct_from_52w_high": -0.1783216657963872,
+      "pct_from_52w_low": 0.36356101485619696
     },
     {
       "issuer_cik": "0001543151",
@@ -9984,8 +9984,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17866533153530628,
-      "pct_from_52w_low": 0.36299070749354034
+      "pct_from_52w_high": -0.1783216657963872,
+      "pct_from_52w_low": 0.36356101485619696
     },
     {
       "issuer_cik": "0000073309",
@@ -10010,8 +10010,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.003482030410947523,
-      "pct_from_52w_low": 0.6214298165407344
+      "pct_from_52w_high": -0.005463190382996808,
+      "pct_from_52w_low": 0.6182062802392843
     },
     {
       "issuer_cik": "0000073309",
@@ -10036,8 +10036,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.003482030410947523,
-      "pct_from_52w_low": 0.6214298165407344
+      "pct_from_52w_high": -0.005463190382996808,
+      "pct_from_52w_low": 0.6182062802392843
     },
     {
       "issuer_cik": "0001029142",
@@ -10063,7 +10063,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.6436966659402032
+      "pct_from_52w_low": 0.6431624656598269
     },
     {
       "issuer_cik": "0002057463",
@@ -10088,8 +10088,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002057463",
@@ -10114,8 +10114,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002057463",
@@ -10140,8 +10140,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002057463",
@@ -10166,8 +10166,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05077718036146328,
-      "pct_from_52w_low": 0.21566025652384124
+      "pct_from_52w_high": -0.0533678145084604,
+      "pct_from_52w_low": 0.21234245704984933
     },
     {
       "issuer_cik": "0002052959",
@@ -10192,8 +10192,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.028101838255223055,
-      "pct_from_52w_low": 0.6395348321430887
+      "pct_from_52w_high": -0.022269356452906064,
+      "pct_from_52w_low": 0.6493738846787704
     },
     {
       "issuer_cik": "0001992243",
@@ -10218,8 +10218,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.11301373486940214,
-      "pct_from_52w_low": 5.675257436754558
+      "pct_from_52w_high": -0.11712328722383458,
+      "pct_from_52w_low": 5.644329877902654
     },
     {
       "issuer_cik": "0001592782",
@@ -10244,8 +10244,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9,
-      "pct_from_52w_low": 0.13636364252114097
+      "pct_from_52w_high": -0.9000975012779235,
+      "pct_from_52w_low": 0.13525567344782385
     },
     {
       "issuer_cik": "0001709628",
@@ -10270,8 +10270,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9769108280859311,
-      "pct_from_52w_low": 0.03942651359833316
+      "pct_from_52w_high": -0.9776008499192009,
+      "pct_from_52w_low": 0.00836316532704573
     },
     {
       "issuer_cik": "0000316709",
@@ -10296,8 +10296,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012574311531190818,
-      "pct_from_52w_low": 0.4697929449476761
+      "pct_from_52w_high": -0.013200522413976734,
+      "pct_from_52w_low": 0.46886082382877414
     },
     {
       "issuer_cik": "0000316709",
@@ -10322,8 +10322,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012574311531190818,
-      "pct_from_52w_low": 0.4697929449476761
+      "pct_from_52w_high": -0.013200522413976734,
+      "pct_from_52w_low": 0.46886082382877414
     },
     {
       "issuer_cik": "0000798081",
@@ -10348,8 +10348,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6737310449960777,
-      "pct_from_52w_low": 0.08035264569852352
+      "pct_from_52w_high": -0.6753666056352516,
+      "pct_from_52w_low": 0.0749370007435417
     },
     {
       "issuer_cik": "0001584549",
@@ -10374,8 +10374,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.12081337243093992,
-      "pct_from_52w_low": 6.640332442733382
+      "pct_from_52w_high": -0.11842103011660265,
+      "pct_from_52w_low": 6.661122443428563
     },
     {
       "issuer_cik": "0001808898",
@@ -10400,8 +10400,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808898",
@@ -10426,8 +10426,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808377",
@@ -10452,7 +10452,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8296874973224476,
+      "pct_from_52w_high": -0.8327187473666855,
       "pct_from_52w_low": 0.0
     },
     {
@@ -10520,8 +10520,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2721769896945654,
-      "pct_from_52w_low": 0.11128665566415141
+      "pct_from_52w_high": -0.2732211862303684,
+      "pct_from_52w_low": 0.1096923097040785
     },
     {
       "issuer_cik": "0001976685",
@@ -10567,8 +10567,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -10593,8 +10593,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001976685",
@@ -10640,8 +10640,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10666,8 +10666,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10692,8 +10692,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10718,8 +10718,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10744,8 +10744,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10770,8 +10770,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10796,8 +10796,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10822,8 +10822,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10848,8 +10848,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10874,8 +10874,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0000730349",
@@ -10900,8 +10900,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.18823531969195761,
-      "pct_from_52w_low": 0.32692312100935417
+      "pct_from_52w_high": -0.1294117779055265,
+      "pct_from_52w_low": 0.42307699361496676
     },
     {
       "issuer_cik": "0001616862",
@@ -10926,8 +10926,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10952,8 +10952,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -10978,8 +10978,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11004,8 +11004,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11030,8 +11030,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11056,8 +11056,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11082,8 +11082,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11108,8 +11108,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11134,8 +11134,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001616862",
@@ -11160,8 +11160,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13127461319420097,
-      "pct_from_52w_low": 0.25255782757394507
+      "pct_from_52w_high": -0.13193168353270845,
+      "pct_from_52w_low": 0.25161044119815323
     },
     {
       "issuer_cik": "0001053352",
@@ -11186,8 +11186,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.021496851014588758,
-      "pct_from_52w_low": 0.5508047440164137
+      "pct_from_52w_high": -0.026671976668389052,
+      "pct_from_52w_low": 0.5426026334076204
     },
     {
       "issuer_cik": "0001053352",
@@ -11212,8 +11212,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.021496851014588758,
-      "pct_from_52w_low": 0.5508047440164137
+      "pct_from_52w_high": -0.026671976668389052,
+      "pct_from_52w_low": 0.5426026334076204
     },
     {
       "issuer_cik": "0001053352",
@@ -11238,8 +11238,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.021496851014588758,
-      "pct_from_52w_low": 0.5508047440164137
+      "pct_from_52w_high": -0.026671976668389052,
+      "pct_from_52w_low": 0.5426026334076204
     },
     {
       "issuer_cik": "0001053352",
@@ -11264,8 +11264,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.021496851014588758,
-      "pct_from_52w_low": 0.5508047440164137
+      "pct_from_52w_high": -0.026671976668389052,
+      "pct_from_52w_low": 0.5426026334076204
     },
     {
       "issuer_cik": "0001992243",
@@ -11290,8 +11290,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.11301373486940214,
-      "pct_from_52w_low": 5.675257436754558
+      "pct_from_52w_high": -0.11712328722383458,
+      "pct_from_52w_low": 5.644329877902654
     },
     {
       "issuer_cik": "0001326380",
@@ -11342,8 +11342,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10550361689349219,
-      "pct_from_52w_low": 0.2678734726467127
+      "pct_from_52w_high": -0.10266999942853838,
+      "pct_from_52w_low": 0.27188988733915265
     },
     {
       "issuer_cik": "0001326380",
@@ -11394,8 +11394,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19704847002485537,
-      "pct_from_52w_low": 0.7048188221893399
+      "pct_from_52w_high": -0.19813096636569738,
+      "pct_from_52w_low": 0.7025204765633275
     },
     {
       "issuer_cik": "0001976685",
@@ -11462,8 +11462,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5066753270607172,
-      "pct_from_52w_low": 0.6208986904052205
+      "pct_from_52w_high": -0.5083034778297473,
+      "pct_from_52w_low": 0.6155491354486853
     },
     {
       "issuer_cik": "0001649094",
@@ -11488,8 +11488,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5066753270607172,
-      "pct_from_52w_low": 0.6208986904052205
+      "pct_from_52w_high": -0.5083034778297473,
+      "pct_from_52w_low": 0.6155491354486853
     },
     {
       "issuer_cik": "0001649094",
@@ -11514,8 +11514,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5066753270607172,
-      "pct_from_52w_low": 0.6208986904052205
+      "pct_from_52w_high": -0.5083034778297473,
+      "pct_from_52w_low": 0.6155491354486853
     },
     {
       "issuer_cik": "0001350102",
@@ -11540,8 +11540,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0711462722500843,
-      "pct_from_52w_low": 3.0343347323285776
+      "pct_from_52w_high": -0.07709486298423351,
+      "pct_from_52w_low": 3.0084979342513165
     },
     {
       "issuer_cik": "0001468174",
@@ -11566,8 +11566,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012529997184826724,
-      "pct_from_52w_low": 0.5815848736037548
+      "pct_from_52w_high": -0.012800418883119002,
+      "pct_from_52w_low": 0.5811517517202605
     },
     {
       "issuer_cik": "0001468174",
@@ -11592,8 +11592,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012529997184826724,
-      "pct_from_52w_low": 0.5815848736037548
+      "pct_from_52w_high": -0.012800418883119002,
+      "pct_from_52w_low": 0.5811517517202605
     },
     {
       "issuer_cik": "0001468174",
@@ -11618,8 +11618,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012529997184826724,
-      "pct_from_52w_low": 0.5815848736037548
+      "pct_from_52w_high": -0.012800418883119002,
+      "pct_from_52w_low": 0.5811517517202605
     },
     {
       "issuer_cik": "0001468174",
@@ -11644,8 +11644,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012529997184826724,
-      "pct_from_52w_low": 0.5815848736037548
+      "pct_from_52w_high": -0.012800418883119002,
+      "pct_from_52w_low": 0.5811517517202605
     },
     {
       "issuer_cik": "0001468174",
@@ -11670,8 +11670,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012529997184826724,
-      "pct_from_52w_low": 0.5815848736037548
+      "pct_from_52w_high": -0.012800418883119002,
+      "pct_from_52w_low": 0.5811517517202605
     },
     {
       "issuer_cik": "0001468174",
@@ -11696,8 +11696,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.012529997184826724,
-      "pct_from_52w_low": 0.5815848736037548
+      "pct_from_52w_high": -0.012800418883119002,
+      "pct_from_52w_low": 0.5811517517202605
     },
     {
       "issuer_cik": "0001808898",
@@ -11722,8 +11722,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001808898",
@@ -11748,8 +11748,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1831447644589287,
-      "pct_from_52w_low": 0.41391756930631596
+      "pct_from_52w_high": -0.1730196860179425,
+      "pct_from_52w_low": 0.4314433507121638
     },
     {
       "issuer_cik": "0001820144",
@@ -11774,8 +11774,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.457274541438056,
-      "pct_from_52w_low": 0.1222073828585335
+      "pct_from_52w_high": -0.4567326862796304,
+      "pct_from_52w_low": 0.12332779069942679
     },
     {
       "issuer_cik": "0001936258",
@@ -11800,8 +11800,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001936258",
@@ -11826,8 +11826,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.16960198949573202,
-      "pct_from_52w_low": 1.3100670503467087
+      "pct_from_52w_high": -0.16694817506082582,
+      "pct_from_52w_low": 1.31744964183448
     },
     {
       "issuer_cik": "0001639723",
@@ -11852,8 +11852,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001933567",
@@ -11879,7 +11879,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.8062498151324715
+      "pct_from_52w_low": 1.8006249248888353
     },
     {
       "issuer_cik": "0000026324",
@@ -11904,8 +11904,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07217259722906144,
-      "pct_from_52w_low": 0.9736241426842733
+      "pct_from_52w_high": -0.07021924412510105,
+      "pct_from_52w_low": 0.9777792094926581
     },
     {
       "issuer_cik": "0001639723",
@@ -11930,8 +11930,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001923622",
@@ -12082,8 +12082,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001595527",
@@ -12238,8 +12238,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0035778140215710907,
-      "pct_from_52w_low": 5.00134683213804
+      "pct_from_52w_high": -0.003242407285457438,
+      "pct_from_52w_low": 5.003366951904118
     },
     {
       "issuer_cik": "0001743725",
@@ -12264,8 +12264,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6160083181023015,
-      "pct_from_52w_low": 0.23133328755696625
+      "pct_from_52w_high": -0.6177754508916795,
+      "pct_from_52w_low": 0.2256666819254558
     },
     {
       "issuer_cik": "0001743725",
@@ -12290,8 +12290,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6160083181023015,
-      "pct_from_52w_low": 0.23133328755696625
+      "pct_from_52w_high": -0.6177754508916795,
+      "pct_from_52w_low": 0.2256666819254558
     },
     {
       "issuer_cik": "0001595527",
@@ -12342,8 +12342,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1509433851152866,
-      "pct_from_52w_low": 2.082191883316815
+      "pct_from_52w_high": -0.15055916723129203,
+      "pct_from_52w_low": 2.0835866468964315
     },
     {
       "issuer_cik": "0001526243",
@@ -12368,8 +12368,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1509433851152866,
-      "pct_from_52w_low": 2.082191883316815
+      "pct_from_52w_high": -0.15055916723129203,
+      "pct_from_52w_low": 2.0835866468964315
     },
     {
       "issuer_cik": "0001639723",
@@ -12394,8 +12394,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -12420,8 +12420,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -12446,8 +12446,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001874178",
@@ -12472,8 +12472,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1322940365154025,
-      "pct_from_52w_low": 0.8360037862938929
+      "pct_from_52w_high": -0.1383385897990751,
+      "pct_from_52w_low": 0.8232139436717325
     },
     {
       "issuer_cik": "0001336917",
@@ -12498,8 +12498,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -12524,8 +12524,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0000936395",
@@ -12550,8 +12550,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.01613231209345778,
-      "pct_from_52w_low": 3.4571963871750873
+      "pct_from_52w_high": -0.018298459578090065,
+      "pct_from_52w_low": 3.4473831319363315
     },
     {
       "issuer_cik": "0000917251",
@@ -12576,8 +12576,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05652963948172829,
-      "pct_from_52w_low": 0.10318403118581432
+      "pct_from_52w_high": -0.05522984899546346,
+      "pct_from_52w_low": 0.10470409201374808
     },
     {
       "issuer_cik": "0001336917",
@@ -12602,8 +12602,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001336917",
@@ -12628,8 +12628,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3639281196443811,
-      "pct_from_52w_low": 0.2512625949429734
+      "pct_from_52w_high": -0.3607188647676346,
+      "pct_from_52w_low": 0.2575757502779743
     },
     {
       "issuer_cik": "0001072627",
@@ -12654,8 +12654,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.15872058919001797,
-      "pct_from_52w_low": 0.9122084572466755
+      "pct_from_52w_high": -0.1659625860378855,
+      "pct_from_52w_low": 0.8957475675090878
     },
     {
       "issuer_cik": "0000879911",
@@ -12680,8 +12680,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.37062936421682124,
-      "pct_from_52w_low": 2.087478454659115
+      "pct_from_52w_high": -0.353146821084106,
+      "pct_from_52w_low": 2.1732418700236384
     },
     {
       "issuer_cik": "0000879911",
@@ -12706,8 +12706,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.37062936421682124,
-      "pct_from_52w_low": 2.087478454659115
+      "pct_from_52w_high": -0.353146821084106,
+      "pct_from_52w_low": 2.1732418700236384
     },
     {
       "issuer_cik": "0000858706",
@@ -12758,8 +12758,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000813623",
@@ -12784,8 +12784,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.02647976234792826,
-      "pct_from_52w_low": 0.24680028955536515
+      "pct_from_52w_high": -0.027258596363737952,
+      "pct_from_52w_low": 0.24580282649412566
     },
     {
       "issuer_cik": "0000074260",
@@ -12810,8 +12810,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.006220444175766393,
-      "pct_from_52w_low": 0.42586353325260773
+      "pct_from_52w_high": -0.005212355986378703,
+      "pct_from_52w_low": 0.42730992664954015
     },
     {
       "issuer_cik": "0000074260",
@@ -12836,8 +12836,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.006220444175766393,
-      "pct_from_52w_low": 0.42586353325260773
+      "pct_from_52w_high": -0.005212355986378703,
+      "pct_from_52w_low": 0.42730992664954015
     },
     {
       "issuer_cik": "0000050471",
@@ -12862,7 +12862,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.46242031101116965,
+      "pct_from_52w_high": -0.4578274603919247,
       "pct_from_52w_low": 0.0
     },
     {
@@ -12888,8 +12888,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.038880802217514554,
-      "pct_from_52w_low": 0.5829028812712518
+      "pct_from_52w_high": -0.0392441826214206,
+      "pct_from_52w_low": 0.5823044165962483
     },
     {
       "issuer_cik": "0000037996",
@@ -12914,8 +12914,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.038880802217514554,
-      "pct_from_52w_low": 0.5829028812712518
+      "pct_from_52w_high": -0.0392441826214206,
+      "pct_from_52w_low": 0.5823044165962483
     },
     {
       "issuer_cik": "0000037996",
@@ -12940,8 +12940,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.038880802217514554,
-      "pct_from_52w_low": 0.5829028812712518
+      "pct_from_52w_high": -0.0392441826214206,
+      "pct_from_52w_low": 0.5823044165962483
     },
     {
       "issuer_cik": "0000037996",
@@ -12966,8 +12966,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.038880802217514554,
-      "pct_from_52w_low": 0.5829028812712518
+      "pct_from_52w_high": -0.0392441826214206,
+      "pct_from_52w_low": 0.5823044165962483
     },
     {
       "issuer_cik": "0000037996",
@@ -12992,8 +12992,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.038880802217514554,
-      "pct_from_52w_low": 0.5829028812712518
+      "pct_from_52w_high": -0.0392441826214206,
+      "pct_from_52w_low": 0.5823044165962483
     },
     {
       "issuer_cik": "0000037996",
@@ -13018,8 +13018,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.038880802217514554,
-      "pct_from_52w_low": 0.5829028812712518
+      "pct_from_52w_high": -0.0392441826214206,
+      "pct_from_52w_low": 0.5823044165962483
     },
     {
       "issuer_cik": "0000354190",
@@ -13044,8 +13044,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2397348818352264,
-      "pct_from_52w_low": 0.10725238004385251
+      "pct_from_52w_high": -0.2414524376412539,
+      "pct_from_52w_low": 0.10475092665786412
     },
     {
       "issuer_cik": "0000354190",
@@ -13070,8 +13070,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2397348818352264,
-      "pct_from_52w_low": 0.10725238004385251
+      "pct_from_52w_high": -0.2414524376412539,
+      "pct_from_52w_low": 0.10475092665786412
     },
     {
       "issuer_cik": "0001527762",
@@ -13096,8 +13096,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8563844723385958,
-      "pct_from_52w_low": 1.5635908095291322
+      "pct_from_52w_high": -0.8594579468807416,
+      "pct_from_52w_low": 1.5087281410010962
     },
     {
       "issuer_cik": "0001341439",
@@ -13122,8 +13122,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.3969695194979478,
-      "pct_from_52w_low": 0.6154836215336454
+      "pct_from_52w_high": -0.3973356248124432,
+      "pct_from_52w_low": 0.6145028466666251
     },
     {
       "issuer_cik": "0001524566",
@@ -13148,8 +13148,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -13174,8 +13174,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -13200,8 +13200,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -13226,8 +13226,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001524566",
@@ -13252,8 +13252,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0001604191",
@@ -13278,8 +13278,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2824156519126082,
-      "pct_from_52w_low": 2.9491690658070238
+      "pct_from_52w_high": -0.28063941236046586,
+      "pct_from_52w_low": 2.9589444605902013
     },
     {
       "issuer_cik": "0001579878",
@@ -13304,8 +13304,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.690983600303775,
-      "pct_from_52w_low": 0.12302654470241148
+      "pct_from_52w_high": -0.6910655850269756,
+      "pct_from_52w_low": 0.12272859604821451
     },
     {
       "issuer_cik": "0001579878",
@@ -13330,8 +13330,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.690983600303775,
-      "pct_from_52w_low": 0.12302654470241148
+      "pct_from_52w_high": -0.6910655850269756,
+      "pct_from_52w_low": 0.12272859604821451
     },
     {
       "issuer_cik": "0001604191",
@@ -13356,8 +13356,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.2824156519126082,
-      "pct_from_52w_low": 2.9491690658070238
+      "pct_from_52w_high": -0.28063941236046586,
+      "pct_from_52w_low": 2.9589444605902013
     },
     {
       "issuer_cik": "0001012100",
@@ -13382,8 +13382,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001012100",
@@ -13408,8 +13408,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001827821",
@@ -13434,8 +13434,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0035778140215710907,
-      "pct_from_52w_low": 5.00134683213804
+      "pct_from_52w_high": -0.003242407285457438,
+      "pct_from_52w_low": 5.003366951904118
     },
     {
       "issuer_cik": "0001827821",
@@ -13460,8 +13460,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.0035778140215710907,
-      "pct_from_52w_low": 5.00134683213804
+      "pct_from_52w_high": -0.003242407285457438,
+      "pct_from_52w_low": 5.003366951904118
     },
     {
       "issuer_cik": "0002052959",
@@ -13486,8 +13486,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.028101838255223055,
-      "pct_from_52w_low": 0.6395348321430887
+      "pct_from_52w_high": -0.022269356452906064,
+      "pct_from_52w_low": 0.6493738846787704
     },
     {
       "issuer_cik": "0001022652",
@@ -13512,8 +13512,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.39525466469794746,
-      "pct_from_52w_low": 0.6328124458668762
+      "pct_from_52w_high": -0.39293985218269445,
+      "pct_from_52w_low": 0.6390624398132796
     },
     {
       "issuer_cik": "0001592782",
@@ -13538,8 +13538,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.9,
-      "pct_from_52w_low": 0.13636364252114097
+      "pct_from_52w_high": -0.9000975012779235,
+      "pct_from_52w_low": 0.13525567344782385
     },
     {
       "issuer_cik": "0001850119",
@@ -13564,8 +13564,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09819816772102452,
-      "pct_from_52w_low": 1.5732649110825871
+      "pct_from_52w_high": -0.10414413369482745,
+      "pct_from_52w_low": 1.5562982726757753
     },
     {
       "issuer_cik": "0001861107",
@@ -13590,8 +13590,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001861107",
@@ -13616,8 +13616,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001861107",
@@ -13642,8 +13642,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001861107",
@@ -13668,8 +13668,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001861107",
@@ -13694,8 +13694,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001861107",
@@ -13720,8 +13720,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001681087",
@@ -13746,8 +13746,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6169310788407634,
-      "pct_from_52w_low": 0.4320040617294465
+      "pct_from_52w_high": -0.6154266941300754,
+      "pct_from_52w_low": 0.4376278147856574
     },
     {
       "issuer_cik": "0001601830",
@@ -13772,8 +13772,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.6218859396732117,
-      "pct_from_52w_low": 0.06755841410149954
+      "pct_from_52w_high": -0.6223551000651779,
+      "pct_from_52w_low": 0.06623379759934167
     },
     {
       "issuer_cik": "0001808377",
@@ -13798,7 +13798,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8296874973224476,
+      "pct_from_52w_high": -0.8327187473666855,
       "pct_from_52w_low": 0.0
     },
     {
@@ -13824,8 +13824,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.19075296180767276,
-      "pct_from_52w_low": 0.4919628902248896
+      "pct_from_52w_high": -0.19392334322702232,
+      "pct_from_52w_low": 0.48611783772263517
     },
     {
       "issuer_cik": "0001979306",
@@ -13871,8 +13871,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07932633398013411,
-      "pct_from_52w_low": 0.37764800499895324
+      "pct_from_52w_high": -0.08103489372479056,
+      "pct_from_52w_low": 0.3750914054018093
     },
     {
       "issuer_cik": "0000108516",
@@ -13897,8 +13897,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.22280335645604687,
-      "pct_from_52w_low": 0.3542206344688059
+      "pct_from_52w_high": -0.22077554790988196,
+      "pct_from_52w_low": 0.35775383995141463
     },
     {
       "issuer_cik": "0000108516",
@@ -13923,8 +13923,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.22280335645604687,
-      "pct_from_52w_low": 0.3542206344688059
+      "pct_from_52w_high": -0.22077554790988196,
+      "pct_from_52w_low": 0.35775383995141463
     },
     {
       "issuer_cik": "0000108516",
@@ -13949,8 +13949,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.22280335645604687,
-      "pct_from_52w_low": 0.3542206344688059
+      "pct_from_52w_high": -0.22077554790988196,
+      "pct_from_52w_low": 0.35775383995141463
     },
     {
       "issuer_cik": "0001994624",
@@ -13975,7 +13975,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.986986301428369,
+      "pct_from_52w_high": -0.9871443623920539,
       "pct_from_52w_low": 0.0
     },
     {
@@ -14001,8 +14001,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.018350307727318937,
-      "pct_from_52w_low": 0.5550814185342812
+      "pct_from_52w_high": -0.014817853889566801,
+      "pct_from_52w_low": 0.5606773590904288
     },
     {
       "issuer_cik": "0001979306",
@@ -14090,8 +14090,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001012100",
@@ -14116,8 +14116,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001012100",
@@ -14142,8 +14142,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001012100",
@@ -14168,8 +14168,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001012100",
@@ -14194,8 +14194,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001012100",
@@ -14220,8 +14220,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.03865530277439311,
-      "pct_from_52w_low": 0.7648022982654386
+      "pct_from_52w_high": -0.03830805212610211,
+      "pct_from_52w_low": 0.7654397686170686
     },
     {
       "issuer_cik": "0001973266",
@@ -14246,8 +14246,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.018350307727318937,
-      "pct_from_52w_low": 0.5550814185342812
+      "pct_from_52w_high": -0.014817853889566801,
+      "pct_from_52w_low": 0.5606773590904288
     },
     {
       "issuer_cik": "0001816736",
@@ -14272,8 +14272,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.18717455902164748,
-      "pct_from_52w_low": 1.2314762389309233
+      "pct_from_52w_high": -0.18520880025643716,
+      "pct_from_52w_low": 1.236872900692343
     },
     {
       "issuer_cik": "0001816736",
@@ -14298,8 +14298,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.18717455902164748,
-      "pct_from_52w_low": 1.2314762389309233
+      "pct_from_52w_high": -0.18520880025643716,
+      "pct_from_52w_low": 1.236872900692343
     },
     {
       "issuer_cik": "0001816736",
@@ -14324,8 +14324,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.18717455902164748,
-      "pct_from_52w_low": 1.2314762389309233
+      "pct_from_52w_high": -0.18520880025643716,
+      "pct_from_52w_low": 1.236872900692343
     },
     {
       "issuer_cik": "0001639723",
@@ -14350,8 +14350,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001402057",
@@ -14376,8 +14376,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.31806109691066464,
-      "pct_from_52w_low": 0.017985017981316354
+      "pct_from_52w_high": -0.31825804216281506,
+      "pct_from_52w_low": 0.01769102197207939
     },
     {
       "issuer_cik": "0001639723",
@@ -14402,8 +14402,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001713445",
@@ -14428,8 +14428,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14454,8 +14454,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14480,8 +14480,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14506,8 +14506,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14532,8 +14532,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14558,8 +14558,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14584,8 +14584,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14610,8 +14610,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14636,8 +14636,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001713445",
@@ -14662,8 +14662,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13469648418234337,
-      "pct_from_52w_low": 1.6952743930808567
+      "pct_from_52w_high": -0.13449813288240686,
+      "pct_from_52w_low": 1.695892223899501
     },
     {
       "issuer_cik": "0001840856",
@@ -14688,8 +14688,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001840856",
@@ -14714,8 +14714,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001022652",
@@ -14740,8 +14740,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.39525466469794746,
-      "pct_from_52w_low": 0.6328124458668762
+      "pct_from_52w_high": -0.39293985218269445,
+      "pct_from_52w_low": 0.6390624398132796
     },
     {
       "issuer_cik": "0001840856",
@@ -14766,8 +14766,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001840856",
@@ -14792,8 +14792,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001595527",
@@ -14922,8 +14922,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001840856",
@@ -14948,8 +14948,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5741127563950332,
-      "pct_from_52w_low": 0.42061282077012385
+      "pct_from_52w_high": -0.5755741278479423,
+      "pct_from_52w_low": 0.4157381900947903
     },
     {
       "issuer_cik": "0001595527",
@@ -15000,8 +15000,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -15026,8 +15026,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001639723",
@@ -15052,8 +15052,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.13514179150040273,
-      "pct_from_52w_low": 0.35930235394920973
+      "pct_from_52w_high": -0.1358815887842818,
+      "pct_from_52w_low": 0.3581396105312262
     },
     {
       "issuer_cik": "0001808377",
@@ -15078,7 +15078,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8296874973224476,
+      "pct_from_52w_high": -0.8327187473666855,
       "pct_from_52w_low": 0.0
     },
     {
@@ -15104,8 +15104,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8172842075950221,
-      "pct_from_52w_low": 0.10560507634139871
+      "pct_from_52w_high": -0.8168421042592902,
+      "pct_from_52w_low": 0.10828022382492475
     },
     {
       "issuer_cik": "0001162896",
@@ -15130,8 +15130,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8172842075950221,
-      "pct_from_52w_low": 0.10560507634139871
+      "pct_from_52w_high": -0.8168421042592902,
+      "pct_from_52w_low": 0.10828022382492475
     },
     {
       "issuer_cik": "0001162896",
@@ -15156,8 +15156,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.8172842075950221,
-      "pct_from_52w_low": 0.10560507634139871
+      "pct_from_52w_high": -0.8168421042592902,
+      "pct_from_52w_low": 0.10828022382492475
     },
     {
       "issuer_cik": "0001921865",
@@ -15182,8 +15182,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.611743782942914,
-      "pct_from_52w_low": 0.3915815861063279
+      "pct_from_52w_high": -0.613523149137081,
+      "pct_from_52w_low": 0.3852040108816184
     },
     {
       "issuer_cik": "0001921865",
@@ -15208,8 +15208,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.611743782942914,
-      "pct_from_52w_low": 0.3915815861063279
+      "pct_from_52w_high": -0.613523149137081,
+      "pct_from_52w_low": 0.3852040108816184
     },
     {
       "issuer_cik": "0000889348",
@@ -15234,8 +15234,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.33068782623818715,
-      "pct_from_52w_low": 0.8512195924716948
+      "pct_from_52w_high": -0.3315696806250721,
+      "pct_from_52w_low": 0.848780512199879
     },
     {
       "issuer_cik": "0000822818",
@@ -15260,8 +15260,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.04727866742870235,
-      "pct_from_52w_low": 0.31021410401415905
+      "pct_from_52w_high": -0.04671963139570734,
+      "pct_from_52w_low": 0.3109829089837144
     },
     {
       "issuer_cik": "0000889348",
@@ -15286,8 +15286,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.33068782623818715,
-      "pct_from_52w_low": 0.8512195924716948
+      "pct_from_52w_high": -0.3315696806250721,
+      "pct_from_52w_low": 0.848780512199879
     },
     {
       "issuer_cik": "0000078239",
@@ -15312,8 +15312,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.36829832779515637,
-      "pct_from_52w_low": 0.12475857210307684
+      "pct_from_52w_high": -0.366950456123887,
+      "pct_from_52w_low": 0.12715848694114218
     },
     {
       "issuer_cik": "0000708955",
@@ -15338,8 +15338,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.09256943227817016,
-      "pct_from_52w_low": 0.1846282433633677
+      "pct_from_52w_high": -0.09149601710966992,
+      "pct_from_52w_low": 0.18602956041250818
     },
     {
       "issuer_cik": "0000078239",
@@ -15364,8 +15364,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.36829832779515637,
-      "pct_from_52w_low": 0.12475857210307684
+      "pct_from_52w_high": -0.366950456123887,
+      "pct_from_52w_low": 0.12715848694114218
     },
     {
       "issuer_cik": "0001524566",
@@ -15390,8 +15390,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.015770628676474385,
-      "pct_from_52w_low": 0.08968247036154398
+      "pct_from_52w_high": -0.020788528015636132,
+      "pct_from_52w_low": 0.08412693919448433
     },
     {
       "issuer_cik": "0000350894",
@@ -15416,8 +15416,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000350894",
@@ -15442,8 +15442,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000350894",
@@ -15468,8 +15468,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000350894",
@@ -15494,8 +15494,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000350894",
@@ -15520,8 +15520,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000350894",
@@ -15546,8 +15546,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000350894",
@@ -15572,8 +15572,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.10834148238915997,
-      "pct_from_52w_low": 0.26589726203428254
+      "pct_from_52w_high": -0.1078587996749707,
+      "pct_from_52w_low": 0.2665825319153583
     },
     {
       "issuer_cik": "0000078749",
@@ -15598,8 +15598,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14820715709892696,
-      "pct_from_52w_low": 0.8279348833054212
+      "pct_from_52w_high": -0.14937638131403785,
+      "pct_from_52w_low": 0.825425745377087
     },
     {
       "issuer_cik": "0000095953",
@@ -15625,7 +15625,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000095953",
@@ -15651,7 +15651,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000095953",
@@ -15677,7 +15677,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000095953",
@@ -15703,7 +15703,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000889348",
@@ -15728,8 +15728,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.33068782623818715,
-      "pct_from_52w_low": 0.8512195924716948
+      "pct_from_52w_high": -0.3315696806250721,
+      "pct_from_52w_low": 0.848780512199879
     },
     {
       "issuer_cik": "0000095953",
@@ -15755,7 +15755,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000095953",
@@ -15781,7 +15781,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000095953",
@@ -15807,7 +15807,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000095953",
@@ -15833,7 +15833,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.531924136225622
+      "pct_from_52w_low": 0.521739141941933
     },
     {
       "issuer_cik": "0000889348",
@@ -15858,8 +15858,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.33068782623818715,
-      "pct_from_52w_low": 0.8512195924716948
+      "pct_from_52w_high": -0.3315696806250721,
+      "pct_from_52w_low": 0.848780512199879
     },
     {
       "issuer_cik": "0002063196",
@@ -15884,8 +15884,8 @@
       "ret_1m": 0.006528881649219498,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.30348585515037363,
-      "pct_from_52w_low": 0.017163113734789626
+      "pct_from_52w_high": -0.3037999501234636,
+      "pct_from_52w_low": 0.01670442122552873
     },
     {
       "issuer_cik": "0001861107",
@@ -15910,8 +15910,8 @@
       "ret_1m": 0.5461876555532614,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17769378553383186,
-      "pct_from_52w_low": 0.9917582278425738
+      "pct_from_52w_high": -0.18128544188975915,
+      "pct_from_52w_low": 0.9830586570833462
     },
     {
       "issuer_cik": "0001984060",
@@ -15936,8 +15936,8 @@
       "ret_1m": 0.03646407919901473,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5928571503103164,
-      "pct_from_52w_low": 0.1944444117395654
+      "pct_from_52w_high": -0.5934883939698874,
+      "pct_from_52w_low": 0.19259251758940343
     },
     {
       "issuer_cik": "0001984060",
@@ -15962,8 +15962,8 @@
       "ret_1m": 0.03646407919901473,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5928571503103164,
-      "pct_from_52w_low": 0.1944444117395654
+      "pct_from_52w_high": -0.5934883939698874,
+      "pct_from_52w_low": 0.19259251758940343
     },
     {
       "issuer_cik": "0001984060",
@@ -15988,8 +15988,8 @@
       "ret_1m": 0.03646407919901473,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5928571503103164,
-      "pct_from_52w_low": 0.1944444117395654
+      "pct_from_52w_high": -0.5934883939698874,
+      "pct_from_52w_low": 0.19259251758940343
     },
     {
       "issuer_cik": "0001984060",
@@ -16014,8 +16014,8 @@
       "ret_1m": 0.03646407919901473,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.5928571503103164,
-      "pct_from_52w_low": 0.1944444117395654
+      "pct_from_52w_high": -0.5934883939698874,
+      "pct_from_52w_low": 0.19259251758940343
     },
     {
       "issuer_cik": "0000050471",
@@ -16040,7 +16040,7 @@
       "ret_1m": -0.1167645121175116,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.46242031101116965,
+      "pct_from_52w_high": -0.4578274603919247,
       "pct_from_52w_low": 0.0
     },
     {
@@ -16066,7 +16066,7 @@
       "ret_1m": -0.1167645121175116,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.46242031101116965,
+      "pct_from_52w_high": -0.4578274603919247,
       "pct_from_52w_low": 0.0
     },
     {
@@ -16092,8 +16092,8 @@
       "ret_1m": -0.1927272798207179,
       "ret_3m": 0.3272727331839316,
       "ret_1y": null,
-      "pct_from_52w_high": -0.7364000002543132,
-      "pct_from_52w_low": 0.1401384285245424
+      "pct_from_52w_high": -0.735200007756551,
+      "pct_from_52w_low": 0.1453287075911569
     },
     {
       "issuer_cik": "0001560293",
@@ -16118,8 +16118,8 @@
       "ret_1m": -0.1927272798207179,
       "ret_3m": 0.3272727331839316,
       "ret_1y": null,
-      "pct_from_52w_high": -0.7364000002543132,
-      "pct_from_52w_low": 0.1401384285245424
+      "pct_from_52w_high": -0.735200007756551,
+      "pct_from_52w_low": 0.1453287075911569
     },
     {
       "issuer_cik": "0001560293",
@@ -16144,8 +16144,8 @@
       "ret_1m": 0.0,
       "ret_3m": 0.0,
       "ret_1y": -0.5416666749450892,
-      "pct_from_52w_high": -0.7364000002543132,
-      "pct_from_52w_low": 0.1401384285245424
+      "pct_from_52w_high": -0.735200007756551,
+      "pct_from_52w_low": 0.1453287075911569
     },
     {
       "issuer_cik": "0001560293",
@@ -16170,8 +16170,8 @@
       "ret_1m": 0.0,
       "ret_3m": 0.0,
       "ret_1y": -0.5416666749450892,
-      "pct_from_52w_high": -0.7364000002543132,
-      "pct_from_52w_low": 0.1401384285245424
+      "pct_from_52w_high": -0.735200007756551,
+      "pct_from_52w_low": 0.1453287075911569
     }
   ]
 }
