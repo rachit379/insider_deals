@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-01-21T13:48:46Z",
+  "last_updated_utc": "2026-01-21T14:20:51Z",
   "source": "SEC EDGAR (Form 4 XML + daily index + Yahoo Finance)",
   "rows": [
     {
@@ -489,12 +489,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/318306/0001493152-26-002889.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.26556017582694147,
-      "pct_from_52w_low": 0.273381257944427
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000318306",
@@ -515,12 +510,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/318306/0001493152-26-002887.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.26556017582694147,
-      "pct_from_52w_low": 0.273381257944427
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000318306",
@@ -541,12 +531,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/318306/0001493152-26-002885.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.26556017582694147,
-      "pct_from_52w_low": 0.273381257944427
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000026324",
@@ -645,12 +630,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2034056/0001628280-26-002742.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.16236750345533113,
-      "pct_from_52w_low": 0.8872403080226923
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001157601",
@@ -671,12 +651,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2034056/0001628280-26-002742.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.16236750345533113,
-      "pct_from_52w_low": 0.8872403080226923
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000831001",
@@ -827,12 +802,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/901819/0001408100-26-000018.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.0100000381469727,
-      "pct_from_52w_low": 0.7047296883423864
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000818033",
@@ -931,12 +901,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/0001312604-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.12668361919497273,
-      "pct_from_52w_low": 0.21532590298574572
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000795266",
@@ -957,12 +922,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/0001074923-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.12668361919497273,
-      "pct_from_52w_low": 0.21532590298574572
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000795266",
@@ -983,12 +943,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/0001063460-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.12668361919497273,
-      "pct_from_52w_low": 0.21532590298574572
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000794170",
@@ -1274,7 +1229,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 4.650803617504219
+      "pct_from_52w_low": 4.650804284952608
     },
     {
       "issuer_cik": "0000723125",
@@ -1300,7 +1255,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 4.650803617504219
+      "pct_from_52w_low": 4.650804284952608
     },
     {
       "issuer_cik": "0001273441",
@@ -1321,12 +1276,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2001396/0001104659-26-005109.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3175675505874279,
-      "pct_from_52w_low": 0.4723032339498596
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000087347",
@@ -1352,7 +1302,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1378,7 +1328,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1404,7 +1354,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1430,7 +1380,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1456,7 +1406,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1482,7 +1432,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1508,7 +1458,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1534,7 +1484,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1560,7 +1510,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1586,7 +1536,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1612,7 +1562,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1638,7 +1588,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000795266",
@@ -1659,12 +1609,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/0001312604-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.12668361919497273,
-      "pct_from_52w_low": 0.21532590298574572
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000795266",
@@ -1685,12 +1630,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/0001074923-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.12668361919497273,
-      "pct_from_52w_low": 0.21532590298574572
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000087347",
@@ -1716,7 +1656,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000087347",
@@ -1742,7 +1682,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.011070905774949624,
-      "pct_from_52w_low": 0.48949091807394995
+      "pct_from_52w_low": 0.48949082697359914
     },
     {
       "issuer_cik": "0000798354",
@@ -1867,12 +1807,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/921557/0001459625-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.07144337062167427,
-      "pct_from_52w_low": 0.2015200099119352
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000921557",
@@ -1893,12 +1828,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/921557/0001459625-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.07144337062167427,
-      "pct_from_52w_low": 0.2015200099119352
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000919567",
@@ -2101,12 +2031,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/916540/0001193125-26-016776.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03416966206247429,
-      "pct_from_52w_low": 0.4629026202194011
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000916540",
@@ -2127,12 +2052,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/916540/0001193125-26-016776.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03416966206247429,
-      "pct_from_52w_low": 0.4629026202194011
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000914475",
@@ -2153,12 +2073,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/914475/0001567160-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.13551378869749575,
-      "pct_from_52w_low": 0.5368973255547325
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000914475",
@@ -2179,12 +2094,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/914475/0001567160-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.13551378869749575,
-      "pct_from_52w_low": 0.5368973255547325
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000914475",
@@ -2205,12 +2115,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/914475/0001567160-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.13551378869749575,
-      "pct_from_52w_low": 0.5368973255547325
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000914475",
@@ -2231,12 +2136,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/914475/0001567160-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.13551378869749575,
-      "pct_from_52w_low": 0.5368973255547325
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000912615",
@@ -2387,12 +2287,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/909832/0000909832-26-000012.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10088418014145972,
-      "pct_from_52w_low": 0.13442354090073527
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000909832",
@@ -2413,12 +2308,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/909832/0000909832-26-000010.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10088418014145972,
-      "pct_from_52w_low": 0.13442354090073527
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000898293",
@@ -2647,12 +2537,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/874238/0000874238-26-000011.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.1495609260975288,
-      "pct_from_52w_low": 2.330697402698506
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000874015",
@@ -4835,7 +4720,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.023848314417188266,
+      "pct_from_52w_high": -0.023848389271353465,
       "pct_from_52w_low": 0.12847753778202264
     },
     {
@@ -4861,7 +4746,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.023848314417188266,
+      "pct_from_52w_high": -0.023848389271353465,
       "pct_from_52w_low": 0.12847753778202264
     },
     {
@@ -5221,12 +5106,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/318299/0001309642-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.6145339707860036,
-      "pct_from_52w_low": 0.7681160061906769
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000002488",
@@ -5273,12 +5153,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2104063/0000909832-26-000010.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10088418014145972,
-      "pct_from_52w_low": 0.13442354090073527
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000874015",
@@ -5325,12 +5200,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2102605/0001193125-26-016776.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03416966206247429,
-      "pct_from_52w_low": 0.4629026202194011
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000916540",
@@ -5351,12 +5221,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2102605/0001193125-26-016776.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03416966206247429,
-      "pct_from_52w_low": 0.4629026202194011
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070546",
@@ -5455,12 +5320,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2076004/0002076004-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.8606896564878266,
-      "pct_from_52w_low": 0.0
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070546",
@@ -5533,12 +5393,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2065340/0002065340-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.4226600636697426,
-      "pct_from_52w_low": 0.17200002670288095
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001564408",
@@ -5585,12 +5440,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5611,12 +5461,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5637,12 +5482,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5663,12 +5503,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5689,12 +5524,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5715,12 +5545,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5741,12 +5566,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001525769",
@@ -5767,12 +5587,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2052385/0001193125-26-016668.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.40231548264754347,
-      "pct_from_52w_low": 0.5739329114826677
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001698530",
@@ -5793,12 +5608,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2046701/0002046701-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.5700280125139703,
-      "pct_from_52w_low": 0.7492877160023086
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5819,12 +5629,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5845,12 +5650,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5871,12 +5671,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5897,12 +5692,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5923,12 +5713,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5949,12 +5734,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -5975,12 +5755,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000852772",
@@ -6521,12 +6296,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2014820/0001654954-26-000489.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.6424437379690613,
-      "pct_from_52w_low": 0.7820513290766447
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001617406",
@@ -6547,12 +6317,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2004467/0001214659-26-000668.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10282485103643413,
-      "pct_from_52w_low": 0.36491691326900977
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000940944",
@@ -6577,7 +6342,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05382229139320116,
+      "pct_from_52w_high": -0.05382222599457054,
       "pct_from_52w_low": 0.2436547231844457
     },
     {
@@ -6603,7 +6368,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05382229139320116,
+      "pct_from_52w_high": -0.05382222599457054,
       "pct_from_52w_low": 0.2436547231844457
     },
     {
@@ -6629,7 +6394,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.05382229139320116,
+      "pct_from_52w_high": -0.05382222599457054,
       "pct_from_52w_low": 0.2436547231844457
     },
     {
@@ -6703,12 +6468,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/939974/0001708055-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.48832681269325706,
-      "pct_from_52w_low": 0.0
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000936395",
@@ -6859,12 +6619,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/914208/0001764168-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.05197013107644233,
-      "pct_from_52w_low": 1.3740343085131408
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000914208",
@@ -6885,12 +6640,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/914208/0001764168-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.05197013107644233,
-      "pct_from_52w_low": 1.3740343085131408
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000912615",
@@ -7019,7 +6769,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7045,7 +6795,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7071,7 +6821,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7097,7 +6847,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7123,7 +6873,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7149,7 +6899,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7175,7 +6925,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7201,7 +6951,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7227,7 +6977,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7253,7 +7003,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7279,7 +7029,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7305,7 +7055,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7331,7 +7081,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7357,7 +7107,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7383,7 +7133,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7409,7 +7159,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7435,7 +7185,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7461,7 +7211,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7487,7 +7237,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7513,7 +7263,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7539,7 +7289,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7565,7 +7315,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7591,7 +7341,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7617,7 +7367,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7643,7 +7393,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7669,7 +7419,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7695,7 +7445,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7721,7 +7471,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7747,7 +7497,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7773,7 +7523,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7799,7 +7549,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7825,7 +7575,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7851,7 +7601,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7877,7 +7627,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7903,7 +7653,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7929,7 +7679,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7955,7 +7705,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -7981,7 +7731,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8007,7 +7757,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8033,7 +7783,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8059,7 +7809,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8085,7 +7835,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8111,7 +7861,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8137,7 +7887,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8163,7 +7913,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8189,7 +7939,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8215,7 +7965,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8241,7 +7991,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8267,7 +8017,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -8289,12 +8039,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/889348/0001094891-26-000012.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.27336863666287325,
-      "pct_from_52w_low": 1.009756088483766
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000889348",
@@ -8315,12 +8060,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/889348/0001094891-26-000010.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.27336863666287325,
-      "pct_from_52w_low": 1.009756088483766
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000889348",
@@ -8341,12 +8081,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/889348/0001094891-26-000008.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.27336863666287325,
-      "pct_from_52w_low": 1.009756088483766
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000889348",
@@ -8367,12 +8102,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/889348/0001094891-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.27336863666287325,
-      "pct_from_52w_low": 1.009756088483766
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000889348",
@@ -8393,12 +8123,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/889348/0001094891-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.27336863666287325,
-      "pct_from_52w_low": 1.009756088483766
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000885125",
@@ -8424,7 +8149,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.003960392113094846,
-      "pct_from_52w_low": 0.17570623402078622
+      "pct_from_52w_low": 0.17570636505954718
     },
     {
       "issuer_cik": "0000880266",
@@ -8887,12 +8612,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/864749/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -8913,12 +8633,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/864749/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -8939,12 +8654,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/864749/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -8965,12 +8675,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/864749/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000851520",
@@ -10733,12 +10438,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/766704/0001193125-26-016742.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.09710883249525537,
-      "pct_from_52w_low": 0.4790329240176794
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000750686",
@@ -10759,12 +10459,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/750686/0002092575-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03183637198604772,
-      "pct_from_52w_low": 0.27809264022609703
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000745308",
@@ -10811,12 +10506,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000038.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10837,12 +10527,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000038.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10863,12 +10548,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000038.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10889,12 +10569,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000038.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10915,12 +10590,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000037.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10941,12 +10611,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000037.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10967,12 +10632,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000037.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -10993,12 +10653,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000037.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11019,12 +10674,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000036.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11045,12 +10695,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000036.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11071,12 +10716,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000036.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11097,12 +10737,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000036.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11123,12 +10758,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000035.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11149,12 +10779,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000035.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11175,12 +10800,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000035.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11201,12 +10821,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000035.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11227,12 +10842,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000034.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11253,12 +10863,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000034.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11279,12 +10884,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000034.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11305,12 +10905,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000034.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11331,12 +10926,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000033.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11357,12 +10947,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000033.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11383,12 +10968,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000033.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11409,12 +10989,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000033.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11435,12 +11010,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000032.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11461,12 +11031,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000032.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11487,12 +11052,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000032.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11513,12 +11073,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000032.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11539,12 +11094,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000031.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11565,12 +11115,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000031.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11591,12 +11136,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000031.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11617,12 +11157,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000031.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11643,12 +11178,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000030.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11669,12 +11199,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000030.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11695,12 +11220,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000030.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11721,12 +11241,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000030.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11747,12 +11262,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000029.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11773,12 +11283,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000029.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11799,12 +11304,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000029.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732717",
@@ -11825,12 +11325,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/732717/0000732717-26-000029.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.19040005499816215,
-      "pct_from_52w_low": 0.0981171809902992
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732026",
@@ -11882,7 +11377,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 4.650803617504219
+      "pct_from_52w_low": 4.650804284952608
     },
     {
       "issuer_cik": "0000723125",
@@ -11908,7 +11403,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 4.650803617504219
+      "pct_from_52w_low": 4.650804284952608
     },
     {
       "issuer_cik": "0000721371",
@@ -11934,7 +11429,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.014937265770154418,
-      "pct_from_52w_low": 0.7225546414573212
+      "pct_from_52w_low": 0.7225547490672437
     },
     {
       "issuer_cik": "0001772720",
@@ -12907,12 +12402,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/314489/0001766116-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03636364047577867,
-      "pct_from_52w_low": 0.3133350430543509
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000313927",
@@ -12937,7 +12427,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -12963,7 +12453,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -12989,7 +12479,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -13015,7 +12505,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -13041,7 +12531,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -13067,7 +12557,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -13093,7 +12583,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -13119,7 +12609,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -13167,12 +12657,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0002009546-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13193,12 +12678,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0002009546-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13219,12 +12699,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001988003-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13245,12 +12720,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001988003-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13271,12 +12741,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001928404-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13297,12 +12762,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001928404-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13323,12 +12783,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001810276-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13349,12 +12804,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001810276-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13375,12 +12825,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001807568-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13401,12 +12846,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001807568-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13427,12 +12867,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001788807-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13453,12 +12888,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001788807-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13479,12 +12909,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001776373-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13505,12 +12930,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001776373-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13531,12 +12951,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001729090-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13557,12 +12972,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001729090-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13583,12 +12993,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001675626-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13609,12 +13014,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001675626-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13635,12 +13035,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001652659-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13661,12 +13056,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001652659-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13687,12 +13077,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001575198-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13713,12 +13098,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001575198-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13739,12 +13119,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001448433-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13765,12 +13140,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0001448433-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13791,12 +13161,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000015.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13817,12 +13182,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000015.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13843,12 +13203,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000013.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13869,12 +13224,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000013.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13895,12 +13245,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000011.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13921,12 +13266,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000011.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13947,12 +13287,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000009.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -13973,12 +13308,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/28412/0000028412-26-000009.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000002488",
@@ -14051,12 +13381,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/24741/0000024741-26-000026.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03542775328365255,
-      "pct_from_52w_low": 1.4005703991904013
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000024741",
@@ -14077,12 +13402,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/24741/0000024741-26-000026.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03542775328365255,
-      "pct_from_52w_low": 1.4005703991904013
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001718500",
@@ -14129,12 +13449,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2105904/0001193125-26-017014.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10118265012052197,
-      "pct_from_52w_low": 0.5066079757842343
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001997652",
@@ -14155,12 +13470,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2105904/0001193125-26-017014.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10118265012052197,
-      "pct_from_52w_low": 0.5066079757842343
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001157601",
@@ -14181,12 +13491,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2105550/0001628280-26-002687.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.16236750345533113,
-      "pct_from_52w_low": 0.8872403080226923
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000898174",
@@ -14211,7 +13516,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14237,7 +13542,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14263,7 +13568,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14289,7 +13594,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14315,7 +13620,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14341,7 +13646,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14394,7 +13699,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.014937265770154418,
-      "pct_from_52w_low": 0.7225546414573212
+      "pct_from_52w_low": 0.7225547490672437
     },
     {
       "issuer_cik": "0001772720",
@@ -14445,7 +13750,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14471,7 +13776,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14497,7 +13802,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14523,7 +13828,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14549,7 +13854,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14575,7 +13880,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -14670,12 +13975,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2092575/0002092575-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03183637198604772,
-      "pct_from_52w_low": 0.27809264022609703
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002041610",
@@ -14696,12 +13996,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2085868/0001225208-26-000673.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.4123540959870816,
-      "pct_from_52w_low": 0.14873398421334727
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002084396",
@@ -15055,12 +14350,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2073801/0002073801-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.772459014517362,
-      "pct_from_52w_low": 0.0
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001674101",
@@ -15107,12 +14397,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2071026/0001213900-26-005868.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001849221",
@@ -15133,12 +14418,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2071026/0001213900-26-005868.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001849221",
@@ -15159,12 +14439,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2071026/0001213900-26-005868.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001849221",
@@ -15185,12 +14460,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2071026/0001213900-26-005868.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001013488",
@@ -15211,12 +14481,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070708/0001193125-26-016350.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.053227830883815996,
-      "pct_from_52w_low": 0.5437434677964232
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001013488",
@@ -15237,12 +14502,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070626/0001193125-26-016349.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.053227830883815996,
-      "pct_from_52w_low": 0.5437434677964232
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001802974",
@@ -15263,12 +14523,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2069986/0000899140-26-000054.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.049242396054736015,
-      "pct_from_52w_low": 0.28850107655537527
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001802974",
@@ -15289,12 +14544,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2069986/0000899140-26-000054.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.049242396054736015,
-      "pct_from_52w_low": 0.28850107655537527
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001649749",
@@ -15315,12 +14565,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2068430/0001628280-26-002783.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03464200777173787,
-      "pct_from_52w_low": 0.482657479357985
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000313927",
@@ -15345,7 +14590,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -15471,12 +14716,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2065340/0002065340-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.4226600636697426,
-      "pct_from_52w_low": 0.17200002670288095
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002064307",
@@ -15549,12 +14789,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2061385/0002061385-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.01016492819620407,
-      "pct_from_52w_low": 0.6849707926696929
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001389170",
@@ -15579,7 +14814,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.12913678494516267,
+      "pct_from_52w_high": -0.12913684747450904,
       "pct_from_52w_low": 0.2734076325622421
     },
     {
@@ -15761,7 +14996,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.40445029011009426,
+      "pct_from_52w_high": -0.40445033715441403,
       "pct_from_52w_low": 0.2979658933802507
     },
     {
@@ -15783,12 +15018,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2056547/0001101239-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001846069",
@@ -15991,12 +15221,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2050853/0001628280-26-002682.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7738830009780703,
-      "pct_from_52w_low": 0.0
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001809104",
@@ -16017,12 +15242,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2050549/0001628280-26-002683.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7738830009780703,
-      "pct_from_52w_low": 0.0
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001809104",
@@ -16043,12 +15263,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2050276/0001628280-26-002681.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7738830009780703,
-      "pct_from_52w_low": 0.0
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001125376",
@@ -16074,7 +15289,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.06557529354220804,
-      "pct_from_52w_low": 0.48097600356756653
+      "pct_from_52w_low": 0.4809759092466561
     },
     {
       "issuer_cik": "0002042694",
@@ -16095,12 +15310,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2042694/0001493152-26-002890.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.46636197881212127,
-      "pct_from_52w_low": 0.30540647349030503
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000065984",
@@ -16225,12 +15435,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2041610/0001225208-26-000673.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.4123540959870816,
-      "pct_from_52w_low": 0.14873398421334727
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000313927",
@@ -16255,7 +15460,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.1779029642099469,
+      "pct_from_52w_high": -0.17790302016519965,
       "pct_from_52w_low": 0.130454221662073
     },
     {
@@ -16277,12 +15482,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -16303,12 +15503,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001101239",
@@ -16329,12 +15524,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2039256/0001101239-26-000006.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14990394984033983,
-      "pct_from_52w_low": 0.08003137793149939
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001412502",
@@ -16523,12 +15713,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2038244/0001193125-26-016743.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.16014095559806052,
-      "pct_from_52w_low": 0.9642857704282364
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000874015",
@@ -16575,12 +15760,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2037188/0001193125-26-016361.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.053227830883815996,
-      "pct_from_52w_low": 0.5437434677964232
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001013488",
@@ -16601,12 +15781,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2037188/0001193125-26-016361.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.053227830883815996,
-      "pct_from_52w_low": 0.5437434677964232
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001645873",
@@ -16631,8 +15806,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07412948178767176,
-      "pct_from_52w_low": 0.10206144375787041
+      "pct_from_52w_high": -0.07412942606005024,
+      "pct_from_52w_low": 0.1020612858471841
     },
     {
       "issuer_cik": "0001645873",
@@ -16657,8 +15832,8 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.07412948178767176,
-      "pct_from_52w_low": 0.10206144375787041
+      "pct_from_52w_high": -0.07412942606005024,
+      "pct_from_52w_low": 0.1020612858471841
     },
     {
       "issuer_cik": "0002023658",
@@ -16705,12 +15880,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2032877/0001437749-26-001564.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.1601820342446199
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001289308",
@@ -16731,12 +15901,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2032877/0001437749-26-001564.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 1.1601820342446199
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001236275",
@@ -17095,12 +16260,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2022038/0001193125-26-016643.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10833806402874646,
-      "pct_from_52w_low": 0.09658527204255862
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001650132",
@@ -17121,12 +16281,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2022038/0001193125-26-016643.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10833806402874646,
-      "pct_from_52w_low": 0.09658527204255862
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001855747",
@@ -17173,12 +16328,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2020125/0001865200-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.721875011920929,
-      "pct_from_52w_low": 0.12373731474695959
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001865200",
@@ -17199,12 +16349,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2020125/0001865200-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.721875011920929,
-      "pct_from_52w_low": 0.12373731474695959
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001865200",
@@ -17225,12 +16370,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2020125/0001865200-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.721875011920929,
-      "pct_from_52w_low": 0.12373731474695959
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001036044",
@@ -17251,12 +16391,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2018287/0001193125-26-016205.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.14214467309901324,
-      "pct_from_52w_low": 0.17406142622641751
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -17277,12 +16412,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2015712/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -17303,12 +16433,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2015712/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -17329,12 +16454,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2015712/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000864749",
@@ -17355,12 +16475,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2015712/0000864749-26-000003.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.18359927168100965,
-      "pct_from_52w_low": 0.2625181002613468
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002001184",
@@ -17485,12 +16600,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2012212/0002012212-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.0398696432625919,
-      "pct_from_52w_low": 0.5331543960240708
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -17511,12 +16621,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2009546/0002009546-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -17537,12 +16642,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2009546/0002009546-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001849221",
@@ -17563,12 +16663,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2009228/0001213900-26-005864.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001849221",
@@ -17589,12 +16684,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2009228/0001213900-26-005864.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001849221",
@@ -17615,12 +16705,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2009182/0001213900-26-005866.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001835632",
@@ -17641,12 +16726,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2007961/0001628280-26-002654.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.36485347335177487,
-      "pct_from_52w_low": 0.619797008634698
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001835632",
@@ -17667,12 +16747,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2007961/0001628280-26-002654.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.36485347335177487,
-      "pct_from_52w_low": 0.619797008634698
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001835632",
@@ -17693,12 +16768,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2007961/0001628280-26-002654.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.36485347335177487,
-      "pct_from_52w_low": 0.619797008634698
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001835632",
@@ -17719,12 +16789,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2007961/0001628280-26-002654.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.36485347335177487,
-      "pct_from_52w_low": 0.619797008634698
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001835632",
@@ -17745,12 +16810,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2007961/0001628280-26-002654.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.36485347335177487,
-      "pct_from_52w_low": 0.619797008634698
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001835632",
@@ -17771,12 +16831,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2007961/0001628280-26-002654.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.36485347335177487,
-      "pct_from_52w_low": 0.619797008634698
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001212545",
@@ -17802,7 +16857,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.07040189065463687,
-      "pct_from_52w_low": 0.42626365631781526
+      "pct_from_52w_low": 0.4262637468130286
     },
     {
       "issuer_cik": "0001212545",
@@ -17828,7 +16883,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.07040189065463687,
-      "pct_from_52w_low": 0.42626365631781526
+      "pct_from_52w_low": 0.4262637468130286
     },
     {
       "issuer_cik": "0001212545",
@@ -17854,7 +16909,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.07040189065463687,
-      "pct_from_52w_low": 0.42626365631781526
+      "pct_from_52w_low": 0.4262637468130286
     },
     {
       "issuer_cik": "0001212545",
@@ -17880,7 +16935,7 @@
       "ret_3m": null,
       "ret_1y": null,
       "pct_from_52w_high": -0.07040189065463687,
-      "pct_from_52w_low": 0.42626365631781526
+      "pct_from_52w_low": 0.4262637468130286
     },
     {
       "issuer_cik": "0001852244",
@@ -18172,7 +17227,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18198,7 +17253,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18224,7 +17279,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18250,7 +17305,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18276,7 +17331,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18302,7 +17357,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18328,7 +17383,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18354,7 +17409,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18380,7 +17435,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.14327155676941083,
+      "pct_from_52w_high": -0.14327149913702286,
       "pct_from_52w_low": 0.17103273419668996
     },
     {
@@ -18402,12 +17457,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2004467/0001214659-26-000668.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10282485103643413,
-      "pct_from_52w_low": 0.36491691326900977
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002001184",
@@ -18584,12 +17634,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1997712/0001094891-26-000004.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.27336863666287325,
-      "pct_from_52w_low": 1.009756088483766
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001997652",
@@ -18610,12 +17655,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1997652/0001193125-26-017014.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10118265012052197,
-      "pct_from_52w_low": 0.5066079757842343
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001997652",
@@ -18636,12 +17676,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1997652/0001193125-26-017014.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.10118265012052197,
-      "pct_from_52w_low": 0.5066079757842343
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001993004",
@@ -18662,12 +17697,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1993004/0001960374-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.012661952527643683,
-      "pct_from_52w_low": 0.36693135430972923
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001993004",
@@ -18688,12 +17718,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1993004/0001522051-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.012661952527643683,
-      "pct_from_52w_low": 0.36693135430972923
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -18714,12 +17739,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1988064/0000028412-26-000009.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -18740,12 +17760,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1988064/0000028412-26-000009.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -18766,12 +17781,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1988003/0001988003-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000028412",
@@ -18792,12 +17802,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1988003/0001988003-26-000002.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.911684862943293
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001475115",
@@ -18874,7 +17879,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.024535233433489956,
+      "pct_from_52w_high": -0.024535348409868152,
       "pct_from_52w_low": 0.22723269229215037
     },
     {
@@ -18922,12 +17927,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2069986/0000899140-26-000054.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.049242396054736015,
-      "pct_from_52w_low": 0.28850107655537527
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000913241",
@@ -18948,12 +17948,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/913241/0000897069-26-000150.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.03634004589684048,
-      "pct_from_52w_low": 1.325772648522603
+      "form_type": "4"
     },
     {
       "issuer_cik": "0000732026",
@@ -19000,12 +17995,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2075151/0001437749-26-001517.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4/A",
-      "ret_1m": null,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.05563068068522159,
-      "pct_from_52w_low": 0.3046024803647913
+      "form_type": "4/A"
     },
     {
       "issuer_cik": "0001662991",
@@ -19418,7 +18408,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17724357602651186,
+      "pct_from_52w_high": -0.1772434779436607,
       "pct_from_52w_low": 0.034895969772430924
     },
     {
@@ -19444,7 +18434,7 @@
       "ret_1m": null,
       "ret_3m": null,
       "ret_1y": null,
-      "pct_from_52w_high": -0.17724357602651186,
+      "pct_from_52w_high": -0.1772434779436607,
       "pct_from_52w_low": 0.034895969772430924
     },
     {
@@ -19466,12 +18456,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19492,12 +18477,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19518,12 +18498,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19544,12 +18519,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19570,12 +18540,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19596,12 +18561,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19622,12 +18582,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19648,12 +18603,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19674,12 +18624,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19700,12 +18645,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19726,12 +18666,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19752,12 +18687,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19778,12 +18708,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19804,12 +18729,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19830,12 +18750,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099049/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19856,12 +18771,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19882,12 +18792,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19908,12 +18813,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19934,12 +18834,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19960,12 +18855,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -19986,12 +18876,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20012,12 +18897,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20038,12 +18918,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20064,12 +18939,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20090,12 +18960,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20116,12 +18981,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20142,12 +19002,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20168,12 +19023,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20194,12 +19044,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20220,12 +19065,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099047/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20246,12 +19086,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20272,12 +19107,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20298,12 +19128,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20324,12 +19149,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20350,12 +19170,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20376,12 +19191,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20402,12 +19212,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20428,12 +19233,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20454,12 +19254,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20480,12 +19275,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20506,12 +19296,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20532,12 +19317,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20558,12 +19338,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20584,12 +19359,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20610,12 +19380,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099044/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20636,12 +19401,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20662,12 +19422,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20688,12 +19443,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20714,12 +19464,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20740,12 +19485,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20766,12 +19506,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20792,12 +19527,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20818,12 +19548,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20844,12 +19569,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20870,12 +19590,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20896,12 +19611,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20922,12 +19632,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20948,12 +19653,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -20974,12 +19674,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21000,12 +19695,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099041/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21026,12 +19716,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21052,12 +19737,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21078,12 +19758,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21104,12 +19779,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21130,12 +19800,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21156,12 +19821,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21182,12 +19842,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21208,12 +19863,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21234,12 +19884,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21260,12 +19905,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21286,12 +19926,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21312,12 +19947,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21338,12 +19968,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21364,12 +19989,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21390,12 +20010,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099040/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21416,12 +20031,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21442,12 +20052,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21468,12 +20073,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21494,12 +20094,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21520,12 +20115,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21546,12 +20136,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21572,12 +20157,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21598,12 +20178,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21624,12 +20199,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21650,12 +20220,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21676,12 +20241,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21702,12 +20262,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21728,12 +20283,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21754,12 +20304,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21780,12 +20325,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099035/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21806,12 +20346,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21832,12 +20367,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21858,12 +20388,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21884,12 +20409,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21910,12 +20430,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21936,12 +20451,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21962,12 +20472,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -21988,12 +20493,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22014,12 +20514,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22040,12 +20535,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22066,12 +20556,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22092,12 +20577,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22118,12 +20598,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22144,12 +20619,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22170,12 +20640,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099027/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22196,12 +20661,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22222,12 +20682,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22248,12 +20703,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22274,12 +20724,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22300,12 +20745,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22326,12 +20766,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22352,12 +20787,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22378,12 +20808,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22404,12 +20829,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22430,12 +20850,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22456,12 +20871,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22482,12 +20892,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22508,12 +20913,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22534,12 +20934,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22560,12 +20955,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2099021/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22586,12 +20976,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22612,12 +20997,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22638,12 +21018,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22664,12 +21039,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22690,12 +21060,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22716,12 +21081,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22742,12 +21102,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22768,12 +21123,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22794,12 +21144,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22820,12 +21165,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22846,12 +21186,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22872,12 +21207,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22898,12 +21228,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22924,12 +21249,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0002070849",
@@ -22950,12 +21270,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2070849/0001104659-26-005172.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": 0.04628616354407833,
-      "ret_3m": null,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.3397603181442461,
-      "pct_from_52w_low": 0.05021995105403865
+      "form_type": "4"
     },
     {
       "issuer_cik": "0001874252",
@@ -22976,12 +21291,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2105585/0002105585-26-000005.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4/A",
-      "ret_1m": -0.15436242792038357,
-      "ret_3m": -0.20134224858800998,
-      "ret_1y": null,
-      "pct_from_52w_high": -0.8605830110955597,
-      "pct_from_52w_low": 0.1434511534985634
+      "form_type": "4/A"
     },
     {
       "issuer_cik": "0001849221",
@@ -23002,12 +21312,7 @@
       "direct_or_indirect_ownership": "",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/2009182/0001213900-26-005866.txt",
       "filed_date": "2026-01-20",
-      "form_type": "4",
-      "ret_1m": -0.15833338576334288,
-      "ret_3m": -0.07407411086706317,
-      "ret_1y": -0.6425925999511904,
-      "pct_from_52w_high": -0.7189781101290218,
-      "pct_from_52w_low": 0.6594827652650839
+      "form_type": "4"
     }
   ]
 }
