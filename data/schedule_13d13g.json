@@ -1,5 +1,15 @@
 {
-  "last_updated_utc": "2026-02-10T02:54:32Z",
+  "last_updated_utc": "2026-02-16T02:35:01Z",
   "source": "SEC EDGAR (Schedule 13D/13G + daily index)",
-  "rows": []
+  "rows": [
+    {
+      "cik": "1481241",
+      "company_name": "Performance Shipping Inc.",
+      "form_type": "SC 13D/A",
+      "filed_date": "2026-02-11",
+      "raw_filed_date": "20260211",
+      "file_name": "edgar/data/1481241/0001104659-26-013052.txt",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1481241/0001104659-26-013052.txt"
+    }
+  ]
 }
