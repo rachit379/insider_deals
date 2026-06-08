@@ -1,7 +1,34 @@
 {
-  "last_updated_utc": "2026-06-02T00:00:19Z",
+  "last_updated_utc": "2026-06-08T01:58:13Z",
   "source": "SEC EDGAR (Schedule 13D/13G + daily index)",
   "rows": [
+    {
+      "cik": "1326200",
+      "company_name": "GENCO SHIPPING & TRADING LTD",
+      "form_type": "SC 13D/A",
+      "filed_date": "2026-06-04",
+      "raw_filed_date": "20260604",
+      "file_name": "edgar/data/1326200/0001104659-26-070577.txt",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-070577.txt"
+    },
+    {
+      "cik": "1326200",
+      "company_name": "GENCO SHIPPING & TRADING LTD",
+      "form_type": "SC 13D/A",
+      "filed_date": "2026-06-02",
+      "raw_filed_date": "20260602",
+      "file_name": "edgar/data/1326200/0001104659-26-069466.txt",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-069466.txt"
+    },
+    {
+      "cik": "1326200",
+      "company_name": "GENCO SHIPPING & TRADING LTD",
+      "form_type": "SC 13D/A",
+      "filed_date": "2026-06-01",
+      "raw_filed_date": "20260601",
+      "file_name": "edgar/data/1326200/0001104659-26-068463.txt",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-068463.txt"
+    },
     {
       "cik": "1326200",
       "company_name": "GENCO SHIPPING & TRADING LTD",
@@ -46,24 +73,6 @@
       "raw_filed_date": "20260512",
       "file_name": "edgar/data/1326200/0001104659-26-059376.txt",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-059376.txt"
-    },
-    {
-      "cik": "1326200",
-      "company_name": "GENCO SHIPPING & TRADING LTD",
-      "form_type": "SC 13D/A",
-      "filed_date": "2026-05-07",
-      "raw_filed_date": "20260507",
-      "file_name": "edgar/data/1326200/0001104659-26-057293.txt",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-057293.txt"
-    },
-    {
-      "cik": "1326200",
-      "company_name": "GENCO SHIPPING & TRADING LTD",
-      "form_type": "SC 13D/A",
-      "filed_date": "2026-05-04",
-      "raw_filed_date": "20260504",
-      "file_name": "edgar/data/1326200/0001104659-26-054931.txt",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-054931.txt"
     }
   ]
 }
