@@ -1,7 +1,16 @@
 {
-  "last_updated_utc": "2026-07-14T00:02:37Z",
+  "last_updated_utc": "2026-07-20T00:11:16Z",
   "source": "SEC EDGAR (Schedule 13D/13G + daily index)",
   "rows": [
+    {
+      "cik": "1326200",
+      "company_name": "GENCO SHIPPING & TRADING LTD",
+      "form_type": "SC 13D/A",
+      "filed_date": "2026-07-13",
+      "raw_filed_date": "20260713",
+      "file_name": "edgar/data/1326200/0001104659-26-082921.txt",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-082921.txt"
+    },
     {
       "cik": "1326200",
       "company_name": "GENCO SHIPPING & TRADING LTD",
@@ -46,33 +55,6 @@
       "raw_filed_date": "20260622",
       "file_name": "edgar/data/1326200/0001104659-26-075894.txt",
       "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-075894.txt"
-    },
-    {
-      "cik": "1326200",
-      "company_name": "GENCO SHIPPING & TRADING LTD",
-      "form_type": "SC 13D/A",
-      "filed_date": "2026-06-17",
-      "raw_filed_date": "20260617",
-      "file_name": "edgar/data/1326200/0001104659-26-075210.txt",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-075210.txt"
-    },
-    {
-      "cik": "1326200",
-      "company_name": "GENCO SHIPPING & TRADING LTD",
-      "form_type": "SC 13D/A",
-      "filed_date": "2026-06-16",
-      "raw_filed_date": "20260616",
-      "file_name": "edgar/data/1326200/0001104659-26-074497.txt",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-074497.txt"
-    },
-    {
-      "cik": "1326200",
-      "company_name": "GENCO SHIPPING & TRADING LTD",
-      "form_type": "SC 13D/A",
-      "filed_date": "2026-06-15",
-      "raw_filed_date": "20260615",
-      "file_name": "edgar/data/1326200/0001104659-26-073893.txt",
-      "filing_url": "https://www.sec.gov/Archives/edgar/data/1326200/0001104659-26-073893.txt"
     }
   ]
 }
